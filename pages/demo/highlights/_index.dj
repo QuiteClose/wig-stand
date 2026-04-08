@@ -1,0 +1,5 @@
+---
+layout: wig-stand:templates/layouts/preview.html
+data:
+  style: highlights
+---
