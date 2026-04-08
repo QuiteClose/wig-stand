@@ -1,0 +1,32 @@
+# Default style for Wig sites.
+name: highlights
+bundles:
+  css:
+    colors:
+      - ./css/globals/colors.css
+    cube:
+      - ./css/globals/reset.css
+      - ./css/globals/document.css
+      - ./css/fonts/system.css
+      - ./css/compositions/center.css
+      - ./css/compositions/cluster.css
+      - ./css/compositions/flow.css
+      - ./css/compositions/grid.css
+      - ./css/compositions/region.css
+      - ./css/compositions/repel.css
+      - ./css/compositions/sidebar.css
+      - ./css/compositions/stack.css
+      - ./css/compositions/switcher.css
+      - ./css/compositions/wrapper.css
+      - ./css/utilities/indent.css
+      - ./css/utilities/text-colors.css
+      - ./css/utilities/text-sizes.css
+      - ./css/utilities/visually-hidden.css
+      - ./css/utilities/radius.css
+      - ./css/blocks/button.css
+      - ./css/blocks/tag.css
+      - ./css/blocks/prose.css
+      - ./css/exceptions/narrow.css
+      - ./css/globals/syntax.css
+    highlights:
+      - ./css/blocks/select-colors.css
