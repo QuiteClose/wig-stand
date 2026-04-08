@@ -1,0 +1,33 @@
+/*
+ * showcase-filters
+ * Horizontal scrollable category filter tabs.
+ * --color-border, --color-accent: tab chrome
+ * --transition-base: hover/press speed
+ */
+
+.showcase-filters {
+  display: flex;
+  gap: var(--space-s);
+  padding: var(--space-m) 0;
+  border-block-end: 1px solid var(--color-border);
+  overflow-x: auto;
+}
+
+.showcase-filters button {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-s);
+  color: var(--color-text-secondary);
+  padding: var(--space-xs) var(--space-m);
+  font: inherit;
+  font-size: var(--size-step--1, 0.875rem);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color var(--transition-base), border-color var(--transition-base);
+}
+
+.showcase-filters button:hover,
+.showcase-filters button[aria-pressed="true"] {
+  color: var(--color-text-emphasis);
+  border-color: var(--color-accent);
+}

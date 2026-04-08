@@ -1,0 +1,15 @@
+<t-extend template="highlights:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets.highlights.css.colors.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.cube.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.highlights.path" />
+</t-define>
+<t-define name="body">
+<t-include template="highlights:blocks/skip-link.html" />
+<t-include template="highlights:blocks/site-header.html" />
+<main id="main-content" class="wrapper region flow prose">
+<t-slot />
+</main>
+<t-include template="highlights:blocks/site-footer.html" />
+</t-define>
+</t-extend>

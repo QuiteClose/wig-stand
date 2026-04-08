@@ -1,0 +1,30 @@
+---
+title: Welcome to the Demo
+date: 2026-03-01
+tags:
+  - announcement
+  - demo
+---
+
+# Welcome to the Demo
+
+This is the first post on the demo site. It exists to show how a typical blog post looks when rendered by a Wig style.
+
+## What You Are Seeing
+
+Every style in the showcase renders this same content. The text, headings, and structure are identical; only the visual treatment changes. This lets you compare styles side by side and choose the one that fits your project.
+
+## A Few Elements
+
+Here is a short list of things a good style should handle well:
+
+- Headings at multiple levels
+- Paragraphs of running prose
+- Ordered and unordered lists
+- Block quotes and inline emphasis
+- Links, both [internal](../) and [external](https://example.com)
+- Code blocks with syntax highlighting
+
+> The best style is the one you do not notice. It should carry the reader through the content without drawing attention to itself.
+
+That is all for now. See the next post for a deeper look at code rendering.

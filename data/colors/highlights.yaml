@@ -1,0 +1,69 @@
+light:
+  meta:
+    name: Warm Light
+  palette:
+    cream: "#faf6f1"
+    linen: "#f0ebe4"
+    charcoal: "#2d2926"
+    walnut: "#4a3f35"
+    clay: "#8a7968"
+    rust: "#a0522d"
+    ink: "#1a1a2e"
+    sage: "#5a7247"
+  styles:
+    text:
+      primary: charcoal
+      secondary: clay
+      emphasis: ink
+      heading: walnut
+      link: rust
+    background:
+      primary: cream
+      secondary: linen
+      embed: linen
+  syntax:
+    variable: "#6f4e7c"
+    constant: "#6f4e7c"
+    punctuation: "#8a7968"
+    operator: "#2d2926"
+    number: "#5a7247"
+    type: "#a0522d"
+    function: "#2b6cb0"
+    string: "#5a7247"
+    comment: "#8a7968"
+    keyword: "#a0522d"
+
+dark:
+  meta:
+    name: Warm Dark
+  palette:
+    cream: "#1c1917"
+    linen: "#292524"
+    charcoal: "#e7e5e4"
+    walnut: "#d6d3d1"
+    clay: "#a8a29e"
+    rust: "#d97706"
+    ink: "#fafaf9"
+    sage: "#84cc16"
+  styles:
+    text:
+      primary: charcoal
+      secondary: clay
+      emphasis: ink
+      heading: walnut
+      link: rust
+    background:
+      primary: cream
+      secondary: linen
+      embed: linen
+  syntax:
+    variable: "#c084fc"
+    constant: "#c084fc"
+    punctuation: "#a8a29e"
+    operator: "#e7e5e4"
+    number: "#84cc16"
+    type: "#d97706"
+    function: "#60a5fa"
+    string: "#84cc16"
+    comment: "#a8a29e"
+    keyword: "#d97706"

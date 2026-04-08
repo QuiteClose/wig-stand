@@ -1,0 +1,43 @@
+/*
+ * theme-picker
+ * Inline light/dark theme toggle.
+ * --stroke-light: border around the picker
+ * --radius-s: corner rounding
+ * --transition-base: hover/press transition speed
+ */
+
+.theme-picker {
+  display: inline-flex;
+  gap: var(--space-xs, 0.25rem);
+  align-items: center;
+  padding: var(--space-xs, 0.25rem) var(--space-s, 0.5rem);
+  border: var(--stroke-light, 1px solid #ccc);
+  border-radius: var(--radius-s, 0.25rem);
+  font-size: 0.875em;
+}
+
+.theme-picker__label {
+  color: var(--color-text-secondary);
+  margin-inline-end: var(--space-xs, 0.25rem);
+}
+
+.theme-picker button {
+  background: none;
+  border: 1px solid transparent;
+  border-radius: var(--radius-s, 0.25rem);
+  padding: var(--space-xs, 0.25rem) var(--space-s, 0.5rem);
+  font: inherit;
+  font-size: inherit;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: color var(--transition-base, 200ms), border-color var(--transition-base, 200ms);
+}
+
+.theme-picker button:hover {
+  color: var(--color-text-primary);
+}
+
+.theme-picker button[aria-pressed="true"] {
+  color: var(--color-text-emphasis);
+  border-color: var(--color-text-link);
+}

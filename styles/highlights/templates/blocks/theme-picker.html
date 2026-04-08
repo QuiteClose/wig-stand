@@ -1,0 +1,25 @@
+<div class="theme-picker">
+<span class="theme-picker__label">Theme</span>
+<button type="button" data-set-theme="light" aria-pressed="true">Light</button>
+<button type="button" data-set-theme="dark" aria-pressed="false">Dark</button>
+</div>
+<script>
+(function() {
+  var saved = localStorage.getItem("theme");
+  if (saved) document.documentElement.dataset.theme = saved;
+  var buttons = document.querySelectorAll("[data-set-theme]");
+  buttons.forEach(function(btn) {
+    if (btn.dataset.setTheme === (saved || "light")) {
+      btn.setAttribute("aria-pressed", "true");
+    } else {
+      btn.setAttribute("aria-pressed", "false");
+    }
+    btn.addEventListener("click", function() {
+      buttons.forEach(function(b) { b.setAttribute("aria-pressed", "false"); });
+      btn.setAttribute("aria-pressed", "true");
+      document.documentElement.dataset.theme = btn.dataset.setTheme;
+      localStorage.setItem("theme", btn.dataset.setTheme);
+    });
+  });
+})();
+</script>

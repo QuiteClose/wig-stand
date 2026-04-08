@@ -1,0 +1,68 @@
+/*
+ * style-card
+ * Preview card with scaled iframe thumbnail.
+ * --color-bg-card, --color-bg-card-hover: card surface
+ * --color-accent: hover ring
+ * --radius-m: card corners
+ */
+
+.style-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+  gap: var(--space-l);
+  padding-block: var(--space-xl);
+}
+
+.style-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+}
+
+.style-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 1px var(--color-accent);
+}
+
+.style-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.style-card__preview {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+  background: var(--color-bg-embed);
+}
+
+.style-card__preview iframe {
+  position: absolute;
+  inset: 0;
+  width: 200%;
+  height: 200%;
+  border: 0;
+  pointer-events: none;
+  transform: scale(0.5);
+  transform-origin: top left;
+}
+
+.style-card__info {
+  padding: var(--space-m);
+}
+
+.style-card__name {
+  font-size: var(--size-step-0, 1rem);
+  font-weight: 600;
+  color: var(--color-text-heading);
+  margin: 0;
+}
+
+.style-card__description {
+  font-size: var(--size-step--1, 0.875rem);
+  color: var(--color-text-secondary);
+  margin-block-start: var(--space-xs);
+}

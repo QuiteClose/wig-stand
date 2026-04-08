@@ -1,0 +1,86 @@
+---
+title: Syntax Highlighting
+date: 2026-03-15
+tags:
+  - code
+  - demo
+---
+
+# Syntax Highlighting
+
+Code blocks are a first-class citizen in Wig. The `highlights` style ships colour data and a theme picker so authors can offer readers a choice of palettes. This post exercises several languages to show how a style handles them.
+
+## HTML
+
+A minimal page structure:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello</title>
+  </head>
+  <body>
+    <h1>Hello, world.</h1>
+  </body>
+</html>
+```
+
+## CSS
+
+A custom property and a utility class:
+
+```css
+:root {
+  --color-primary: oklch(55% 0.15 250);
+  --space-m: clamp(1rem, 0.5rem + 1.5vw, 1.5rem);
+}
+
+.flow > * + * {
+  margin-block-start: var(--space-m, 1em);
+}
+```
+
+## JavaScript
+
+A small event listener:
+
+```javascript
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.querySelector("[data-theme-toggle]");
+  if (!toggle) return;
+
+  toggle.addEventListener("click", () => {
+    const current = document.documentElement.dataset.theme;
+    const next = current === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+  });
+});
+```
+
+## Zig
+
+A "hello world" with error handling:
+
+```zig
+const std = @import("std");
+
+pub fn main() !void {
+    const stdout = std.io.getStdOut().writer();
+    try stdout.print("Hello, {s}!\n", .{"world"});
+}
+```
+
+## YAML
+
+A site configuration snippet:
+
+```yaml
+url: https://example.com
+title: My Site
+author: QuiteClose
+style: highlights
+```
+
+Each language should receive distinct token colouring. If a style does not provide syntax highlighting, these blocks still render as monospaced preformatted text with no loss of information.

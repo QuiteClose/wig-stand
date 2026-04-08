@@ -1,12 +1,17 @@
 <t-extend template="_core:layouts/base.html">
 <t-define name="head">
 <link rel="stylesheet" t-var:href="assets._core.css.cube.path" />
-<link rel="stylesheet" t-var:href="assets.wig-stand.css.surface.path" />
+<link rel="stylesheet" t-var:href="assets.default.css.surface.path" />
 </t-define>
 <t-define name="body">
 <t-include template="_core:blocks/skip-link.html" />
 <main id="main-content" class="wrapper region flow">
 <t-slot />
+<ul>
+<t-for child in document.children>
+<li><a t-var:href="child.path"><t-var name="child.title" /></a></li>
+</t-for>
+</ul>
 </main>
 </t-define>
 </t-extend>

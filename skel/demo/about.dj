@@ -1,0 +1,29 @@
+---
+title: About
+---
+
+# About This Site
+
+This site is built with [Wig](https://github.com/QuiteClose/wig), a web framework and site generator written in Zig. Wig combines a YAML data cascade, Djot content, and a template engine to produce fast, accessible websites.
+
+## What Makes Wig Different
+
+Wig is not just a static site generator. It is a web framework that happens to produce static output today, with plans for dynamic serving in the future. The design priorities are:
+
+1. Correctness over convenience
+2. Accessibility by default
+3. Small, auditable output
+4. A layered style system built on CUBE CSS
+
+> A well-crafted site should feel like a well-bound book: the content leads, the design serves, and the machinery is invisible.
+
+## The Stack
+
+Wig is built on four standalone Zig libraries:
+
+- **Comb** -- a YAML 1.2 parser for configuration and data
+- **Toupee** -- a template engine using `<t-*>` elements
+- **zjot** -- a Djot parser for content markup
+- **Wig** itself -- the orchestrator that ties everything together
+
+Each library is independently tested and versioned. Together they form a coherent pipeline from source files to published pages.

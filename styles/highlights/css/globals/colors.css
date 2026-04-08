@@ -1,0 +1,70 @@
+---
+---
+
+:root {
+  --color-text-primary: <t-raw name="colors.highlights.light.styles.text.primary" />;
+  --color-text-secondary: <t-raw name="colors.highlights.light.styles.text.secondary" />;
+  --color-text-emphasis: <t-raw name="colors.highlights.light.styles.text.emphasis" />;
+  --color-text-heading: <t-raw name="colors.highlights.light.styles.text.heading" />;
+  --color-text-link: <t-raw name="colors.highlights.light.styles.text.link" />;
+
+  --color-bg-primary: <t-raw name="colors.highlights.light.styles.background.primary" />;
+  --color-bg-secondary: <t-raw name="colors.highlights.light.styles.background.secondary" />;
+  --color-bg-embed: <t-raw name="colors.highlights.light.styles.background.embed" />;
+
+  --syntax-variable: <t-raw name="colors.highlights.light.syntax.variable" />;
+  --syntax-constant: <t-raw name="colors.highlights.light.syntax.constant" />;
+  --syntax-punctuation: <t-raw name="colors.highlights.light.syntax.punctuation" />;
+  --syntax-operator: <t-raw name="colors.highlights.light.syntax.operator" />;
+  --syntax-number: <t-raw name="colors.highlights.light.syntax.number" />;
+  --syntax-type: <t-raw name="colors.highlights.light.syntax.type" />;
+  --syntax-function: <t-raw name="colors.highlights.light.syntax.function" />;
+  --syntax-string: <t-raw name="colors.highlights.light.syntax.string" />;
+  --syntax-comment: <t-raw name="colors.highlights.light.syntax.comment" />;
+  --syntax-keyword: <t-raw name="colors.highlights.light.syntax.keyword" />;
+
+  --font-heading: Georgia, "Times New Roman", Times, serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --space-xs: 0.25rem;
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --gutter: 1rem;
+  --radius-s: 0.25rem;
+  --transition-base: 250ms;
+  --leading-fine: 1.1;
+  --measure: 65ch;
+
+  --stroke: 1px solid <t-raw name="colors.highlights.light.styles.text.secondary" />;
+  --stroke-light: 1px solid <t-raw name="colors.highlights.light.styles.background.secondary" />;
+}
+
+[data-theme="dark"] {
+  --color-text-primary: <t-raw name="colors.highlights.dark.styles.text.primary" />;
+  --color-text-secondary: <t-raw name="colors.highlights.dark.styles.text.secondary" />;
+  --color-text-emphasis: <t-raw name="colors.highlights.dark.styles.text.emphasis" />;
+  --color-text-heading: <t-raw name="colors.highlights.dark.styles.text.heading" />;
+  --color-text-link: <t-raw name="colors.highlights.dark.styles.text.link" />;
+
+  --color-bg-primary: <t-raw name="colors.highlights.dark.styles.background.primary" />;
+  --color-bg-secondary: <t-raw name="colors.highlights.dark.styles.background.secondary" />;
+  --color-bg-embed: <t-raw name="colors.highlights.dark.styles.background.embed" />;
+
+  --syntax-variable: <t-raw name="colors.highlights.dark.syntax.variable" />;
+  --syntax-constant: <t-raw name="colors.highlights.dark.syntax.constant" />;
+  --syntax-punctuation: <t-raw name="colors.highlights.dark.syntax.punctuation" />;
+  --syntax-operator: <t-raw name="colors.highlights.dark.syntax.operator" />;
+  --syntax-number: <t-raw name="colors.highlights.dark.syntax.number" />;
+  --syntax-type: <t-raw name="colors.highlights.dark.syntax.type" />;
+  --syntax-function: <t-raw name="colors.highlights.dark.syntax.function" />;
+  --syntax-string: <t-raw name="colors.highlights.dark.syntax.string" />;
+  --syntax-comment: <t-raw name="colors.highlights.dark.syntax.comment" />;
+  --syntax-keyword: <t-raw name="colors.highlights.dark.syntax.keyword" />;
+
+  --stroke: 1px solid <t-raw name="colors.highlights.dark.styles.text.secondary" />;
+  --stroke-light: 1px solid <t-raw name="colors.highlights.dark.styles.background.secondary" />;
+}

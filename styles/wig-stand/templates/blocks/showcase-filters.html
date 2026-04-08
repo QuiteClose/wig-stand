@@ -1,0 +1,24 @@
+<nav class="showcase-filters" aria-label="Style categories">
+<t-for category in wigstand.categories>
+<button type="button" data-filter-category t-var:data-slug="category.slug" aria-pressed="false"><t-var name="category.name" /></button>
+</t-for>
+</nav>
+<script>
+(function() {
+  var buttons = document.querySelectorAll("[data-filter-category]");
+  var cards = document.querySelectorAll(".style-card");
+  var allBtn = document.querySelector('[data-slug="all"]');
+  if (allBtn) allBtn.setAttribute("aria-pressed", "true");
+
+  buttons.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      buttons.forEach(function(b) { b.setAttribute("aria-pressed", "false"); });
+      btn.setAttribute("aria-pressed", "true");
+      var slug = btn.dataset.slug;
+      cards.forEach(function(card) {
+        card.hidden = slug !== "all" && card.dataset.categories !== slug;
+      });
+    });
+  });
+})();
+</script>

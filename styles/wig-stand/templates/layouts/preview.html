@@ -2,11 +2,10 @@
 <t-define name="head">
 <link rel="stylesheet" t-var:href="assets._core.css.cube.path" />
 <link rel="stylesheet" t-var:href="assets.wig-stand.css.surface.path" />
+<link rel="stylesheet" t-var:href="assets.wig-stand.css.chrome.path" />
+<style>html, body { margin: 0; padding: 0; overflow: hidden; background: var(--color-bg-primary); }</style>
 </t-define>
 <t-define name="body">
-<t-include template="_core:blocks/skip-link.html" />
-<main id="main-content" class="wrapper region flow">
-<t-slot />
-</main>
+<t-include template="wig-stand:blocks/preview-bar.html" />
 </t-define>
 </t-extend>

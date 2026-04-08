@@ -1,0 +1,28 @@
+categories:
+  - name: All
+    slug: all
+    styles: [highlights, default]
+  - name: Blog
+    slug: blog
+    styles: [highlights]
+  - name: Portfolio
+    slug: portfolio
+    styles: []
+  - name: Gallery
+    slug: gallery
+    styles: []
+  - name: Store
+    slug: store
+    styles: []
+
+styles:
+  highlights:
+    name: Highlights
+    description: Minimal, clean, warm. Built-in syntax highlighting.
+    demo: /demo/highlights/
+    preview: /demo/highlights/preview/
+  default:
+    name: Default
+    description: The bare-bones skeleton style.
+    demo: /demo/default/
+    preview: /demo/default/preview/

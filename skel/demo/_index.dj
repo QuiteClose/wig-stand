@@ -2,6 +2,9 @@
 title: Style Demo
 ---
 
-# Demo
+# Welcome
 
-Some example content.
+This is a demo site that showcases the look and feel of a Wig style. Browse the pages to see how headings, prose, lists, code blocks, and other elements are rendered.
+
+- [About](about/) -- a typical static page
+- [Blog](blog/) -- a chronological post listing

@@ -1,0 +1,80 @@
+/*
+ * preview-bar
+ * Top bar for single-style viewer with device-width toggles.
+ * --bar-height: fixed bar height
+ * --color-bg-bar: bar background
+ */
+
+.preview-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--bar-height);
+  padding-inline: var(--space-m);
+  background: var(--color-bg-bar);
+  border-block-end: 1px solid var(--color-border);
+}
+
+.preview-bar__title {
+  font-size: var(--size-step-0, 1rem);
+  font-weight: 600;
+  color: var(--color-text-heading);
+  margin: 0;
+}
+
+.preview-bar__controls {
+  display: flex;
+  gap: var(--space-xs);
+}
+
+.preview-bar__controls button {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-s);
+  color: var(--color-text-secondary);
+  padding: var(--space-xs) var(--space-s);
+  font: inherit;
+  font-size: var(--size-step--1, 0.875rem);
+  cursor: pointer;
+  transition: color var(--transition-base), border-color var(--transition-base);
+}
+
+.preview-bar__controls button:hover,
+.preview-bar__controls button[aria-pressed="true"] {
+  color: var(--color-text-emphasis);
+  border-color: var(--color-accent);
+}
+
+.preview-bar__back {
+  color: var(--color-text-link);
+  text-decoration: none;
+  font-size: var(--size-step--1, 0.875rem);
+}
+
+.preview-bar__back:hover {
+  text-decoration: underline;
+}
+
+.preview-frame {
+  display: flex;
+  justify-content: center;
+  background: var(--color-bg-embed);
+  height: calc(100vh - var(--bar-height));
+  height: calc(100dvh - var(--bar-height));
+}
+
+.preview-frame iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  border: 0;
+  transition: max-width var(--transition-base);
+}
+
+.preview-frame[data-device="tablet"] iframe {
+  max-width: 768px;
+}
+
+.preview-frame[data-device="mobile"] iframe {
+  max-width: 375px;
+}

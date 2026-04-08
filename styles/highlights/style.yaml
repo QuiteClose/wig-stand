@@ -1,32 +1,34 @@
 # Default style for Wig sites.
 name: highlights
+scheme: highlights
+
 bundles:
   css:
     colors:
-      - ./css/globals/colors.css
+      - highlights/css/globals/colors.css
     cube:
-      - ./css/globals/reset.css
-      - ./css/globals/document.css
-      - ./css/fonts/system.css
-      - ./css/compositions/center.css
-      - ./css/compositions/cluster.css
-      - ./css/compositions/flow.css
-      - ./css/compositions/grid.css
-      - ./css/compositions/region.css
-      - ./css/compositions/repel.css
-      - ./css/compositions/sidebar.css
-      - ./css/compositions/stack.css
-      - ./css/compositions/switcher.css
-      - ./css/compositions/wrapper.css
-      - ./css/utilities/indent.css
-      - ./css/utilities/text-colors.css
-      - ./css/utilities/text-sizes.css
-      - ./css/utilities/visually-hidden.css
-      - ./css/utilities/radius.css
-      - ./css/blocks/button.css
-      - ./css/blocks/tag.css
-      - ./css/blocks/prose.css
-      - ./css/exceptions/narrow.css
-      - ./css/globals/syntax.css
+      - highlights/css/globals/reset.css
+      - highlights/css/globals/document.css
+      - highlights/css/fonts/system.css
+      - highlights/css/compositions/center.css
+      - highlights/css/compositions/cluster.css
+      - highlights/css/compositions/flow.css
+      - highlights/css/compositions/grid.css
+      - highlights/css/compositions/region.css
+      - highlights/css/compositions/repel.css
+      - highlights/css/compositions/sidebar.css
+      - highlights/css/compositions/stack.css
+      - highlights/css/compositions/switcher.css
+      - highlights/css/compositions/wrapper.css
+      - highlights/css/utilities/indent.css
+      - highlights/css/utilities/text-colors.css
+      - highlights/css/utilities/text-sizes.css
+      - highlights/css/utilities/visually-hidden.css
+      - highlights/css/utilities/radius.css
+      - highlights/css/blocks/button.css
+      - highlights/css/blocks/tag.css
+      - highlights/css/blocks/prose.css
+      - highlights/css/exceptions/narrow.css
+      - highlights/css/globals/syntax.css
     highlights:
-      - ./css/blocks/select-colors.css
+      - highlights/css/blocks/theme-picker.css

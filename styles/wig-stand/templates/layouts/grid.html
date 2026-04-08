@@ -1,0 +1,20 @@
+<t-extend template="_core:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets._core.css.cube.path" />
+<link rel="stylesheet" t-var:href="assets.wig-stand.css.surface.path" />
+<link rel="stylesheet" t-var:href="assets.wig-stand.css.chrome.path" />
+</t-define>
+<t-define name="body">
+<main class="wrapper region">
+<h1 class="visually-hidden"><t-var name="document.title">Wig Stand</t-var></h1>
+<t-include template="wig-stand:blocks/showcase-filters.html" />
+<div class="style-grid">
+<t-for category in wigstand.categories>
+<t-for style_key in category.styles>
+<t-include template="wig-stand:blocks/style-card.html" />
+</t-for>
+</t-for>
+</div>
+</main>
+</t-define>
+</t-extend>
