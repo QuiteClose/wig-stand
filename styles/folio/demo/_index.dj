@@ -3,3 +3,23 @@ title: Home
 layout: folio:layouts/page.html
 ---
 {{ demo.pages.welcome }}
+
+## Gallery
+
+::: {.grid}
+![Portfolio piece 1](/assets/demo/gallery/photo-1.svg)
+
+![Portfolio piece 2](/assets/demo/gallery/photo-2.svg)
+
+![Portfolio piece 3](/assets/demo/gallery/photo-3.svg)
+
+![Portfolio piece 4](/assets/demo/gallery/photo-4.svg)
+
+![Portfolio piece 5](/assets/demo/gallery/photo-5.svg)
+
+![Portfolio piece 6](/assets/demo/gallery/photo-6.svg)
+
+![Portfolio piece 7](/assets/demo/gallery/photo-7.svg)
+
+![Portfolio piece 8](/assets/demo/gallery/photo-8.svg)
+:::

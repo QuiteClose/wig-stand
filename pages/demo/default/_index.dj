@@ -1,7 +1,0 @@
----
-title: Default
-layout: wig-stand:layouts/preview.html
-data:
-  document:
-    style: default
----

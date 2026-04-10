@@ -10,13 +10,14 @@
 <header class="system-header wrapper">
 <nav class="repel" aria-label="Site">
 <div>
-<h1>System</h1>
+<h1><t-var name="site.title">System</t-var></h1>
 <span class="system-breadcrumb"> &rsaquo; <t-var name="document.title">Page</t-var></span>
 </div>
 <span style="font-size: 0.8rem;">
-<a href="/demo/system/preview/">Home</a>
-<a href="/demo/system/preview/about/" style="margin-left: 0.75em;">About</a>
-<a href="/demo/system/preview/blog/" style="margin-left: 0.75em;">Blog</a>
+<t-for link in site.nav>
+<t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>
+<a t-var:href="full_href" style="margin-left: 0.75em;"><t-var name="link.name" /></a>
+</t-for>
 </span>
 </nav>
 </header>

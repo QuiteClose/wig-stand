@@ -3,3 +3,5 @@ title: Home
 layout: marquee:layouts/page.html
 ---
 {{ demo.pages.welcome }}
+
+![Call to action](/assets/demo/banners/cta.svg)

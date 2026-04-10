@@ -4,4 +4,7 @@ layout: wig-stand:layouts/preview.html
 data:
   document:
     style: system
+  site:
+    title: System
+    path: /demo/system/preview/
 ---

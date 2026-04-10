@@ -7,13 +7,35 @@
 </t-define>
 <t-define name="body">
 <t-include template="cube:blocks/skip-link.html" />
+<header class="capp-header">
+<div class="wrapper">
+<nav class="repel" aria-label="Site">
+<t-let name="home_href"><t-var name="site.path" /></t-let>
+<a t-var:href="home_href" style="text-decoration: none;"><h1 style="display: inline;"><t-var name="site.title">Cappuccino</t-var></h1></a>
+<span style="font-size: 0.85rem;">
+<t-for link in site.nav>
+<t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>
+<a t-var:href="full_href" style="margin-left: 1em;"><t-var name="link.name" /></a>
+</t-for>
+</span>
+</nav>
+</div>
+</header>
 <main id="main-content" class="wrapper region flow prose">
 <t-slot />
-<ul class="stack">
+<ul class="stack" style="list-style: none; padding: 0;">
 <t-for child in document.children>
-<li><a t-var:href="child.path"><t-var name="child.title" /></a></li>
+<li class="sidebar" style="--sidebar-target-width: 10rem; gap: 1rem; padding-block: 1rem; border-bottom: 1px solid var(--color-border, #ddd);">
+<img src="/assets/demo/thumbnails/welcome.svg" alt="" style="width: 10rem; height: auto; border-radius: 0.25rem;" />
+<div>
+<h3 style="margin: 0;"><a t-var:href="child.path"><t-var name="child.title" /></a></h3>
+</div>
+</li>
 </t-for>
 </ul>
 </main>
+<footer class="capp-footer wrapper">
+<span>Brewed with <a href="https://github.com/QuiteClose/wig">Wig</a></span>
+</footer>
 </t-define>
 </t-extend>

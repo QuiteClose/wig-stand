@@ -11,13 +11,14 @@
 <div class="wrapper">
 <nav class="repel" aria-label="Site" style="align-items: center;">
 <div>
-<h1>The Booth</h1>
+<h1><t-var name="site.title">The Booth</t-var></h1>
 <p class="booth-subtitle">&#9654; Now streaming</p>
 </div>
 <span style="font-size: 0.8rem;">
-<a href="/demo/booth/preview/">Episodes</a>
-<a href="/demo/booth/preview/about/" style="margin-left: 1em;">About</a>
-<a href="/demo/booth/preview/blog/" style="margin-left: 1em;">Blog</a>
+<t-for link in site.nav>
+<t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>
+<a t-var:href="full_href" style="margin-left: 1em;"><t-var name="link.name" /></a>
+</t-for>
 </span>
 </nav>
 </div>

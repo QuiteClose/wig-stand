@@ -1,5 +1,0 @@
----
-title: Home
-layout: default:layouts/page.html
----
-{{ demo.pages.welcome }}

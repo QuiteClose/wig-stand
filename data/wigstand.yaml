@@ -31,7 +31,6 @@ style_list:
   - key: gazette
   - key: booth
   - key: readthedocs
-  - key: default
 
 styles:
   cube:
@@ -106,9 +105,3 @@ styles:
     demo: /demo/readthedocs/
     preview: /demo/readthedocs/preview/
     categories: docs
-  default:
-    name: Default
-    description: The default style with fluid typography and mono palette.
-    demo: /demo/default/
-    preview: /demo/default/preview/
-    categories: blog

@@ -1,4 +1,5 @@
 ---
-title: Cube Pattern Library
-layout: cube:layouts/patterns.html
+title: Home
+layout: plain:layouts/page.html
 ---
+{{ demo.pages.welcome }}

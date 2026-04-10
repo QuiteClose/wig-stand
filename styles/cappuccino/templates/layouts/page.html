@@ -10,11 +10,13 @@
 <header class="capp-header">
 <div class="wrapper">
 <nav class="repel" aria-label="Site">
-<a href="/demo/cappuccino/preview/" style="text-decoration: none;"><h1 style="display: inline;">Cappuccino</h1></a>
+<t-let name="home_href"><t-var name="site.path" /></t-let>
+<a t-var:href="home_href" style="text-decoration: none;"><h1 style="display: inline;"><t-var name="site.title">Cappuccino</t-var></h1></a>
 <span style="font-size: 0.85rem;">
-<a href="/demo/cappuccino/preview/">Home</a>
-<a href="/demo/cappuccino/preview/about/" style="margin-left: 1em;">About</a>
-<a href="/demo/cappuccino/preview/blog/" style="margin-left: 1em;">Blog</a>
+<t-for link in site.nav>
+<t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>
+<a t-var:href="full_href" style="margin-left: 1em;"><t-var name="link.name" /></a>
+</t-for>
 </span>
 </nav>
 </div>

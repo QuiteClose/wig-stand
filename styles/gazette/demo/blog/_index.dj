@@ -1,5 +1,5 @@
 ---
 title: Blog
-layout: gazette:layouts/page.html
+layout: gazette:layouts/blog.html
 ---
 {{ demo.posts.blog_index }}

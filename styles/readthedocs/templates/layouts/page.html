@@ -5,7 +5,7 @@
 <t-define name="body">
 <nav class="rtd-sidebar" aria-label="Main navigation">
 <div class="rtd-sidebar-brand">
-ReadTheDocs
+<t-var name="site.title">ReadTheDocs</t-var>
 <span class="rtd-version">v0.1.0</span>
 </div>
 <div class="rtd-search">
@@ -14,9 +14,10 @@ ReadTheDocs
 <div class="rtd-nav">
 <p class="rtd-nav-label">Contents</p>
 <ul>
-<li><a href="/demo/readthedocs/preview/">Home</a></li>
-<li><a href="/demo/readthedocs/preview/about/">About</a></li>
-<li><a href="/demo/readthedocs/preview/blog/">Blog</a></li>
+<t-for link in site.nav>
+<t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>
+<li><a t-var:href="full_href"><t-var name="link.name" /></a></li>
+</t-for>
 </ul>
 </div>
 </nav>

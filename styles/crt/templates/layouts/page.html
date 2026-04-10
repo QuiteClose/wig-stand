@@ -9,9 +9,10 @@
 <nav class="repel" aria-label="Site" style="font-size: 0.8em;">
 <code style="color: var(--color-text-secondary);">guest@wigstand:~$</code>
 <span>
-<a href="/demo/crt/preview/">home</a> |
-<a href="/demo/crt/preview/about/">about</a> |
-<a href="/demo/crt/preview/blog/">blog</a>
+<t-for link in site.nav>
+<t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>
+<a t-var:href="full_href" style="margin-left: 0.5em;"><t-var name="link.name" /></a>
+</t-for>
 </span>
 </nav>
 </header>

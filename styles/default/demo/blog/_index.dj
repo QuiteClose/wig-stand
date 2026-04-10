@@ -1,5 +1,0 @@
----
-title: Blog
-layout: default:layouts/page.html
----
-{{ demo.posts.blog_index }}

@@ -1,5 +1,5 @@
 ---
-title: Blog
-layout: booth:layouts/page.html
+title: Episodes
+layout: booth:layouts/blog.html
 ---
 {{ demo.posts.blog_index }}

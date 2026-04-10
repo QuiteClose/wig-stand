@@ -1,5 +1,15 @@
 url: https://stand.wig.dev
 title: Wig Stand
 author: QuiteClose
+path: /
 locale:
   lang: en-US
+nav:
+  - name: Home
+    href: ""
+  - name: About
+    href: about/
+  - name: Blog
+    href: blog/
+  - name: Patterns
+    href: patterns/

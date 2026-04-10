@@ -11,13 +11,14 @@
 <header class="dispatch-header">
 <nav class="repel" aria-label="Site" style="align-items: center;">
 <div>
-<h1 style="color: #fff; margin: 0;">Dispatch</h1>
+<h1 style="color: #fff; margin: 0;"><t-var name="site.title">Dispatch</t-var></h1>
 <p class="dispatch-issue">Style Showcase &middot; Wig Stand</p>
 </div>
 <span style="font-size: 0.75rem;">
-<a href="/demo/dispatch/preview/" style="color: rgba(255,255,255,0.8);">Home</a>
-<a href="/demo/dispatch/preview/about/" style="color: rgba(255,255,255,0.8); margin-left: 0.75em;">About</a>
-<a href="/demo/dispatch/preview/blog/" style="color: rgba(255,255,255,0.8); margin-left: 0.75em;">Blog</a>
+<t-for link in site.nav>
+<t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>
+<a t-var:href="full_href" style="color: rgba(255,255,255,0.8); margin-left: 0.75em;"><t-var name="link.name" /></a>
+</t-for>
 </span>
 </nav>
 </header>

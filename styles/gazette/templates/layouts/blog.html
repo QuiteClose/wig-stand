@@ -1,0 +1,34 @@
+<t-extend template="cube:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.colors.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.syntax.path" />
+<link rel="stylesheet" t-var:href="assets.gazette.css.gazette.path" />
+</t-define>
+<t-define name="body">
+<t-include template="cube:blocks/skip-link.html" />
+<header class="gazette-masthead wrapper">
+<h1><t-var name="site.title">The Gazette</t-var></h1>
+<nav aria-label="Site" style="margin-top: 0.5rem; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase;">
+<t-for link in site.nav>
+<t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>
+<a t-var:href="full_href" style="margin-inline: 0.25em;"><t-var name="link.name" /></a>
+</t-for>
+</nav>
+</header>
+<main id="main-content" class="wrapper region flow prose">
+<t-slot />
+<div class="grid" style="--grid-min-item-size: 18rem;">
+<t-for child in document.children>
+<article style="border: 1px solid var(--color-border, #ccc); padding: 1rem;">
+<img src="/assets/demo/thumbnails/welcome.svg" alt="" style="width: 100%; height: auto; margin-block-end: 0.5rem;" />
+<h3><a t-var:href="child.path"><t-var name="child.title" /></a></h3>
+</article>
+</t-for>
+</div>
+</main>
+<footer class="gazette-footer wrapper">
+<span>Built with <a href="https://github.com/QuiteClose/wig">Wig</a></span>
+</footer>
+</t-define>
+</t-extend>

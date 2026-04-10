@@ -8,18 +8,19 @@
 <t-define name="body">
 <t-include template="cube:blocks/skip-link.html" />
 <header class="folio-header wrapper">
-<h1>Folio</h1>
+<h1><t-var name="site.title">Folio</t-var></h1>
 <nav aria-label="Site">
-<a href="/demo/folio/preview/">Home</a>
-<a href="/demo/folio/preview/about/">About</a>
-<a href="/demo/folio/preview/blog/">Blog</a>
+<t-for link in site.nav>
+<t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>
+<a t-var:href="full_href" style="margin-right: 1em;"><t-var name="link.name" /></a>
+</t-for>
 </nav>
 </header>
 <main id="main-content" class="wrapper region flow prose">
 <t-slot />
 </main>
 <footer class="folio-footer wrapper">
-<span>&copy; Folio &middot; Built with <a href="https://github.com/QuiteClose/wig">Wig</a></span>
+<span>&copy; <t-var name="site.title">Folio</t-var> &middot; Built with <a href="https://github.com/QuiteClose/wig">Wig</a></span>
 </footer>
 </t-define>
 </t-extend>

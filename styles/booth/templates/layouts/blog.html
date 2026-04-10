@@ -1,0 +1,44 @@
+<t-extend template="cube:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.colors.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.syntax.path" />
+<link rel="stylesheet" t-var:href="assets.booth.css.booth.path" />
+</t-define>
+<t-define name="body">
+<t-include template="cube:blocks/skip-link.html" />
+<header class="booth-header">
+<div class="wrapper">
+<nav class="repel" aria-label="Site" style="align-items: center;">
+<div>
+<h1><t-var name="site.title">The Booth</t-var></h1>
+<p class="booth-subtitle">&#9654; Now streaming</p>
+</div>
+<span style="font-size: 0.8rem;">
+<t-for link in site.nav>
+<t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>
+<a t-var:href="full_href" style="margin-left: 1em;"><t-var name="link.name" /></a>
+</t-for>
+</span>
+</nav>
+</div>
+</header>
+<main id="main-content" class="wrapper region flow prose">
+<t-slot />
+<ul class="stack" style="list-style: none; padding: 0;">
+<t-for child in document.children>
+<li class="repel" style="gap: 1rem; align-items: center; padding: 1rem 0; border-bottom: 1px solid var(--color-border, #333);">
+<img src="/assets/demo/gallery/photo-1.svg" alt="" style="width: 4rem; height: 4rem; border-radius: 0.5rem;" />
+<a t-var:href="child.path" style="flex: 1;"><t-var name="child.title" /></a>
+<span style="font-size: 0.75rem; color: var(--color-text-secondary);">&#9654;</span>
+</li>
+</t-for>
+</ul>
+</main>
+<footer class="booth-player">
+<div class="wrapper">
+<span class="booth-now-playing">&#9654; Playing:</span> <t-var name="document.title">Episode</t-var> &middot; Built with <a href="https://github.com/QuiteClose/wig">Wig</a>
+</div>
+</footer>
+</t-define>
+</t-extend>

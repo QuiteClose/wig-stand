@@ -2,4 +2,6 @@
 title: About
 layout: folio:layouts/page.html
 ---
+![About hero](/assets/demo/heroes/about.svg)
+
 {{ demo.pages.about }}

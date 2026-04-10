@@ -3,3 +3,5 @@ title: Home
 layout: dispatch:layouts/page.html
 ---
 {{ demo.pages.welcome }}
+
+![Subscribe](/assets/demo/banners/subscribe.svg)
