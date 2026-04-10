@@ -2,4 +2,4 @@
 title: Blog
 layout: cappuccino:layouts/blog.html
 ---
-{{ demo.posts.welcome }}
+{{ demo.posts.blog_index }}

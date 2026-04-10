@@ -1,0 +1,5 @@
+---
+title: Typography Showcase
+layout: dispatch:layouts/page.html
+---
+{{ demo.posts.typography }}

@@ -1,0 +1,5 @@
+---
+title: Typography Showcase
+layout: crt:layouts/page.html
+---
+{{ demo.posts.typography }}

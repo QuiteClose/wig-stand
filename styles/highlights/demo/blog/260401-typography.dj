@@ -1,0 +1,5 @@
+---
+title: Typography Showcase
+layout: highlights:layouts/blog.html
+---
+{{ demo.posts.typography }}

@@ -1,11 +1,11 @@
-<article class="style-card" t-var:data-categories="category.slug">
-<a t-var:href="wigstand.styles.$(style_key).demo">
+<article class="style-card" t-var:data-categories="wigstand.styles.$(entry.key).categories">
+<a t-var:href="wigstand.styles.$(entry.key).demo">
 <div class="style-card__preview">
-<iframe t-var:src="wigstand.styles.$(style_key).preview" loading="lazy" tabindex="-1" title="Preview"></iframe>
+<iframe t-var:src="wigstand.styles.$(entry.key).preview" loading="lazy" tabindex="-1" title="Preview"></iframe>
 </div>
 <div class="style-card__info">
-<h2 class="style-card__name"><t-var name="wigstand.styles.$(style_key).name" /></h2>
-<p class="style-card__description"><t-var name="wigstand.styles.$(style_key).description" /></p>
+<h2 class="style-card__name"><t-var name="wigstand.styles.$(entry.key).name" /></h2>
+<p class="style-card__description"><t-var name="wigstand.styles.$(entry.key).description" /></p>
 </div>
 </a>
 </article>

@@ -2,4 +2,4 @@
 title: Blog
 layout: plain:layouts/page.html
 ---
-{{ demo.posts.welcome }}
+{{ demo.posts.blog_index }}

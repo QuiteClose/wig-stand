@@ -9,10 +9,8 @@
 <h1 class="visually-hidden"><t-var name="document.title">Wig Stand</t-var></h1>
 <t-include template="wig-stand:blocks/showcase-filters.html" />
 <div class="style-grid">
-<t-for category in wigstand.categories>
-<t-for style_key in category.styles>
+<t-for entry in wigstand.style_list>
 <t-include template="wig-stand:blocks/style-card.html" />
-</t-for>
 </t-for>
 </div>
 </main>

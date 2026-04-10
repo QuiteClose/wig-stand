@@ -2,4 +2,4 @@
 title: Blog
 layout: highlights:layouts/blog.html
 ---
-{{ demo.posts.welcome }}
+{{ demo.posts.blog_index }}

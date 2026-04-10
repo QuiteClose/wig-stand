@@ -16,7 +16,12 @@
       btn.setAttribute("aria-pressed", "true");
       var slug = btn.dataset.slug;
       cards.forEach(function(card) {
-        card.hidden = slug !== "all" && card.dataset.categories !== slug;
+        if (slug === "all") {
+          card.hidden = false;
+        } else {
+          var cats = (card.dataset.categories || "").split(/\s+/);
+          card.hidden = cats.indexOf(slug) === -1;
+        }
       });
     });
   });

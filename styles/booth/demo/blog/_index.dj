@@ -2,3 +2,4 @@
 title: Blog
 layout: booth:layouts/page.html
 ---
+{{ demo.posts.blog_index }}

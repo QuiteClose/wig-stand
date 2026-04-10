@@ -1,0 +1,5 @@
+---
+title: Typography Showcase
+layout: cappuccino:layouts/blog.html
+---
+{{ demo.posts.typography }}
