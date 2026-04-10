@@ -1,34 +1,13 @@
-# Default style for Wig sites.
 name: highlights
+description: Syntax-highlighting colors, theme picker, and showcase blocks.
+depends: [cube]
 scheme: highlights
 
 bundles:
   css:
     colors:
       - highlights/css/globals/colors.css
-    cube:
-      - highlights/css/globals/reset.css
-      - highlights/css/globals/document.css
-      - highlights/css/fonts/system.css
-      - highlights/css/compositions/center.css
-      - highlights/css/compositions/cluster.css
-      - highlights/css/compositions/flow.css
-      - highlights/css/compositions/grid.css
-      - highlights/css/compositions/region.css
-      - highlights/css/compositions/repel.css
-      - highlights/css/compositions/sidebar.css
-      - highlights/css/compositions/stack.css
-      - highlights/css/compositions/switcher.css
-      - highlights/css/compositions/wrapper.css
-      - highlights/css/utilities/indent.css
-      - highlights/css/utilities/text-colors.css
-      - highlights/css/utilities/text-sizes.css
-      - highlights/css/utilities/visually-hidden.css
-      - highlights/css/utilities/radius.css
-      - highlights/css/blocks/button.css
-      - highlights/css/blocks/tag.css
-      - highlights/css/blocks/prose.css
-      - highlights/css/exceptions/narrow.css
+    syntax:
       - highlights/css/globals/syntax.css
     highlights:
       - highlights/css/blocks/theme-picker.css

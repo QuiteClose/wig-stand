@@ -1,0 +1,7 @@
+name: readthedocs
+description: Clone of the Read the Docs documentation theme.
+
+bundles:
+  css:
+    readthedocs:
+      - readthedocs/css/readthedocs.css

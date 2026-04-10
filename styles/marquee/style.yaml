@@ -1,0 +1,8 @@
+name: marquee
+description: Landing page with hero sections and bold CTAs.
+depends: [highlights]
+
+bundles:
+  css:
+    marquee:
+      - marquee/css/surface.css

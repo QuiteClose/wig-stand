@@ -1,0 +1,5 @@
+---
+title: Home
+layout: readthedocs:layouts/page.html
+---
+{{ demo.pages.welcome }}

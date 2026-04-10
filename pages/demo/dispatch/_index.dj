@@ -1,0 +1,7 @@
+---
+title: Dispatch
+layout: wig-stand:layouts/preview.html
+data:
+  document:
+    style: dispatch
+---

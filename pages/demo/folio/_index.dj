@@ -1,0 +1,7 @@
+---
+title: Folio
+layout: wig-stand:layouts/preview.html
+data:
+  document:
+    style: folio
+---

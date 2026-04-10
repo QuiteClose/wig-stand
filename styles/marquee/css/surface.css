@@ -1,0 +1,159 @@
+/* Marquee — bold landing page / product showcase
+ * Tokens: --color-*, --font-family-*, --marquee-*
+ * Dark slate, dramatic spacing, bold CTAs, gradient accents
+ */
+
+:root {
+  --color-bg-primary: #0f172a;
+  --color-bg-secondary: #1e293b;
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-accent: #3b82f6;
+  --color-accent-hover: #60a5fa;
+  --color-border: #334155;
+  --stroke: 2px;
+  --radius-s: 0.5rem;
+  --font-family-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --marquee-gradient: linear-gradient(135deg, #3b82f6, #8b5cf6);
+}
+
+body {
+  font-family: var(--font-family-body);
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  line-height: 1.65;
+}
+
+/* Hero section */
+.marquee-hero {
+  text-align: center;
+  padding: 4rem 1.5rem 3rem;
+  background: linear-gradient(180deg, var(--color-bg-secondary) 0%, var(--color-bg-primary) 100%);
+}
+
+.marquee-hero h1 {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 900;
+  background: var(--marquee-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.marquee-hero .marquee-tagline {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: var(--color-text-secondary);
+  margin-top: 1rem;
+  max-width: 40ch;
+  margin-inline: auto;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  color: var(--color-text-primary);
+}
+
+h1 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 800;
+}
+
+h2 {
+  font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+/* Feature cards for blockquotes */
+blockquote {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-s);
+  padding: 1.5em;
+  color: var(--color-text-secondary);
+  font-style: normal;
+  border-left: 3px solid var(--color-accent);
+}
+
+code {
+  background: var(--color-bg-secondary);
+  color: var(--color-accent-hover);
+  padding: 0.15em 0.35em;
+  border-radius: 0.25rem;
+  font-size: 0.88em;
+  border: 1px solid var(--color-border);
+}
+
+pre {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-s);
+  padding: 1.25em;
+  overflow-x: auto;
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: var(--marquee-gradient);
+  margin-block: 3em;
+  border-radius: 1px;
+}
+
+/* CTA-style footer */
+.marquee-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.marquee-footer a {
+  display: inline-block;
+  background: var(--marquee-gradient);
+  color: #fff;
+  padding: 0.5em 1.5em;
+  border-radius: var(--radius-s);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  text-decoration: none;
+}
+
+.marquee-footer a:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg-primary);
+}

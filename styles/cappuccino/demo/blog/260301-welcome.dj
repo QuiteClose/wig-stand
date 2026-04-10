@@ -1,0 +1,5 @@
+---
+title: Hello, World
+layout: cappuccino:layouts/blog.html
+---
+{{ demo.posts.welcome }}

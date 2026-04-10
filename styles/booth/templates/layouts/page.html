@@ -1,0 +1,25 @@
+<t-extend template="cube:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.colors.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.syntax.path" />
+<link rel="stylesheet" t-var:href="assets.booth.css.booth.path" />
+</t-define>
+<t-define name="body">
+<t-include template="cube:blocks/skip-link.html" />
+<header class="booth-header">
+<div class="wrapper">
+<h1>The Booth</h1>
+<p class="booth-subtitle">&#9654; Now streaming</p>
+</div>
+</header>
+<main id="main-content" class="wrapper region flow prose">
+<t-slot />
+</main>
+<footer class="booth-player">
+<div class="wrapper">
+<span class="booth-now-playing">&#9654; Playing:</span> <t-var name="document.title">Episode</t-var> &middot; Built with <a href="https://github.com/QuiteClose/wig">Wig</a>
+</div>
+</footer>
+</t-define>
+</t-extend>

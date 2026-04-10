@@ -1,0 +1,142 @@
+/* Cappuccino — warm earthy personal blog
+ * Tokens: --color-*, --font-family-*, --capp-*
+ * Soft curves, warm tones, organic typography
+ */
+
+:root {
+  --color-bg-primary: #faf5ef;
+  --color-bg-secondary: #f0e6d6;
+  --color-text-primary: #3e2c1c;
+  --color-text-secondary: #6b4f36;
+  --color-accent: #8b5e3c;
+  --color-accent-hover: #a0714e;
+  --color-border: #d4c4a8;
+  --stroke: 1px;
+  --radius-s: 0.5rem;
+  --font-family-body: "Segoe UI", Optima, Candara, sans-serif;
+  --font-family-heading: Georgia, "Palatino Linotype", "Book Antiqua", serif;
+  --capp-shadow: 0 2px 12px rgba(62, 44, 28, 0.08);
+}
+
+body {
+  font-family: var(--font-family-body);
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  line-height: 1.75;
+}
+
+/* Warm card-like header */
+.capp-header {
+  background: var(--color-bg-secondary);
+  padding: 1.5rem 0;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.capp-header h1 {
+  font-family: var(--font-family-heading);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-accent);
+  margin: 0;
+}
+
+.capp-header .capp-tagline {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  margin-top: 0.15rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  color: var(--color-text-primary);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-style: italic;
+}
+
+h2 {
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid var(--color-border);
+}
+
+h3 {
+  font-size: 1.1rem;
+  color: var(--color-accent);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-border);
+  text-underline-offset: 0.15em;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+  text-decoration-color: var(--color-accent-hover);
+}
+
+blockquote {
+  background: var(--color-bg-secondary);
+  border-left: 3px solid var(--color-accent);
+  border-radius: var(--radius-s);
+  padding: 1em 1.25em;
+  font-style: italic;
+  color: var(--color-text-secondary);
+  box-shadow: var(--capp-shadow);
+}
+
+code {
+  background: var(--color-bg-secondary);
+  color: var(--color-accent);
+  padding: 0.15em 0.4em;
+  border-radius: 0.25rem;
+  font-size: 0.88em;
+}
+
+pre {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-s);
+  padding: 1.25em;
+  overflow-x: auto;
+  box-shadow: var(--capp-shadow);
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-border),
+    transparent
+  );
+  margin-block: 2.5em;
+}
+
+/* Footer */
+.capp-footer {
+  padding-block: 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg-primary);
+}

@@ -1,0 +1,5 @@
+---
+title: Home
+layout: crt:layouts/page.html
+---
+{{ demo.pages.welcome }}

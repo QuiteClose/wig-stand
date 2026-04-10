@@ -1,0 +1,8 @@
+name: cappuccino
+description: Warm, earthy, natural blog aesthetic.
+depends: [highlights]
+
+bundles:
+  css:
+    cappuccino:
+      - cappuccino/css/surface.css

@@ -1,0 +1,5 @@
+---
+title: Hello, World
+layout: booth:layouts/page.html
+---
+{{ demo.posts.welcome }}

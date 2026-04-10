@@ -1,0 +1,5 @@
+---
+title: Syntax Highlighting
+layout: system:layouts/page.html
+---
+{{ demo.posts.syntax_highlighting }}

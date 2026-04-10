@@ -1,28 +1,90 @@
 categories:
   - name: All
     slug: all
-    styles: [highlights, default]
+    styles: [cube, highlights, plain, cappuccino, crt, system, marquee, folio, dispatch, gazette, booth, readthedocs]
   - name: Blog
     slug: blog
-    styles: [highlights]
+    styles: [highlights, cappuccino, system]
   - name: Portfolio
     slug: portfolio
-    styles: []
+    styles: [folio]
   - name: Gallery
     slug: gallery
-    styles: []
-  - name: Store
-    slug: store
-    styles: []
+    styles: [folio]
+  - name: Docs
+    slug: docs
+    styles: [readthedocs, plain]
+  - name: Landing
+    slug: landing
+    styles: [marquee]
+  - name: Newsletter
+    slug: newsletter
+    styles: [dispatch]
+  - name: Magazine
+    slug: magazine
+    styles: [gazette]
+  - name: Podcast
+    slug: podcast
+    styles: [booth]
 
 styles:
+  cube:
+    name: Cube
+    description: CUBE CSS structural primitives. The pattern library foundation.
+    demo: /demo/cube/
+    preview: /demo/cube/preview/
   highlights:
     name: Highlights
-    description: Minimal, clean, warm. Built-in syntax highlighting.
+    description: Syntax-highlighting colors, theme picker, and showcase blocks.
     demo: /demo/highlights/
     preview: /demo/highlights/preview/
-  default:
-    name: Default
-    description: The bare-bones skeleton style.
-    demo: /demo/default/
-    preview: /demo/default/preview/
+  plain:
+    name: Plain
+    description: Cube + nothing. The null hypothesis.
+    demo: /demo/plain/
+    preview: /demo/plain/preview/
+  cappuccino:
+    name: Cappuccino
+    description: Warm, earthy, natural blog aesthetic.
+    demo: /demo/cappuccino/
+    preview: /demo/cappuccino/preview/
+  crt:
+    name: CRT
+    description: Retro amber/green CRT terminal with extended ASCII.
+    demo: /demo/crt/
+    preview: /demo/crt/preview/
+  system:
+    name: System
+    description: Native to whatever OS/browser. Adaptive and familiar.
+    demo: /demo/system/
+    preview: /demo/system/preview/
+  marquee:
+    name: Marquee
+    description: Landing page with hero sections and bold CTAs.
+    demo: /demo/marquee/
+    preview: /demo/marquee/preview/
+  folio:
+    name: Folio
+    description: Image gallery and photography portfolio.
+    demo: /demo/folio/
+    preview: /demo/folio/preview/
+  dispatch:
+    name: Dispatch
+    description: Newsletter with narrow column and subscribe CTA.
+    demo: /demo/dispatch/
+    preview: /demo/dispatch/preview/
+  gazette:
+    name: Gazette
+    description: Magazine with multi-column grid and featured articles.
+    demo: /demo/gazette/
+    preview: /demo/gazette/preview/
+  booth:
+    name: Booth
+    description: Podcast with episode listings and audio player.
+    demo: /demo/booth/
+    preview: /demo/booth/preview/
+  readthedocs:
+    name: Read the Docs
+    description: Clone of the Read the Docs documentation theme.
+    demo: /demo/readthedocs/
+    preview: /demo/readthedocs/preview/

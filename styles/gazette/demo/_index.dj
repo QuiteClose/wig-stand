@@ -1,0 +1,5 @@
+---
+title: Home
+layout: gazette:layouts/page.html
+---
+{{ demo.pages.welcome }}

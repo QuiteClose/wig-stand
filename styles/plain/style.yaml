@@ -1,0 +1,3 @@
+name: plain
+description: Cube + nothing. The null hypothesis.
+depends: [cube]

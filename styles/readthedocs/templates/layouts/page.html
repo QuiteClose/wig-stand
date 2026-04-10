@@ -1,0 +1,31 @@
+<t-extend template="readthedocs:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets.readthedocs.css.readthedocs.path" />
+</t-define>
+<t-define name="body">
+<nav class="rtd-sidebar" aria-label="Main navigation">
+<div class="rtd-sidebar-brand">
+ReadTheDocs
+<span class="rtd-version">v0.1.0</span>
+</div>
+<div class="rtd-search">
+<input type="search" placeholder="Search docs" aria-label="Search documentation" />
+</div>
+<div class="rtd-nav">
+<p class="rtd-nav-label">Contents</p>
+<ul>
+<li><a class="active" href="#">Home</a></li>
+<li><a href="#">Getting Started</a></li>
+<li><a href="#">Configuration</a></li>
+<li><a href="#">API Reference</a></li>
+</ul>
+</div>
+</nav>
+<main class="rtd-content">
+<t-slot />
+<footer class="rtd-footer">
+Built with <a href="https://github.com/QuiteClose/wig">Wig</a>. Theme inspired by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</main>
+</t-define>
+</t-extend>

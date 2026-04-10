@@ -1,4 +1,5 @@
 name: wig-stand
+depends: [cube]
 scheme: mono
 
 tokens:

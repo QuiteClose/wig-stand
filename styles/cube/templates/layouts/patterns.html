@@ -1,0 +1,59 @@
+<t-extend template="cube:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
+<t-slot name="extra-css" />
+<style>
+.pattern-library { display: grid; grid-template-columns: 16rem 1fr; gap: var(--space-m, 1.5rem); min-height: 100vh; }
+.pattern-nav { padding: var(--space-m, 1.5rem); border-right: var(--stroke, 1px) solid var(--color-border, #ddd); }
+.pattern-nav ul { list-style: none; padding: 0; margin: 0; }
+.pattern-nav li { margin-block-end: 0.25rem; }
+.pattern-nav a { text-decoration: none; color: var(--color-text-secondary, #666); }
+.pattern-nav a:hover { color: var(--color-text-primary, #111); }
+.pattern-nav h2 { font-size: var(--size-step-0, 1rem); text-transform: uppercase; letter-spacing: 0.05em; margin-block: var(--space-s, 0.75rem) 0.25rem; }
+.pattern-content { padding: var(--space-m, 1.5rem); }
+.pattern-section { margin-block-end: var(--space-l, 2rem); }
+.pattern-example { border: var(--stroke, 1px) solid var(--color-border, #ddd); border-radius: var(--radius-s, 0.25rem); padding: var(--space-m, 1.5rem); margin-block: var(--space-s, 0.75rem); }
+@media (max-width: 48rem) { .pattern-library { grid-template-columns: 1fr; } .pattern-nav { border-right: none; border-bottom: var(--stroke, 1px) solid var(--color-border, #ddd); } }
+</style>
+</t-define>
+<t-define name="body">
+<div class="pattern-library">
+<nav class="pattern-nav" aria-label="Pattern categories">
+<h2>Compositions</h2>
+<ul>
+<li><a href="#center">Center</a></li>
+<li><a href="#cluster">Cluster</a></li>
+<li><a href="#flow">Flow</a></li>
+<li><a href="#grid">Grid</a></li>
+<li><a href="#region">Region</a></li>
+<li><a href="#repel">Repel</a></li>
+<li><a href="#sidebar">Sidebar</a></li>
+<li><a href="#stack">Stack</a></li>
+<li><a href="#switcher">Switcher</a></li>
+<li><a href="#wrapper">Wrapper</a></li>
+</ul>
+<h2>Utilities</h2>
+<ul>
+<li><a href="#indent">Indent</a></li>
+<li><a href="#text-colors">Text Colors</a></li>
+<li><a href="#text-sizes">Text Sizes</a></li>
+<li><a href="#visually-hidden">Visually Hidden</a></li>
+<li><a href="#radius">Radius</a></li>
+</ul>
+<h2>Blocks</h2>
+<ul>
+<li><a href="#button">Button</a></li>
+<li><a href="#tag">Tag</a></li>
+<li><a href="#prose">Prose</a></li>
+</ul>
+<h2>Exceptions</h2>
+<ul>
+<li><a href="#narrow">Narrow</a></li>
+</ul>
+</nav>
+<main class="pattern-content flow">
+<t-slot />
+</main>
+</div>
+</t-define>
+</t-extend>

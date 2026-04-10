@@ -1,0 +1,8 @@
+name: folio
+description: Image gallery and photography portfolio.
+depends: [highlights]
+
+bundles:
+  css:
+    folio:
+      - folio/css/surface.css

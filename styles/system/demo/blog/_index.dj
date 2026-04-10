@@ -1,0 +1,5 @@
+---
+title: Blog
+layout: system:layouts/page.html
+---
+{{ demo.posts.welcome }}

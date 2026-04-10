@@ -1,0 +1,172 @@
+/* CRT — retro amber terminal
+ * Tokens: --color-*, --font-family-*, --crt-*
+ * Scanline + phosphor glow effects via pseudo-elements and text-shadow
+ */
+
+:root {
+  --color-bg-primary: #0c0c0c;
+  --color-bg-secondary: #141410;
+  --color-text-primary: #ffb000;
+  --color-text-secondary: #b87800;
+  --color-accent: #ff8c00;
+  --color-accent-hover: #ffd060;
+  --color-border: #2a2a20;
+  --stroke: 1px;
+  --radius-s: 0;
+  --font-family-body: "Courier New", "Lucida Console", "Cascadia Mono", monospace;
+  --font-family-heading: "Courier New", "Lucida Console", "Cascadia Mono", monospace;
+  --crt-glow: rgba(255, 176, 0, 0.35);
+  --crt-scanline: rgba(0, 0, 0, 0.12);
+}
+
+body {
+  font-family: var(--font-family-body);
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  text-shadow: 0 0 6px var(--crt-glow);
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+/* Scanline overlay */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    var(--crt-scanline) 0px,
+    var(--crt-scanline) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Subtle screen curvature vignette */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.5) 100%);
+  pointer-events: none;
+  z-index: 9998;
+}
+
+/* Terminal prompt heading style */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  color: var(--color-text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 8px var(--crt-glow);
+}
+
+h1::before { content: "> "; color: var(--color-accent); }
+h2::before { content: ">> "; color: var(--color-accent); }
+h3::before { content: ">>> "; color: var(--color-text-secondary); }
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--color-border);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+  text-shadow: 0 0 10px var(--crt-glow);
+  border-bottom-style: solid;
+}
+
+blockquote {
+  border-left: 3px solid var(--color-text-secondary);
+  padding-left: 1em;
+  color: var(--color-text-secondary);
+  font-style: normal;
+}
+
+blockquote::before {
+  content: "/* ";
+  color: var(--color-border);
+}
+
+blockquote::after {
+  content: " */";
+  color: var(--color-border);
+}
+
+code {
+  background: var(--color-bg-secondary);
+  color: var(--color-accent-hover);
+  padding: 0.1em 0.3em;
+  border: 1px solid var(--color-border);
+}
+
+pre {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  padding: 1em;
+  overflow-x: auto;
+  text-shadow: 0 0 4px var(--crt-glow);
+}
+
+pre code {
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed var(--color-text-secondary);
+  margin-block: 2em;
+}
+
+/* Terminal-style status bar */
+.crt-status {
+  border-top: 1px solid var(--color-border);
+  padding-block: 0.5em;
+  font-size: 0.8em;
+  color: var(--color-text-secondary);
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+/* ASCII box for featured content */
+.crt-box {
+  border: 1px solid var(--color-text-secondary);
+  padding: 1em;
+  position: relative;
+}
+
+.crt-box::before {
+  content: "┌" attr(data-label) "┐";
+  position: absolute;
+  top: -0.7em;
+  left: 1em;
+  background: var(--color-bg-primary);
+  padding-inline: 0.5em;
+  color: var(--color-accent);
+  font-size: 0.85em;
+}
+
+/* Selection color */
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg-primary);
+  text-shadow: none;
+}
+
+/* Lists get terminal markers */
+ul { list-style: none; padding-left: 1.5em; }
+ul > li::before {
+  content: "- ";
+  color: var(--color-text-secondary);
+  margin-left: -1.5em;
+  position: absolute;
+}
+ul > li { position: relative; }
+
+ol { padding-left: 2em; }
+ol > li::marker { color: var(--color-text-secondary); }

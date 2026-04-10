@@ -1,0 +1,21 @@
+<t-extend template="cube:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.colors.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.syntax.path" />
+<link rel="stylesheet" t-var:href="assets.gazette.css.gazette.path" />
+</t-define>
+<t-define name="body">
+<t-include template="cube:blocks/skip-link.html" />
+<header class="gazette-masthead wrapper">
+<h1>The Gazette</h1>
+<p class="gazette-date">Wig Stand &middot; Style Showcase</p>
+</header>
+<main id="main-content" class="wrapper region flow prose">
+<t-slot />
+</main>
+<footer class="gazette-footer wrapper">
+<span>Built with <a href="https://github.com/QuiteClose/wig">Wig</a></span>
+</footer>
+</t-define>
+</t-extend>

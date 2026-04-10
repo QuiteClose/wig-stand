@@ -1,0 +1,5 @@
+---
+title: Home
+layout: cappuccino:layouts/page.html
+---
+{{ demo.pages.welcome }}

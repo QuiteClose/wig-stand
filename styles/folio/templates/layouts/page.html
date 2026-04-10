@@ -1,0 +1,25 @@
+<t-extend template="cube:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.colors.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.syntax.path" />
+<link rel="stylesheet" t-var:href="assets.folio.css.folio.path" />
+</t-define>
+<t-define name="body">
+<t-include template="cube:blocks/skip-link.html" />
+<header class="folio-header wrapper">
+<h1>Folio</h1>
+<nav>
+<a href="#">Work</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+<main id="main-content" class="wrapper region flow prose">
+<t-slot />
+</main>
+<footer class="folio-footer wrapper">
+<span>&copy; Folio &middot; Built with <a href="https://github.com/QuiteClose/wig">Wig</a></span>
+</footer>
+</t-define>
+</t-extend>

@@ -1,0 +1,5 @@
+---
+title: Home
+layout: highlights:layouts/page.html
+---
+{{ demo.pages.welcome }}

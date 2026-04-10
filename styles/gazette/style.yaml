@@ -1,0 +1,8 @@
+name: gazette
+description: Magazine with multi-column grid and featured articles.
+depends: [highlights]
+
+bundles:
+  css:
+    gazette:
+      - gazette/css/surface.css

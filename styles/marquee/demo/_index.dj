@@ -1,0 +1,5 @@
+---
+title: Home
+layout: marquee:layouts/page.html
+---
+{{ demo.pages.welcome }}

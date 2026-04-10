@@ -1,0 +1,8 @@
+name: dispatch
+description: Newsletter with narrow column and subscribe CTA.
+depends: [highlights]
+
+bundles:
+  css:
+    dispatch:
+      - dispatch/css/surface.css

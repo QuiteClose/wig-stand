@@ -1,0 +1,18 @@
+<t-extend template="cube:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
+<link rel="stylesheet" t-var:href="assets.crt.css.crt.path" />
+</t-define>
+<t-define name="body">
+<t-include template="cube:blocks/skip-link.html" />
+<header class="wrapper" style="padding-block: 0.5em; border-bottom: 1px solid var(--color-border);">
+<code style="color: var(--color-text-secondary); font-size: 0.8em;">guest@wigstand:~$ cat <t-var name="document.title">page</t-var>.txt</code>
+</header>
+<main id="main-content" class="wrapper region flow prose">
+<t-slot />
+</main>
+<footer class="crt-status">
+<span>[ EOF ] — built with <a href="https://github.com/QuiteClose/wig">wig</a> — <t-var name="document.title">page</t-var>.txt</span>
+</footer>
+</t-define>
+</t-extend>

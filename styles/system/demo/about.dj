@@ -1,0 +1,5 @@
+---
+title: About
+layout: system:layouts/page.html
+---
+{{ demo.pages.about }}

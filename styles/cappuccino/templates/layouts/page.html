@@ -1,0 +1,23 @@
+<t-extend template="cube:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.colors.path" />
+<link rel="stylesheet" t-var:href="assets.highlights.css.syntax.path" />
+<link rel="stylesheet" t-var:href="assets.cappuccino.css.cappuccino.path" />
+</t-define>
+<t-define name="body">
+<t-include template="cube:blocks/skip-link.html" />
+<header class="capp-header">
+<div class="wrapper">
+<h1>Cappuccino</h1>
+<p class="capp-tagline">A warm corner of the web</p>
+</div>
+</header>
+<main id="main-content" class="wrapper region flow prose">
+<t-slot />
+</main>
+<footer class="capp-footer wrapper">
+<span>Brewed with <a href="https://github.com/QuiteClose/wig">Wig</a></span>
+</footer>
+</t-define>
+</t-extend>

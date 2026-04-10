@@ -1,0 +1,98 @@
+pages:
+  welcome: |
+    # Welcome
+
+    This is a demo site that showcases the look and feel of a Wig style. Browse the pages to see how different content types are presented.
+
+    The style system uses [CUBE CSS](https://cube.fyi/) methodology for layout, with compositions for structure, utilities for single-purpose classes, blocks for components, and exceptions for state variations.
+
+  about: |
+    # About
+
+    This page demonstrates how a typical static page looks in this style. Content flows naturally with the style's typography, spacing, and color choices.
+
+    ## Features
+
+    - Responsive layout that adapts to any screen size
+    - Fluid typography using CSS clamp
+    - Accessible colour contrast ratios
+    - System font stacks for fast loading
+
+    ## The Wig Approach
+
+    Wig is a web framework and site generator built in Zig. It uses Djot for content, Toupee for templates, and CUBE CSS for styling. Every style inherits structural primitives from the **cube** foundation.
+
+posts:
+  welcome: |
+    # Hello, World
+
+    Welcome to the blog! This is the first post, demonstrating how articles look in this style.
+
+    Paragraphs flow with the style's chosen line-height and measure. Links are [styled consistently](#) throughout. Lists, headings, and other block elements respect the vertical rhythm.
+
+    > Blockquotes stand out from body text, providing visual emphasis for quoted material.
+
+  syntax_highlighting: |
+    # Syntax Highlighting
+
+    Here is how code blocks look across languages.
+
+    ```zig
+    const std = @import("std");
+
+    pub fn main() !void {
+        const stdout = std.io.getStdOut().writer();
+        try stdout.print("Hello, {s}!\n", .{"world"});
+    }
+    ```
+
+    ```css
+    .flow > * + * {
+      margin-block-start: var(--flow-space, 1em);
+    }
+    ```
+
+    Inline code like `const x = 42;` is also styled to match.
+
+  typography: |
+    # Typography Showcase
+
+    This post demonstrates the full range of typographic elements available.
+
+    ## Second-Level Heading
+
+    ### Third-Level Heading
+
+    #### Fourth-Level Heading
+
+    Body text in regular weight. **Bold text for emphasis.** *Italic text for softer emphasis.* A [hyperlink to somewhere](#).
+
+    1. First ordered item
+    2. Second ordered item
+    3. Third ordered item
+
+    - An unordered list
+    - With several items
+    - For comparison
+
+    ---
+
+    A horizontal rule separates sections. The style controls its weight and spacing.
+
+code_samples:
+  zig: |
+    const std = @import("std");
+    pub fn main() !void {
+        std.debug.print("Hello\n", .{});
+    }
+
+  css: |
+    .flow > * + * {
+      margin-block-start: var(--flow-space, 1em);
+    }
+
+  html: |
+    <div class="wrapper region flow">
+      <h1>Title</h1>
+      <p>Content goes here.</p>
+    </div>

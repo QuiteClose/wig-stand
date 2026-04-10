@@ -1,0 +1,5 @@
+---
+title: Home
+layout: system:layouts/page.html
+---
+{{ demo.pages.welcome }}

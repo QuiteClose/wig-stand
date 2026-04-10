@@ -1,0 +1,5 @@
+---
+title: Hello, World
+layout: folio:layouts/page.html
+---
+{{ demo.posts.welcome }}
