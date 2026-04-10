@@ -6,7 +6,14 @@
 <t-define name="body">
 <t-include template="cube:blocks/skip-link.html" />
 <header class="wrapper" style="padding-block: 0.5em; border-bottom: 1px solid var(--color-border);">
-<code style="color: var(--color-text-secondary); font-size: 0.8em;">guest@wigstand:~$ cat <t-var name="document.title">page</t-var>.txt</code>
+<nav class="repel" aria-label="Site" style="font-size: 0.8em;">
+<code style="color: var(--color-text-secondary);">guest@wigstand:~$</code>
+<span>
+<a href="/demo/crt/preview/">home</a> |
+<a href="/demo/crt/preview/about/">about</a> |
+<a href="/demo/crt/preview/blog/">blog</a>
+</span>
+</nav>
 </header>
 <main id="main-content" class="wrapper region flow prose">
 <t-slot />

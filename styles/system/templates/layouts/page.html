@@ -8,8 +8,17 @@
 <t-define name="body">
 <t-include template="cube:blocks/skip-link.html" />
 <header class="system-header wrapper">
+<nav class="repel" aria-label="Site">
+<div>
 <h1>System</h1>
 <span class="system-breadcrumb"> &rsaquo; <t-var name="document.title">Page</t-var></span>
+</div>
+<span style="font-size: 0.8rem;">
+<a href="/demo/system/preview/">Home</a>
+<a href="/demo/system/preview/about/" style="margin-left: 0.75em;">About</a>
+<a href="/demo/system/preview/blog/" style="margin-left: 0.75em;">Blog</a>
+</span>
+</nav>
 </header>
 <main id="main-content" class="wrapper region flow prose">
 <t-slot />
