@@ -1,0 +1,6 @@
+name: Font Stacks
+description: System font stacks for body text and monospace. No web fonts required.
+example: |
+  <p>System sans-serif stack: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif</p>
+  <p style="font-family: var(--font-mono, ui-monospace, monospace);">System monospace stack: ui-monospace, SFMono-Regular, Menlo, monospace</p>
+variants: []

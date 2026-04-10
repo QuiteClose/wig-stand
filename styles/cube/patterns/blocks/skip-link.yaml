@@ -1,0 +1,5 @@
+name: Skip Link
+description: Accessibility block for keyboard users to skip past navigation.
+example: |
+  <a href="#main-content" class="visually-hidden">Skip to main content</a>
+variants: []

@@ -1,0 +1,11 @@
+name: Tag
+description: Small inline label for categorisation. Supports active variant and link usage.
+example: |
+  <p>
+  <span class="tag">topic</span>
+  <a class="tag" href="#">tag link</a>
+  <span class="tag" data-variant="active">active</span>
+  </p>
+variants:
+  - name: active
+    example: '<span class="tag" data-variant="active">active</span>'

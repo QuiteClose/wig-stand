@@ -1,0 +1,13 @@
+name: Flow
+description: "The lobotomised owl: every sibling element receives consistent vertical spacing via <code>margin-block-start</code>."
+example: |
+  <div class="flow">
+  <h3>Flow composition</h3>
+  <p>Every sibling element receives consistent vertical spacing.</p>
+  <p>The lobotomised owl selector targets every element preceded by another.</p>
+  <ul>
+  <li>Item one</li>
+  <li>Item two</li>
+  </ul>
+  </div>
+variants: []

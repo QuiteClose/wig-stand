@@ -1,0 +1,7 @@
+name: Region
+description: Adds vertical section padding. Used to separate major page sections.
+example: |
+  <section class="region" style="background: color-mix(in srgb, CanvasText 3%, transparent);">
+  <p>Region: vertical section padding.</p>
+  </section>
+variants: []

@@ -1,0 +1,8 @@
+name: Switcher
+description: "Side-by-side when space allows, stacked when it doesn\u2019t. No media queries \u2014 pure CSS container logic."
+example: |
+  <div class="switcher">
+  <div style="border: 1px dashed currentColor; padding: 0.75rem;">Item A</div>
+  <div style="border: 1px dashed currentColor; padding: 0.75rem;">Item B</div>
+  </div>
+variants: []

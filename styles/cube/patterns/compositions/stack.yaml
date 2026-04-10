@@ -1,0 +1,9 @@
+name: Stack
+description: "Vertical stacking with consistent spacing. Like <code>flow</code> but with configurable <code>--stack-space</code>."
+example: |
+  <div class="stack">
+  <p style="border: 1px dashed currentColor; padding: 0.5rem;">First block in the stack.</p>
+  <p style="border: 1px dashed currentColor; padding: 0.5rem;">Second block, spaced with --stack-space.</p>
+  <p style="border: 1px dashed currentColor; padding: 0.5rem;">Third block.</p>
+  </div>
+variants: []

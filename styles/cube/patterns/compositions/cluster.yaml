@@ -1,0 +1,9 @@
+name: Cluster
+description: Groups inline or flex items with consistent gap spacing. Wraps naturally.
+example: |
+  <div class="cluster">
+  <span>Tag A</span>
+  <span>Tag B</span>
+  <span>Tag C</span>
+  </div>
+variants: []

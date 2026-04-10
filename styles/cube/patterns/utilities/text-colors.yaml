@@ -1,0 +1,7 @@
+name: Text Colors
+description: Utility classes for semantic text colouring.
+example: |
+  <p class="text-primary">Primary text colour</p>
+  <p class="text-secondary">Secondary text colour</p>
+  <p class="text-link">Link-role text colour</p>
+variants: []

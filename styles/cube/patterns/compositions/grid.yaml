@@ -1,0 +1,9 @@
+name: Grid
+description: Auto-fill grid with a minimum item size. Items wrap responsively without media queries.
+example: |
+  <div class="grid" style="--grid-min-item-size: 10rem;">
+  <div style="padding: 1rem; border: 1px dashed currentColor;">Cell A</div>
+  <div style="padding: 1rem; border: 1px dashed currentColor;">Cell B</div>
+  <div style="padding: 1rem; border: 1px dashed currentColor;">Cell C</div>
+  </div>
+variants: []

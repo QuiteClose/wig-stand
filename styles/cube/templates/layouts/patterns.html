@@ -19,26 +19,109 @@
 <t-define name="body">
 <div class="pattern-library">
 <nav class="pattern-nav" aria-label="Pattern categories">
-<t-for category in patterns.categories>
-<h2><t-var name="category.name" /></h2>
+<h2>Compositions</h2>
 <ul>
-<t-for pattern in category.patterns>
-<li><a t-var:href="pattern.id" transform="replace:^:#"><t-var name="pattern.title" /></a></li>
+<t-for pattern in styles.cube.patterns.compositions>
+<t-let name="anchor">#<t-var name="pattern.id" /></t-let>
+<li><a t-var:href="anchor"><t-var name="pattern.name" /></a></li>
 </t-for>
 </ul>
+<h2>Utilities</h2>
+<ul>
+<t-for pattern in styles.cube.patterns.utilities>
+<t-let name="anchor">#<t-var name="pattern.id" /></t-let>
+<li><a t-var:href="anchor"><t-var name="pattern.name" /></a></li>
 </t-for>
+</ul>
+<h2>Blocks</h2>
+<ul>
+<t-for pattern in styles.cube.patterns.blocks>
+<t-let name="anchor">#<t-var name="pattern.id" /></t-let>
+<li><a t-var:href="anchor"><t-var name="pattern.name" /></a></li>
+</t-for>
+</ul>
+<h2>Exceptions</h2>
+<ul>
+<t-for pattern in styles.cube.patterns.exceptions>
+<t-let name="anchor">#<t-var name="pattern.id" /></t-let>
+<li><a t-var:href="anchor"><t-var name="pattern.name" /></a></li>
+</t-for>
+</ul>
+<h2>Globals</h2>
+<ul>
+<t-for pattern in styles.cube.patterns.globals>
+<t-let name="anchor">#<t-var name="pattern.id" /></t-let>
+<li><a t-var:href="anchor"><t-var name="pattern.name" /></a></li>
+</t-for>
+</ul>
+<h2>Fonts</h2>
+<ul>
+<t-for pattern in styles.cube.patterns.fonts>
+<t-let name="anchor">#<t-var name="pattern.id" /></t-let>
+<li><a t-var:href="anchor"><t-var name="pattern.name" /></a></li>
+</t-for>
+</ul>
 </nav>
 <main class="pattern-content flow">
-<t-for category in patterns.categories>
-<t-for pattern in category.patterns>
+<h1>Compositions</h1>
+<t-for pattern in styles.cube.patterns.compositions>
 <section class="pattern-section" t-var:id="pattern.id">
-<h2><t-var name="pattern.title" /></h2>
+<h2><t-var name="pattern.name" /></h2>
 <p><t-raw name="pattern.description" /></p>
 <div class="pattern-example">
 <t-raw name="pattern.example" />
 </div>
 </section>
 </t-for>
+<h1>Utilities</h1>
+<t-for pattern in styles.cube.patterns.utilities>
+<section class="pattern-section" t-var:id="pattern.id">
+<h2><t-var name="pattern.name" /></h2>
+<p><t-raw name="pattern.description" /></p>
+<div class="pattern-example">
+<t-raw name="pattern.example" />
+</div>
+</section>
+</t-for>
+<h1>Blocks</h1>
+<t-for pattern in styles.cube.patterns.blocks>
+<section class="pattern-section" t-var:id="pattern.id">
+<h2><t-var name="pattern.name" /></h2>
+<p><t-raw name="pattern.description" /></p>
+<div class="pattern-example">
+<t-raw name="pattern.example" />
+</div>
+</section>
+</t-for>
+<h1>Exceptions</h1>
+<t-for pattern in styles.cube.patterns.exceptions>
+<section class="pattern-section" t-var:id="pattern.id">
+<h2><t-var name="pattern.name" /></h2>
+<p><t-raw name="pattern.description" /></p>
+<div class="pattern-example">
+<t-raw name="pattern.example" />
+</div>
+</section>
+</t-for>
+<h1>Globals</h1>
+<t-for pattern in styles.cube.patterns.globals>
+<section class="pattern-section" t-var:id="pattern.id">
+<h2><t-var name="pattern.name" /></h2>
+<p><t-raw name="pattern.description" /></p>
+<div class="pattern-example">
+<t-raw name="pattern.example" />
+</div>
+</section>
+</t-for>
+<h1>Fonts</h1>
+<t-for pattern in styles.cube.patterns.fonts>
+<section class="pattern-section" t-var:id="pattern.id">
+<h2><t-var name="pattern.name" /></h2>
+<p><t-raw name="pattern.description" /></p>
+<div class="pattern-example">
+<t-raw name="pattern.example" />
+</div>
+</section>
 </t-for>
 </main>
 </div>

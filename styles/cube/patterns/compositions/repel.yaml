@@ -1,0 +1,8 @@
+name: Repel
+description: Pushes two child elements to opposite ends of a flex container. Classic header/navbar pattern.
+example: |
+  <div class="repel" style="border: 1px dashed currentColor; padding: 0.5rem;">
+  <span>Brand</span>
+  <nav class="cluster">Nav A · Nav B</nav>
+  </div>
+variants: []

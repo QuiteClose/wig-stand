@@ -1,0 +1,6 @@
+name: Visually Hidden
+description: Content hidden from sighted users but accessible to screen readers. Used for skip links and aria labels.
+example: |
+  <p><a href="#main-content" class="visually-hidden">Skip to main content</a></p>
+  <p><em>(The skip link above is visually hidden — tab to it or inspect the DOM.)</em></p>
+variants: []
