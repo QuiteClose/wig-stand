@@ -1,5 +1,0 @@
----
-title: Syntax Highlighting
-layout: folio:layouts/page.html
----
-{{ demo.posts.syntax_highlighting }}

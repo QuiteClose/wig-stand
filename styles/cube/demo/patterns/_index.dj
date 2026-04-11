@@ -1,0 +1,9 @@
+---
+title: Patterns
+layout: cube:layouts/pattern.html
+paginate:
+  collection: styles.cube.patterns.all
+  size: 1
+  slug: id
+  alias: pattern
+---

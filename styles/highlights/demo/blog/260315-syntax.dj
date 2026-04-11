@@ -1,5 +1,0 @@
----
-title: Syntax Highlighting
-layout: highlights:layouts/blog.html
----
-{{ demo.posts.syntax_highlighting }}

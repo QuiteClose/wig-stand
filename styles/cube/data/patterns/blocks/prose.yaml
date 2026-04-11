@@ -1,0 +1,23 @@
+name: Prose
+source: .prose
+description: "Rich text block with comfortable measure, vertical rhythm, and typographic defaults for long-form content."
+config:
+  - property: "--prose-measure"
+    default: "65ch"
+    description: Maximum inline size for paragraphs, headings, and list items.
+  - property: "--prose-heading-space"
+    default: "1.5em"
+    description: Space above headings (<code>margin-block-start</code>).
+notes: |
+  Headings use <code>text-wrap: balance</code> for even line breaks.
+  List items get modest spacing; unordered and ordered lists have
+  <code>1.25em</code> inline-start padding.
+example: |
+  <article class="prose stack">
+  <h3>Prose block</h3>
+  <p>Paragraph with comfortable measure and vertical rhythm. The <code>prose</code> block sets <code>max-inline-size</code> and styles headings, lists, links, and other elements for reading.</p>
+  <ul>
+  <li>First item</li>
+  <li>Second item</li>
+  </ul>
+  </article>

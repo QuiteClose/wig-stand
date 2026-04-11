@@ -1,9 +1,0 @@
-name: Narrow
-description: "Exception that constrains content to a narrower width. Applied via <code>data-exception=\"narrow\"</code>."
-example: |
-  <div class="center">
-  <div data-exception="narrow" style="border: 1px dashed currentColor; padding: 0.75rem;">
-  <p>Narrow exception inside a wide wrapper. Content is more tightly constrained.</p>
-  </div>
-  </div>
-variants: []

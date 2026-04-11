@@ -3,19 +3,6 @@
 <t-for stylesheet in document.style.bundles.css>
 <link rel="stylesheet" t-var:href="stylesheet.path" />
 </t-for>
-<style>
-.pattern-library { display: grid; grid-template-columns: 16rem 1fr; gap: var(--space-m, 1.5rem); min-height: 100vh; }
-.pattern-nav { padding: var(--space-m, 1.5rem); border-right: var(--stroke, 1px) solid var(--color-border, #ddd); }
-.pattern-nav ul { list-style: none; padding: 0; margin: 0; }
-.pattern-nav li { margin-block-end: 0.25rem; }
-.pattern-nav a { text-decoration: none; color: var(--color-text-secondary, #666); }
-.pattern-nav a:hover { color: var(--color-text-primary, #111); }
-.pattern-nav h2 { font-size: var(--size-step-0, 1rem); text-transform: uppercase; letter-spacing: 0.05em; margin-block: var(--space-s, 0.75rem) 0.25rem; }
-.pattern-content { padding: var(--space-m, 1.5rem); }
-.pattern-section { margin-block-end: var(--space-l, 2rem); }
-.pattern-example { border: var(--stroke, 1px) solid var(--color-border, #ddd); border-radius: var(--radius-s, 0.25rem); padding: var(--space-m, 1.5rem); margin-block: var(--space-s, 0.75rem); }
-@media (max-width: 48rem) { .pattern-library { grid-template-columns: 1fr; } .pattern-nav { border-right: none; border-bottom: var(--stroke, 1px) solid var(--color-border, #ddd); } }
-</style>
 </t-define>
 <t-define name="body">
 <div class="pattern-library">
@@ -27,16 +14,16 @@
 <li><a t-var:href="anchor"><t-var name="pattern.name" /></a></li>
 </t-for>
 </ul>
-<h2>Utilities</h2>
+<h2>Blocks</h2>
 <ul>
-<t-for pattern in styles.cube.patterns.utilities>
+<t-for pattern in styles.cube.patterns.blocks>
 <t-let name="anchor">#<t-var name="pattern.id" /></t-let>
 <li><a t-var:href="anchor"><t-var name="pattern.name" /></a></li>
 </t-for>
 </ul>
-<h2>Blocks</h2>
+<h2>Utilities</h2>
 <ul>
-<t-for pattern in styles.cube.patterns.blocks>
+<t-for pattern in styles.cube.patterns.utilities>
 <t-let name="anchor">#<t-var name="pattern.id" /></t-let>
 <li><a t-var:href="anchor"><t-var name="pattern.name" /></a></li>
 </t-for>
@@ -66,63 +53,27 @@
 <main id="main-content" class="pattern-content flow">
 <h1>Compositions</h1>
 <t-for pattern in styles.cube.patterns.compositions>
-<section class="pattern-section" t-var:id="pattern.id">
-<h2><t-var name="pattern.name" /></h2>
-<p><t-raw name="pattern.description" /></p>
-<div class="pattern-example">
-<t-raw name="pattern.example" />
-</div>
-</section>
-</t-for>
-<h1>Utilities</h1>
-<t-for pattern in styles.cube.patterns.utilities>
-<section class="pattern-section" t-var:id="pattern.id">
-<h2><t-var name="pattern.name" /></h2>
-<p><t-raw name="pattern.description" /></p>
-<div class="pattern-example">
-<t-raw name="pattern.example" />
-</div>
-</section>
+<t-include template="cube:blocks/pattern-section.html" />
 </t-for>
 <h1>Blocks</h1>
 <t-for pattern in styles.cube.patterns.blocks>
-<section class="pattern-section" t-var:id="pattern.id">
-<h2><t-var name="pattern.name" /></h2>
-<p><t-raw name="pattern.description" /></p>
-<div class="pattern-example">
-<t-raw name="pattern.example" />
-</div>
-</section>
+<t-include template="cube:blocks/pattern-section.html" />
+</t-for>
+<h1>Utilities</h1>
+<t-for pattern in styles.cube.patterns.utilities>
+<t-include template="cube:blocks/pattern-section.html" />
 </t-for>
 <h1>Exceptions</h1>
 <t-for pattern in styles.cube.patterns.exceptions>
-<section class="pattern-section" t-var:id="pattern.id">
-<h2><t-var name="pattern.name" /></h2>
-<p><t-raw name="pattern.description" /></p>
-<div class="pattern-example">
-<t-raw name="pattern.example" />
-</div>
-</section>
+<t-include template="cube:blocks/pattern-section.html" />
 </t-for>
 <h1>Globals</h1>
 <t-for pattern in styles.cube.patterns.globals>
-<section class="pattern-section" t-var:id="pattern.id">
-<h2><t-var name="pattern.name" /></h2>
-<p><t-raw name="pattern.description" /></p>
-<div class="pattern-example">
-<t-raw name="pattern.example" />
-</div>
-</section>
+<t-include template="cube:blocks/pattern-section.html" />
 </t-for>
 <h1>Fonts</h1>
 <t-for pattern in styles.cube.patterns.fonts>
-<section class="pattern-section" t-var:id="pattern.id">
-<h2><t-var name="pattern.name" /></h2>
-<p><t-raw name="pattern.description" /></p>
-<div class="pattern-example">
-<t-raw name="pattern.example" />
-</div>
-</section>
+<t-include template="cube:blocks/pattern-section.html" />
 </t-for>
 </main>
 </div>

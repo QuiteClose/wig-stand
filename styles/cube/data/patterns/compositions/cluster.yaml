@@ -1,0 +1,19 @@
+name: Cluster
+source: .cluster
+description: Groups inline or flex items with consistent gap spacing. Wraps naturally.
+config:
+  - property: "--cluster-space"
+    default: "1rem"
+    description: Gap between items.
+  - property: "--cluster-vertical-align"
+    default: "center"
+    description: Vertical alignment of items (<code>align-items</code>).
+links:
+  - label: Every Layout
+    url: https://every-layout.dev/layouts/cluster/
+example: |
+  <div class="cluster">
+  <span class="tag">Tag A</span>
+  <span class="tag">Tag B</span>
+  <span class="tag">Tag C</span>
+  </div>

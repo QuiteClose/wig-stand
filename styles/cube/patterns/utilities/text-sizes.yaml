@@ -1,7 +1,0 @@
-name: Text Sizes
-description: Utility classes mapped to the type scale steps.
-example: |
-  <p class="text-step--1">Step -1 (small)</p>
-  <p class="text-step-0">Step 0 (base)</p>
-  <p class="text-step-2">Step 2 (large)</p>
-variants: []

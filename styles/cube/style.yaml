@@ -27,3 +27,4 @@ bundles:
       - css/blocks/prose.css
       - css/exceptions/narrow.css
       - css/globals/syntax.css
+      - css/pattern-library.css

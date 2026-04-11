@@ -1,5 +1,4 @@
 ---
-title: Home
-layout: plain:layouts/page.html
+title: Pattern Library
+layout: cube:layouts/patterns.html
 ---
-{{ demo.pages.welcome }}

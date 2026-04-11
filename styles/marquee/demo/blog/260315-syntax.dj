@@ -1,5 +1,0 @@
----
-title: Syntax Highlighting
-layout: marquee:layouts/page.html
----
-{{ demo.posts.syntax_highlighting }}

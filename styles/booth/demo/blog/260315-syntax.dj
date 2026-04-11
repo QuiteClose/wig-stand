@@ -1,5 +1,0 @@
----
-title: Syntax Highlighting
-layout: booth:layouts/page.html
----
-{{ demo.posts.syntax_highlighting }}

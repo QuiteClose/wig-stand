@@ -1,0 +1,42 @@
+<t-extend template="cube:layouts/base.html">
+<t-define name="head">
+<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
+<link rel="stylesheet" t-var:href="assets.wig-stand.css.surface.path" />
+</t-define>
+<t-define name="body">
+<t-include template="cube:blocks/skip-link.html" />
+<main id="main-content" class="wrapper region flow">
+<article class="prose flow">
+<t-slot />
+<h2>Semantic roles</h2>
+<div class="grid" style="--grid-min-item-size: 10rem; --gutter: 0.5rem;">
+<div style="padding: 1rem; border-radius: var(--radius-s, 0.25rem); background: var(--color-bg-primary, Canvas); color: var(--color-text-primary, CanvasText); border: 1px solid var(--color-border, #ddd);">
+<strong>Primary</strong>
+<p class="text-step--1">Text and background</p>
+</div>
+<div style="padding: 1rem; border-radius: var(--radius-s, 0.25rem); background: var(--color-bg-secondary); color: var(--color-text-primary, CanvasText); border: 1px solid var(--color-border, #ddd);">
+<strong>Secondary</strong>
+<p class="text-step--1">Muted background</p>
+</div>
+<div style="padding: 1rem; border-radius: var(--radius-s, 0.25rem); background: var(--color-bg-embed); color: var(--color-text-primary, CanvasText); border: 1px solid var(--color-border, #ddd);">
+<strong>Embed</strong>
+<p class="text-step--1">Code blocks, insets</p>
+</div>
+</div>
+<h2>Text colours</h2>
+<div class="stack" style="--stack-space: 0.25rem;">
+<p><span class="text-primary"><strong>text-primary</strong> — body text</span></p>
+<p><span class="text-secondary"><strong>text-secondary</strong> — muted text</span></p>
+<p><span class="text-emphasis"><strong>text-emphasis</strong> — emphasis</span></p>
+<p><span class="text-heading"><strong>text-heading</strong> — headings</span></p>
+<p><span class="text-link"><strong>text-link</strong> — links</span></p>
+</div>
+<h2>Syntax highlighting</h2>
+<pre><code><span class="keyword">const</span> <span class="variable">greeting</span> <span class="operator">=</span> <span class="string">"hello"</span><span class="punctuation">;</span>
+<span class="keyword">fn</span> <span class="function">add</span><span class="punctuation">(</span><span class="variable">a</span><span class="punctuation">:</span> <span class="type">u32</span><span class="punctuation">,</span> <span class="variable">b</span><span class="punctuation">:</span> <span class="type">u32</span><span class="punctuation">)</span> <span class="type">u32</span> <span class="punctuation">{</span>
+    <span class="keyword">return</span> <span class="variable">a</span> <span class="operator">+</span> <span class="variable">b</span><span class="punctuation">;</span> <span class="comment">// sum</span>
+<span class="punctuation">}</span></code></pre>
+</article>
+</main>
+</t-define>
+</t-extend>

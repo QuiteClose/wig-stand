@@ -1,5 +1,0 @@
-name: Syntax Highlighting
-description: Global token classes for code syntax colouring. Applied by the syntax-highlighting pipeline.
-example: |
-  <pre><code><span class="keyword">const</span> <span class="variable">x</span><span class="punctuation">:</span> <span class="type">u32</span> <span class="operator">=</span> <span class="number">42</span><span class="punctuation">;</span> <span class="comment">// example</span></code></pre>
-variants: []

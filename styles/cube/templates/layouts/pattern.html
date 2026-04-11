@@ -1,0 +1,58 @@
+<t-extend template="cube:layouts/base.html">
+<t-define name="head">
+<t-for stylesheet in document.style.bundles.css>
+<link rel="stylesheet" t-var:href="stylesheet.path" />
+</t-for>
+</t-define>
+<t-define name="body">
+<div class="pattern-library">
+<nav class="pattern-nav" aria-label="Pattern categories">
+<h2>Compositions</h2>
+<ul>
+<t-for p in styles.cube.patterns.compositions>
+<t-let name="purl"><t-var name="document.path" /><t-var name="p.id" />/</t-let>
+<li><a t-var:href="purl"><t-var name="p.name" /></a></li>
+</t-for>
+</ul>
+<h2>Blocks</h2>
+<ul>
+<t-for p in styles.cube.patterns.blocks>
+<t-let name="purl"><t-var name="document.path" /><t-var name="p.id" />/</t-let>
+<li><a t-var:href="purl"><t-var name="p.name" /></a></li>
+</t-for>
+</ul>
+<h2>Utilities</h2>
+<ul>
+<t-for p in styles.cube.patterns.utilities>
+<t-let name="purl"><t-var name="document.path" /><t-var name="p.id" />/</t-let>
+<li><a t-var:href="purl"><t-var name="p.name" /></a></li>
+</t-for>
+</ul>
+<h2>Exceptions</h2>
+<ul>
+<t-for p in styles.cube.patterns.exceptions>
+<t-let name="purl"><t-var name="document.path" /><t-var name="p.id" />/</t-let>
+<li><a t-var:href="purl"><t-var name="p.name" /></a></li>
+</t-for>
+</ul>
+<h2>Globals</h2>
+<ul>
+<t-for p in styles.cube.patterns.globals>
+<t-let name="purl"><t-var name="document.path" /><t-var name="p.id" />/</t-let>
+<li><a t-var:href="purl"><t-var name="p.name" /></a></li>
+</t-for>
+</ul>
+<h2>Fonts</h2>
+<ul>
+<t-for p in styles.cube.patterns.fonts>
+<t-let name="purl"><t-var name="document.path" /><t-var name="p.id" />/</t-let>
+<li><a t-var:href="purl"><t-var name="p.name" /></a></li>
+</t-for>
+</ul>
+</nav>
+<main id="main-content" class="pattern-content flow">
+<t-include template="cube:blocks/pattern-section.html" />
+</main>
+</div>
+</t-define>
+</t-extend>

@@ -1,5 +1,0 @@
----
-title: Typography Showcase
-layout: folio:layouts/page.html
----
-{{ demo.posts.typography }}

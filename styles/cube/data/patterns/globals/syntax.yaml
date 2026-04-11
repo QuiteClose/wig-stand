@@ -1,0 +1,39 @@
+name: Syntax Highlighting
+source: "pre code, .keyword, .variable, ..."
+description: Global token classes for code syntax colouring. Applied by the syntax-highlighting pipeline.
+config:
+  - property: "--syntax-variable"
+    default: "#005cc5"
+    description: Colour for variables.
+  - property: "--syntax-constant"
+    default: "#6f42c1"
+    description: Colour for constants.
+  - property: "--syntax-punctuation"
+    default: "#24292f"
+    description: Colour for punctuation.
+  - property: "--syntax-operator"
+    default: "#cf222e"
+    description: Colour for operators.
+  - property: "--syntax-number"
+    default: "#0550ae"
+    description: Colour for numeric literals.
+  - property: "--syntax-type"
+    default: "#953800"
+    description: Colour for type names.
+  - property: "--syntax-function"
+    default: "#8250df"
+    description: Colour for function names.
+  - property: "--syntax-string"
+    default: "#0a3069"
+    description: Colour for string literals.
+  - property: "--syntax-comment"
+    default: "#57606a"
+    description: Colour for comments.
+  - property: "--syntax-keyword"
+    default: "#cf222e"
+    description: Colour for language keywords.
+notes: |
+  Override these custom properties in your site style to match your colour
+  scheme. The defaults are a GitHub-inspired light theme.
+example: |
+  <pre><code><span class="keyword">const</span> <span class="variable">x</span><span class="punctuation">:</span> <span class="type">u32</span> <span class="operator">=</span> <span class="number">42</span><span class="punctuation">;</span> <span class="comment">// example</span></code></pre>

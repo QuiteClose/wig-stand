@@ -1,0 +1,25 @@
+name: Flow
+source: ".flow > * + *"
+description: "The lobotomised owl: every sibling element receives consistent vertical spacing via <code>margin-block-start</code>."
+config:
+  - property: "--flow-space"
+    default: "1em"
+    description: Space between sibling elements. Defaults to the current font size.
+notes: |
+  Unlike <code>stack</code>, flow uses margin rather than gap, so individual
+  children can override <code>--flow-space</code> locally to create varied rhythm.
+links:
+  - label: "Piccalilli: My favourite 3 lines of CSS"
+    url: https://piccalil.li/blog/my-favourite-3-lines-of-css/
+  - label: Every Layout
+    url: https://every-layout.dev/layouts/stack/
+example: |
+  <div class="flow">
+  <h3>Flow composition</h3>
+  <p>Every sibling element receives consistent vertical spacing.</p>
+  <p>The lobotomised owl selector targets every element preceded by another.</p>
+  <ul>
+  <li>Item one</li>
+  <li>Item two</li>
+  </ul>
+  </div>

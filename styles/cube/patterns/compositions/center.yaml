@@ -1,7 +1,0 @@
-name: Center
-description: Horizontally centres a block-level element with a max-width and consistent padding.
-example: |
-  <div class="center">
-  <p>Centered column with max width and horizontal padding.</p>
-  </div>
-variants: []

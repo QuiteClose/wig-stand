@@ -1,0 +1,14 @@
+name: Region
+source: .region
+description: Adds vertical section padding. Used to separate major page sections.
+config:
+  - property: "--region-space"
+    default: "var(--space-m, 1.5rem)"
+    description: Block (vertical) padding for the section.
+notes: |
+  Sets <code>position: relative</code> so absolutely-positioned children
+  (e.g. decorative elements) stay within the region.
+example: |
+  <section class="region" style="background: color-mix(in srgb, CanvasText 3%, transparent);">
+  <p>Region: vertical section padding.</p>
+  </section>

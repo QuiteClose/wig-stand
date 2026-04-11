@@ -1,0 +1,67 @@
+<section class="pattern-section" t-var:id="pattern.id">
+<h2><t-var name="pattern.name" /><t-if var="pattern.source"> <code class="pattern-source"><t-var name="pattern.source" /></code></t-if></h2>
+<p><t-raw name="pattern.description" /></p>
+<t-if var="pattern.config">
+<h3>Configuration</h3>
+<table class="pattern-table">
+<thead><tr><th>Property</th><th>Default</th><th>Description</th></tr></thead>
+<tbody>
+<t-for prop in pattern.config>
+<tr>
+<td><code><t-var name="prop.property" /></code></td>
+<td><code><t-var name="prop.default" /></code></td>
+<td><t-raw name="prop.description" /></td>
+</tr>
+</t-for>
+</tbody>
+</table>
+</t-if>
+<t-if var="pattern.exceptions">
+<h3>Exceptions</h3>
+<table class="pattern-table">
+<thead><tr><th>Attribute</th><th>Description</th></tr></thead>
+<tbody>
+<t-for exc in pattern.exceptions>
+<tr>
+<td><code><t-var name="exc.attribute" /></code></td>
+<td><t-raw name="exc.description" /></td>
+</tr>
+</t-for>
+</tbody>
+</table>
+</t-if>
+<t-if var="pattern.example">
+<div class="pattern-example">
+<t-raw name="pattern.example" />
+</div>
+<details class="pattern-code">
+<summary>View source</summary>
+<pre><code><t-var name="pattern.example" /></code></pre>
+</details>
+</t-if>
+<t-if var="pattern.variants">
+<h3>Variants</h3>
+<t-for variant in pattern.variants>
+<h4><t-var name="variant.name" /></h4>
+<div class="pattern-example">
+<t-raw name="variant.example" />
+</div>
+<details class="pattern-code">
+<summary>View source</summary>
+<pre><code><t-var name="variant.example" /></code></pre>
+</details>
+</t-for>
+</t-if>
+<t-if var="pattern.notes">
+<div class="pattern-notes">
+<t-raw name="pattern.notes" />
+</div>
+</t-if>
+<t-if var="pattern.links">
+<ul class="pattern-links">
+<t-for link in pattern.links>
+<li><a t-var:href="link.url"><t-var name="link.label" /></a></li>
+</t-for>
+</ul>
+</t-if>
+</section>

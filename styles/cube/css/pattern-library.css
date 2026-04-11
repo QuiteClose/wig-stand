@@ -1,0 +1,167 @@
+/*
+ * Pattern Library
+ *
+ * Chrome for the single-page pattern library layout. Sidebar navigation,
+ * pattern sections, configuration tables, source-code display, and
+ * responsive collapse.
+ *
+ * Tokens: --color-border, --color-bg-secondary, --color-text-secondary,
+ *         --stroke, --radius-s, --space-*, --size-step-*
+ */
+
+.pattern-library {
+  display: grid;
+  grid-template-columns: 16rem 1fr;
+  gap: var(--space-m, 1.5rem);
+  min-height: 100vh;
+}
+
+/* ---- Sidebar navigation ---- */
+
+.pattern-nav {
+  padding: var(--space-m, 1.5rem);
+  border-inline-end: var(--stroke, 1px) solid var(--color-border, #ddd);
+}
+
+.pattern-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pattern-nav li {
+  margin-block-end: 0.25rem;
+}
+
+.pattern-nav a {
+  text-decoration: none;
+  color: var(--color-text-secondary, #666);
+}
+
+.pattern-nav a:hover {
+  color: var(--color-text-primary, #111);
+}
+
+.pattern-nav h2 {
+  font-size: var(--size-step-0, 1rem);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-block: var(--space-s, 0.75rem) 0.25rem;
+}
+
+/* ---- Main content area ---- */
+
+.pattern-content {
+  padding: var(--space-m, 1.5rem);
+}
+
+.pattern-section {
+  margin-block-end: var(--space-xl, 3rem);
+}
+
+.pattern-source {
+  display: inline-block;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: var(--size-step--1, 0.875rem);
+  color: var(--color-text-secondary, #666);
+  margin-inline-start: 0.5em;
+}
+
+/* ---- Live example panel ---- */
+
+.pattern-example {
+  border: var(--stroke, 1px) solid var(--color-border, #ddd);
+  border-radius: var(--radius-s, 0.25rem);
+  padding: var(--space-m, 1.5rem);
+  margin-block: var(--space-s, 0.75rem);
+}
+
+/* ---- Source code display ---- */
+
+.pattern-code {
+  margin-block: var(--space-xs, 0.5rem);
+}
+
+.pattern-code summary {
+  cursor: pointer;
+  font-size: var(--size-step--1, 0.875rem);
+  color: var(--color-text-secondary, #666);
+  margin-block-end: 0.25rem;
+}
+
+.pattern-code pre {
+  background: var(--color-bg-secondary, #f6f6f6);
+  border-radius: var(--radius-s, 0.25rem);
+  padding: var(--space-s, 0.75rem);
+  overflow-x: auto;
+  font-size: var(--size-step--1, 0.875rem);
+  line-height: 1.5;
+}
+
+.pattern-code code {
+  font-family: var(--font-mono, ui-monospace, monospace);
+}
+
+/* ---- Configuration & exceptions tables ---- */
+
+.pattern-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--size-step--1, 0.875rem);
+  margin-block: var(--space-xs, 0.5rem) var(--space-s, 0.75rem);
+}
+
+.pattern-table th,
+.pattern-table td {
+  text-align: start;
+  padding: 0.35em 0.75em;
+  border-block-end: 1px solid var(--color-border, #ddd);
+}
+
+.pattern-table th {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.pattern-table code {
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 0.9em;
+}
+
+/* ---- Notes & links ---- */
+
+.pattern-notes {
+  font-size: var(--size-step--1, 0.875rem);
+  color: var(--color-text-secondary, #666);
+  margin-block: var(--space-xs, 0.5rem);
+}
+
+.pattern-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  font-size: var(--size-step--1, 0.875rem);
+}
+
+/* ---- Variants ---- */
+
+.pattern-variant h4 {
+  font-size: var(--size-step-0, 1rem);
+  margin-block: var(--space-s, 0.75rem) 0.25rem;
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 48rem) {
+  .pattern-library {
+    grid-template-columns: 1fr;
+  }
+
+  .pattern-nav {
+    border-inline-end: none;
+    border-block-end: var(--stroke, 1px) solid var(--color-border, #ddd);
+  }
+}

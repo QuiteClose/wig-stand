@@ -1,7 +1,0 @@
-name: Wrapper
-description: Constrains content to a maximum inline size with horizontal padding. The bread-and-butter container.
-example: |
-  <div class="wrapper" style="background: color-mix(in srgb, CanvasText 3%, transparent);">
-  <p>Wrapper: max width with horizontal padding.</p>
-  </div>
-variants: []

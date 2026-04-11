@@ -1,5 +1,0 @@
----
-title: Blog
-layout: cappuccino:layouts/blog.html
----
-{{ demo.posts.blog_index }}

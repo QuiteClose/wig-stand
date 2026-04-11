@@ -1,0 +1,16 @@
+name: Radius
+source: ".rounded, .rounded-lg, .rounded-none"
+description: Border radius scale using a single base token.
+config:
+  - property: "--radius-base"
+    default: "0.25rem"
+    description: Base corner radius. <code>.rounded-lg</code> doubles this value.
+notes: |
+  Three classes form a small scale: <code>.rounded-none</code> (0),
+  <code>.rounded</code> (base), and <code>.rounded-lg</code> (2&times; base).
+example: |
+  <div style="display: flex; gap: 1rem;">
+  <div class="rounded-none" style="border: 2px solid currentColor; padding: 1rem;">none</div>
+  <div class="rounded" style="border: 2px solid currentColor; padding: 1rem;">rounded</div>
+  <div class="rounded-lg" style="border: 2px solid currentColor; padding: 1rem;">lg</div>
+  </div>

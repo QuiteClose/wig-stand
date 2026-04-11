@@ -1,7 +1,0 @@
-name: Radius
-description: "Border radius token applied via <code>--radius-s</code>. Controlled globally per style."
-example: |
-  <div style="border: 2px solid currentColor; border-radius: var(--radius-s, 0.25rem); padding: 1rem; max-width: 16rem;">
-  <p>Box with <code>--radius-s</code> border radius.</p>
-  </div>
-variants: []

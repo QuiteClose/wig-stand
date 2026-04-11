@@ -1,5 +1,0 @@
----
-title: Hello, World
-layout: crt:layouts/page.html
----
-{{ demo.posts.welcome }}

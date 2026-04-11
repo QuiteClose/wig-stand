@@ -1,0 +1,12 @@
+name: Indent
+source: .indent
+description: Adds an inline-start border for blockquotes, notes, and callouts.
+config:
+  - property: "--indent-size"
+    default: "var(--space-xs-l, 0.5rem)"
+    description: Width of the inline-start border.
+  - property: "--indent-color"
+    default: "currentColor"
+    description: Colour of the border.
+example: |
+  <p class="indent" style="padding-inline-start: 0.75rem;">Indented block with inline-start border.</p>

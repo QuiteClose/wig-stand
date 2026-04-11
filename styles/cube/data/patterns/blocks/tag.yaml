@@ -1,0 +1,31 @@
+name: Tag
+source: .tag
+description: Small inline label for categorisation. Supports active variant and link usage.
+config:
+  - property: "--tag-bg"
+    default: "var(--color-bg-secondary)"
+    description: Background colour.
+  - property: "--tag-color"
+    default: "currentColor"
+    description: Text colour.
+  - property: "--tag-font-size"
+    default: "var(--size-step--1, 0.875rem)"
+    description: Font size.
+  - property: "--tag-padding"
+    default: "0.15em 0.5em"
+    description: Internal padding.
+exceptions:
+  - attribute: 'data-variant="active"'
+    description: Inverted colours to indicate the currently selected tag.
+notes: |
+  Uses monospace font and a light border for a code-label feel.
+  The <code>.count</code> child element is styled with bold weight and reduced opacity.
+example: |
+  <p>
+  <span class="tag">topic</span>
+  <a class="tag" href="#">tag link</a>
+  <span class="tag" data-variant="active">active</span>
+  </p>
+variants:
+  - name: active
+    example: '<span class="tag" data-variant="active">active</span>'

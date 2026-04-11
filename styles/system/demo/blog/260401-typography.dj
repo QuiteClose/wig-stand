@@ -1,5 +1,0 @@
----
-title: Typography Showcase
-layout: system:layouts/page.html
----
-{{ demo.posts.typography }}

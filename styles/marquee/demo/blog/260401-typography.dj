@@ -1,5 +1,0 @@
----
-title: Typography Showcase
-layout: marquee:layouts/page.html
----
-{{ demo.posts.typography }}
