@@ -12,14 +12,14 @@
   --color-text-heading: #f3f4f6;
   --color-text-link: #93c5fd;
 
-  --color-bg-primary: #111827;
-  --color-bg-secondary: #1f2937;
-  --color-bg-embed: #0f172a;
-  --color-bg-card: #1e293b;
-  --color-bg-card-hover: #334155;
-  --color-bg-bar: #0f172a;
+  --color-bg-primary: #1a1a1a;
+  --color-bg-secondary: #262626;
+  --color-bg-embed: #141414;
+  --color-bg-card: #262626;
+  --color-bg-card-hover: #333333;
+  --color-bg-bar: #141414;
 
-  --color-border: #374151;
+  --color-border: #404040;
   --color-accent: #3b82f6;
 
   --font-heading: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
