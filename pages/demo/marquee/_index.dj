@@ -4,6 +4,7 @@ layout: wig-stand:layouts/preview.html
 data:
   document:
     style: marquee
+    layout: marquee:layouts/page.html
   site:
     title: Marquee
     path: /demo/marquee/preview/

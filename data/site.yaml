@@ -4,6 +4,7 @@ author: QuiteClose
 path: /
 locale:
   lang: en-US
+footer: 'Built with <a href="https://github.com/QuiteClose/wig">Wig</a>'
 nav:
   - name: Home
     href: ""

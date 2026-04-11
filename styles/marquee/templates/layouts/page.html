@@ -1,9 +1,8 @@
 <t-extend template="cube:layouts/base.html">
 <t-define name="head">
-<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
-<link rel="stylesheet" t-var:href="assets.highlights.css.colors.path" />
-<link rel="stylesheet" t-var:href="assets.highlights.css.syntax.path" />
-<link rel="stylesheet" t-var:href="assets.marquee.css.marquee.path" />
+<t-for stylesheet in document.style.bundles.css>
+<link rel="stylesheet" t-var:href="stylesheet.path" />
+</t-for>
 </t-define>
 <t-define name="body">
 <t-include template="cube:blocks/skip-link.html" />
@@ -15,14 +14,14 @@
 </t-for>
 </nav>
 <h1><t-var name="site.title">Marquee</t-var></h1>
-<p class="marquee-tagline">Bold. Beautiful. Built to convert.</p>
+<p class="marquee-tagline"><t-var name="site.tagline">Bold. Beautiful. Built to convert.</t-var></p>
 </header>
 <main id="main-content" class="wrapper region flow prose">
 <t-slot />
 </main>
 <footer class="marquee-footer wrapper">
-<a href="https://github.com/QuiteClose/wig">Get Started with Wig</a>
-<p>The web framework for craft-minded builders.</p>
+<t-var name="site.footer"><a href="https://github.com/QuiteClose/wig">Get Started with Wig</a>
+<p>The web framework for craft-minded builders.</p></t-var>
 </footer>
 </t-define>
 </t-extend>

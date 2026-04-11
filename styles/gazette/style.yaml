@@ -1,8 +1,10 @@
 name: gazette
 description: Magazine with multi-column grid and featured articles.
-depends: [highlights]
+depends: [cube, highlights]
 
 bundles:
   css:
+    cube: cube:cube
+    syntax: highlights:syntax
     gazette:
-      - gazette/css/surface.css
+      - css/surface.css

@@ -22,9 +22,10 @@ tokens:
 
 bundles:
   css:
+    cube: cube:cube
     surface:
-      - wig-stand/css/surface.css
+      - css/surface.css
     chrome:
-      - wig-stand/css/blocks/showcase-filters.css
-      - wig-stand/css/blocks/style-card.css
-      - wig-stand/css/blocks/preview-bar.css
+      - css/blocks/showcase-filters.css
+      - css/blocks/style-card.css
+      - css/blocks/preview-bar.css

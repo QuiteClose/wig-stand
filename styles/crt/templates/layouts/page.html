@@ -1,13 +1,14 @@
 <t-extend template="cube:layouts/base.html">
 <t-define name="head">
-<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
-<link rel="stylesheet" t-var:href="assets.crt.css.crt.path" />
+<t-for stylesheet in document.style.bundles.css>
+<link rel="stylesheet" t-var:href="stylesheet.path" />
+</t-for>
 </t-define>
 <t-define name="body">
 <t-include template="cube:blocks/skip-link.html" />
 <header class="wrapper" style="padding-block: 0.5em; border-bottom: 1px solid var(--color-border);">
 <nav class="repel" aria-label="Site" style="font-size: 0.8em;">
-<code style="color: var(--color-text-secondary);">guest@wigstand:~$</code>
+<code style="color: var(--color-text-secondary);"><t-var name="site.tagline">guest@wigstand:~$</t-var></code>
 <span>
 <t-for link in site.nav>
 <t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>
@@ -20,7 +21,7 @@
 <t-slot />
 </main>
 <footer class="crt-status">
-<span>[ EOF ] — built with <a href="https://github.com/QuiteClose/wig">wig</a> — <t-var name="document.title">page</t-var>.txt</span>
+<span><t-var name="site.footer">[ EOF ] — built with <a href="https://github.com/QuiteClose/wig">wig</a></t-var></span>
 </footer>
 </t-define>
 </t-extend>

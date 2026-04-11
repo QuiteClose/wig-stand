@@ -1,12 +1,14 @@
 <t-extend template="readthedocs:layouts/base.html">
 <t-define name="head">
-<link rel="stylesheet" t-var:href="assets.readthedocs.css.readthedocs.path" />
+<t-for stylesheet in document.style.bundles.css>
+<link rel="stylesheet" t-var:href="stylesheet.path" />
+</t-for>
 </t-define>
 <t-define name="body">
 <nav class="rtd-sidebar" aria-label="Main navigation">
 <div class="rtd-sidebar-brand">
 <t-var name="site.title">ReadTheDocs</t-var>
-<span class="rtd-version">v0.1.0</span>
+<span class="rtd-version"><t-var name="site.tagline">v0.1.0</t-var></span>
 </div>
 <div class="rtd-search">
 <input type="search" placeholder="Search docs" aria-label="Search documentation" />
@@ -24,7 +26,7 @@
 <main class="rtd-content">
 <t-slot />
 <footer class="rtd-footer">
-Built with <a href="https://github.com/QuiteClose/wig">Wig</a>. Theme inspired by <a href="https://readthedocs.org">Read the Docs</a>.
+<t-var name="site.footer">Built with <a href="https://github.com/QuiteClose/wig">Wig</a>. Theme inspired by <a href="https://readthedocs.org">Read the Docs</a>.</t-var>
 </footer>
 </main>
 </t-define>

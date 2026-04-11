@@ -1,9 +1,8 @@
 <t-extend template="cube:layouts/base.html">
 <t-define name="head">
-<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
-<link rel="stylesheet" t-var:href="assets.highlights.css.colors.path" />
-<link rel="stylesheet" t-var:href="assets.highlights.css.syntax.path" />
-<link rel="stylesheet" t-var:href="assets.booth.css.booth.path" />
+<t-for stylesheet in document.style.bundles.css>
+<link rel="stylesheet" t-var:href="stylesheet.path" />
+</t-for>
 </t-define>
 <t-define name="body">
 <t-include template="cube:blocks/skip-link.html" />
@@ -12,7 +11,7 @@
 <nav class="repel" aria-label="Site" style="align-items: center;">
 <div>
 <h1><t-var name="site.title">The Booth</t-var></h1>
-<p class="booth-subtitle">&#9654; Now streaming</p>
+<p class="booth-subtitle"><t-var name="site.tagline">&#9654; Now streaming</t-var></p>
 </div>
 <span style="font-size: 0.8rem;">
 <t-for link in site.nav>
@@ -28,7 +27,7 @@
 </main>
 <footer class="booth-player">
 <div class="wrapper">
-<span class="booth-now-playing">&#9654; Playing:</span> <t-var name="document.title">Episode</t-var> &middot; Built with <a href="https://github.com/QuiteClose/wig">Wig</a>
+<t-var name="site.footer"><span class="booth-now-playing">&#9654; Playing:</span> Built with <a href="https://github.com/QuiteClose/wig">Wig</a></t-var>
 </div>
 </footer>
 </t-define>

@@ -4,6 +4,7 @@ layout: wig-stand:layouts/preview.html
 data:
   document:
     style: plain
+    layout: plain:layouts/page.html
   site:
     title: Plain
     path: /demo/plain/preview/

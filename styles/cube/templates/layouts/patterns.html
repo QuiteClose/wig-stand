@@ -1,7 +1,8 @@
 <t-extend template="cube:layouts/base.html">
 <t-define name="head">
-<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
-<t-slot name="extra-css" />
+<t-for stylesheet in document.style.bundles.css>
+<link rel="stylesheet" t-var:href="stylesheet.path" />
+</t-for>
 <style>
 .pattern-library { display: grid; grid-template-columns: 16rem 1fr; gap: var(--space-m, 1.5rem); min-height: 100vh; }
 .pattern-nav { padding: var(--space-m, 1.5rem); border-right: var(--stroke, 1px) solid var(--color-border, #ddd); }

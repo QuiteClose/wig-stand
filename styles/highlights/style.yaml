@@ -5,9 +5,10 @@ scheme: highlights
 
 bundles:
   css:
+    cube: cube:cube
     colors:
-      - highlights/css/globals/colors.css
+      - css/globals/colors.css
     syntax:
-      - highlights/css/globals/syntax.css
+      - css/globals/syntax.css
     highlights:
-      - highlights/css/blocks/theme-picker.css
+      - css/blocks/theme-picker.css

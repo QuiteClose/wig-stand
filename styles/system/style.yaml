@@ -1,8 +1,10 @@
 name: system
 description: Native to whatever OS/browser. Adaptive and familiar.
-depends: [highlights]
+depends: [cube, highlights]
 
 bundles:
   css:
+    cube: cube:cube
+    syntax: highlights:syntax
     system:
-      - system/css/surface.css
+      - css/surface.css

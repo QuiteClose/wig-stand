@@ -1,8 +1,10 @@
 name: dispatch
 description: Newsletter with narrow column and subscribe CTA.
-depends: [highlights]
+depends: [cube, highlights]
 
 bundles:
   css:
+    cube: cube:cube
+    syntax: highlights:syntax
     dispatch:
-      - dispatch/css/surface.css
+      - css/surface.css

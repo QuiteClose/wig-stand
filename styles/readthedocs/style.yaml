@@ -1,7 +1,9 @@
 name: readthedocs
 description: Clone of the Read the Docs documentation theme.
+depends: [cube]
 
 bundles:
   css:
+    cube: cube:cube
     readthedocs:
-      - readthedocs/css/readthedocs.css
+      - css/readthedocs.css

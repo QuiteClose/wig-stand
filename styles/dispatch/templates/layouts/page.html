@@ -1,9 +1,8 @@
 <t-extend template="cube:layouts/base.html">
 <t-define name="head">
-<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
-<link rel="stylesheet" t-var:href="assets.highlights.css.colors.path" />
-<link rel="stylesheet" t-var:href="assets.highlights.css.syntax.path" />
-<link rel="stylesheet" t-var:href="assets.dispatch.css.dispatch.path" />
+<t-for stylesheet in document.style.bundles.css>
+<link rel="stylesheet" t-var:href="stylesheet.path" />
+</t-for>
 </t-define>
 <t-define name="body">
 <t-include template="cube:blocks/skip-link.html" />
@@ -12,7 +11,7 @@
 <nav class="repel" aria-label="Site" style="align-items: center;">
 <div>
 <h1 style="color: #fff; margin: 0;"><t-var name="site.title">Dispatch</t-var></h1>
-<p class="dispatch-issue">Style Showcase &middot; Wig Stand</p>
+<p class="dispatch-issue"><t-var name="site.tagline">Style Showcase &middot; Wig Stand</t-var></p>
 </div>
 <span style="font-size: 0.75rem;">
 <t-for link in site.nav>
@@ -26,7 +25,7 @@
 <t-slot />
 </main>
 <footer class="dispatch-footer">
-Built with <a href="https://github.com/QuiteClose/wig">Wig</a> &middot; You received this because you love good design.
+<t-var name="site.footer">Built with <a href="https://github.com/QuiteClose/wig">Wig</a> &middot; You received this because you love good design.</t-var>
 </footer>
 </div>
 </t-define>

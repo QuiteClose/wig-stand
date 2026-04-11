@@ -1,9 +1,8 @@
 <t-extend template="cube:layouts/base.html">
 <t-define name="head">
-<link rel="stylesheet" t-var:href="assets.cube.css.cube.path" />
-<link rel="stylesheet" t-var:href="assets.highlights.css.colors.path" />
-<link rel="stylesheet" t-var:href="assets.highlights.css.syntax.path" />
-<link rel="stylesheet" t-var:href="assets.cappuccino.css.cappuccino.path" />
+<t-for stylesheet in document.style.bundles.css>
+<link rel="stylesheet" t-var:href="stylesheet.path" />
+</t-for>
 </t-define>
 <t-define name="body">
 <t-include template="cube:blocks/skip-link.html" />
@@ -25,7 +24,7 @@
 <t-slot />
 </main>
 <footer class="capp-footer wrapper">
-<span>Brewed with <a href="https://github.com/QuiteClose/wig">Wig</a></span>
+<span><t-var name="site.footer">Brewed with <a href="https://github.com/QuiteClose/wig">Wig</a></t-var></span>
 </footer>
 </t-define>
 </t-extend>

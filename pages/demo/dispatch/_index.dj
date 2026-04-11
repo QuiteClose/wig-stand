@@ -4,6 +4,7 @@ layout: wig-stand:layouts/preview.html
 data:
   document:
     style: dispatch
+    layout: dispatch:layouts/page.html
   site:
     title: Dispatch
     path: /demo/dispatch/preview/

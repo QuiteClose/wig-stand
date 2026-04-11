@@ -1,3 +1,7 @@
 name: plain
 description: Cube + nothing. The null hypothesis.
 depends: [cube]
+
+bundles:
+  css:
+    cube: cube:cube

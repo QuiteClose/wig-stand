@@ -4,5 +4,6 @@ depends: [cube]
 
 bundles:
   css:
+    cube: cube:cube
     crt:
-      - crt/css/surface.css
+      - css/surface.css
