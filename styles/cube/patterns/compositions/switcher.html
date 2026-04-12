@@ -1,0 +1,23 @@
+---
+name: Switcher
+source: .switcher
+description: "Side-by-side when space allows, stacked when it doesn\u2019t. No media queries \u2014 pure CSS container logic."
+config:
+  - property: "--switcher-threshold"
+    default: "30rem"
+    description: Width below which items stack vertically.
+  - property: "--switcher-gap"
+    default: "1rem"
+    description: Gap between items in both orientations.
+notes: |
+  Each child gets <code>flex-grow: 1</code> with a calculated <code>flex-basis</code>
+  that flips the layout when the container is narrower than
+  <code>--switcher-threshold</code>.
+links:
+  - label: Every Layout
+    url: https://every-layout.dev/layouts/switcher/
+---
+<div class="switcher">
+<div style="border: 1px dashed currentColor; padding: 0.75rem;">Item A</div>
+<div style="border: 1px dashed currentColor; padding: 0.75rem;">Item B</div>
+</div>

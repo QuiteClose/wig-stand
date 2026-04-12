@@ -1,1 +1,9 @@
-<pre><code><span class="keyword">const</span> <span class="variable">x</span><span class="punctuation">:</span> <span class="type">u32</span> <span class="operator">=</span> <span class="number">42</span><span class="punctuation">;</span> <span class="comment">// example</span></code></pre>
+---
+name: Syntax Highlighting
+source: "pre code, .keyword, .variable, ..."
+description: "Syntax highlighting with theme-aware colours. Overrides cube's defaults using <code>--syntax-*</code> tokens from the colour scheme."
+notes: |
+  The same class names as cube's syntax pattern, but the colours adapt
+  to the active theme (light/dark) via the colour scheme tokens.
+---
+<pre><code><span class="keyword">const</span> <span class="variable">x</span><span class="punctuation">:</span> <span class="type">u32</span> <span class="operator">=</span> <span class="number">42</span><span class="punctuation">;</span> <span class="comment">// themed syntax</span></code></pre>

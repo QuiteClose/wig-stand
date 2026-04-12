@@ -1,0 +1,20 @@
+.marquee-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.marquee-footer a {
+  display: inline-block;
+  background: var(--marquee-gradient);
+  color: #fff;
+  padding: 0.5em 1.5em;
+  border-radius: var(--radius-s);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  text-decoration: none;
+}
+
+.marquee-footer a:hover { opacity: 0.9; color: #fff; }

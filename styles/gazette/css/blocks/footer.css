@@ -1,0 +1,9 @@
+.gazette-footer {
+  border-top: 4px double var(--color-text-primary);
+  padding-block: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}

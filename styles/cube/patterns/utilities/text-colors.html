@@ -1,0 +1,16 @@
+---
+name: Text Colors
+source: ".text-primary, .text-secondary, .bg-primary, ..."
+description: Utility classes that map semantic scheme roles to text and background colours.
+notes: |
+  Uses <code>:where()</code> for zero specificity so site styles can easily
+  override. Colours reference <code>--color-text-*</code> and
+  <code>--color-bg-*</code> custom properties defined in the site's surface
+  stylesheet, with system-color fallbacks.
+---
+<p class="text-primary">Primary text colour</p>
+<p class="text-secondary">Secondary text colour</p>
+<p class="text-link">Link-role text colour</p>
+<div class="bg-secondary" style="padding: 0.5rem;">
+<p>Secondary background</p>
+</div>

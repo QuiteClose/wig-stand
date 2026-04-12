@@ -1,0 +1,21 @@
+.dispatch-header {
+  background: var(--color-accent);
+  color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.dispatch-header h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #fff;
+}
+
+.dispatch-header .dispatch-issue {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  margin-top: 0.2rem;
+}

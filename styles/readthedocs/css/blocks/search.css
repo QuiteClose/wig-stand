@@ -1,0 +1,19 @@
+.rtd-search {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.rtd-search input {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-size: 0.85rem;
+  font-family: inherit;
+}
+
+.rtd-search input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}

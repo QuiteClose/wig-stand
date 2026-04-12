@@ -1,0 +1,41 @@
+---
+name: Grid
+source: .grid
+description: Auto-fill responsive grid without media queries. Items wrap based on a minimum column width.
+config:
+  - property: "--gutter"
+    default: "var(--space-l, 1.5rem)"
+    description: Gap between grid items.
+  - property: "--grid-min-item-size"
+    default: "16rem"
+    description: Minimum column width before items wrap to fewer columns.
+  - property: "--grid-placement"
+    default: "auto-fill"
+    description: Grid placement strategy (<code>auto-fill</code> or <code>auto-fit</code>).
+exceptions:
+  - attribute: 'data-layout="50-50"'
+    description: Two-column 50/50 layout. Sets <code>auto-fit</code> with a clamped minimum.
+  - attribute: 'data-layout="thirds"'
+    description: Three-column layout. Sets <code>auto-fit</code> with a clamped minimum.
+links:
+  - label: Every Layout
+    url: https://every-layout.dev/layouts/grid/
+---
+<div class="grid" style="--grid-min-item-size: 10rem;">
+<div style="padding: 1rem; border: 1px dashed currentColor;">Cell A</div>
+<div style="padding: 1rem; border: 1px dashed currentColor;">Cell B</div>
+<div style="padding: 1rem; border: 1px dashed currentColor;">Cell C</div>
+</div>
+
+<!-- variant: 50-50 -->
+<div class="grid" data-layout="50-50">
+<div style="padding: 1rem; border: 1px dashed currentColor;">Left half</div>
+<div style="padding: 1rem; border: 1px dashed currentColor;">Right half</div>
+</div>
+
+<!-- variant: thirds -->
+<div class="grid" data-layout="thirds">
+<div style="padding: 1rem; border: 1px dashed currentColor;">One</div>
+<div style="padding: 1rem; border: 1px dashed currentColor;">Two</div>
+<div style="padding: 1rem; border: 1px dashed currentColor;">Three</div>
+</div>

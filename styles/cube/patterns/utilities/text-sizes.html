@@ -1,0 +1,14 @@
+---
+name: Text Sizes
+source: ".text-step-0, .text-step-1, .text-step--1, ..."
+description: Utility classes mapped to the fluid type scale steps (<code>--size-step-*</code>).
+notes: |
+  Uses <code>:where()</code> for zero specificity. Steps range from
+  <code>-2</code> to <code>5</code>. The custom properties are generated
+  by the token pipeline from the site's typography configuration.
+---
+<p class="text-step--1">Step -1 (small)</p>
+<p class="text-step-0">Step 0 (base)</p>
+<p class="text-step-1">Step 1</p>
+<p class="text-step-2">Step 2 (large)</p>
+<p class="text-step-3">Step 3</p>

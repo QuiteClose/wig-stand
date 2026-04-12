@@ -1,10 +1,9 @@
 name: booth
 description: Podcast with episode listings and audio player.
-depends: [cube, highlights]
 
-bundles:
-  css:
-    cube: cube:cube
-    syntax: highlights:syntax
-    booth:
-      - css/surface.css
+imports:
+  cube:
+    patterns: "**"
+  highlights:
+    patterns:
+      globals: [syntax]

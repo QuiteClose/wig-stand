@@ -1,0 +1,7 @@
+.capp-footer {
+  padding-block: 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+}

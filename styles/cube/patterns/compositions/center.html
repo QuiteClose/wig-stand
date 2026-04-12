@@ -1,0 +1,22 @@
+---
+name: Center
+source: .center
+description: Horizontally centres a block-level element with a max-width and consistent padding.
+config:
+  - property: "--center-max"
+    default: "65ch"
+    description: Maximum inline size of the centred element.
+  - property: "--center-padding"
+    default: "1rem"
+    description: Horizontal padding on each side.
+notes: |
+  Uses <code>content-box</code> sizing so padding is added outside the max-width
+  rather than eating into it. The result is a comfortable reading column that
+  never touches the viewport edges.
+links:
+  - label: Every Layout
+    url: https://every-layout.dev/layouts/center/
+---
+<div class="center" style="background: color-mix(in srgb, CanvasText 5%, transparent);">
+<p>Centered column with max width and horizontal padding.</p>
+</div>

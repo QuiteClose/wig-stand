@@ -1,0 +1,14 @@
+---
+name: Document
+source: body
+description: Baseline typography and canvas colours on the document body. Picks up semantic custom properties when defined by the site style.
+notes: |
+  Sets the system font stack via <code>--font-body</code> and maps
+  <code>--color-text-primary</code> / <code>--color-bg-primary</code> for
+  text and background. Falls back to system colours (<code>CanvasText</code>,
+  <code>Canvas</code>) when no style defines the custom properties.
+---
+<div style="padding: 1rem; border: 1px dashed currentColor;">
+<p>Body text uses the system font stack by default. Colour inherits from <code>--color-text-primary</code> over <code>--color-bg-primary</code>.</p>
+<p>Headings, links, lists, and other elements inherit these baseline settings.</p>
+</div>

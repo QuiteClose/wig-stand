@@ -1,0 +1,39 @@
+.rtd-nav {
+  padding: 0 1rem;
+}
+
+.rtd-nav-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 0.5rem 0.5rem 0.3rem;
+  font-weight: 700;
+}
+
+.rtd-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rtd-nav a {
+  display: block;
+  padding: 0.35rem 0.5rem;
+  color: var(--rtd-sidebar-link);
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-radius: 3px;
+  transition: background 0.1s ease;
+}
+
+.rtd-nav a:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--rtd-sidebar-link-hover);
+}
+
+.rtd-nav a.active {
+  background: var(--rtd-sidebar-active);
+  color: #fff;
+  font-weight: 600;
+}

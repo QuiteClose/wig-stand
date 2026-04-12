@@ -1,5 +1,4 @@
 name: wig-stand
-depends: [cube]
 scheme: mono
 
 tokens:
@@ -20,12 +19,6 @@ tokens:
     base: 16
     scale: 1.5
 
-bundles:
-  css:
-    cube: cube:cube
-    surface:
-      - css/surface.css
-    chrome:
-      - css/blocks/showcase-filters.css
-      - css/blocks/style-card.css
-      - css/blocks/preview-bar.css
+imports:
+  cube:
+    patterns: "**"

@@ -1,0 +1,28 @@
+---
+name: Repel
+source: .repel
+description: Pushes two child elements to opposite ends of a flex container. Classic header/navbar pattern.
+config:
+  - property: "--gutter"
+    default: "var(--space-m, 1rem)"
+    description: Minimum gap between repelled items.
+  - property: "--repel-vertical-alignment"
+    default: "center"
+    description: Vertical alignment of items (<code>align-items</code>).
+exceptions:
+  - attribute: "data-nowrap"
+    description: Prevents wrapping; items stay in a single row regardless of available space.
+links:
+  - label: Every Layout
+    url: https://every-layout.dev/layouts/cluster/
+---
+<div class="repel" style="border: 1px dashed currentColor; padding: 0.5rem;">
+<span>Brand</span>
+<nav class="cluster">Nav A · Nav B</nav>
+</div>
+
+<!-- variant: nowrap -->
+<div class="repel" data-nowrap style="border: 1px dashed currentColor; padding: 0.5rem;">
+<span>Brand</span>
+<nav class="cluster">Nav A · Nav B · Nav C</nav>
+</div>

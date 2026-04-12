@@ -1,0 +1,8 @@
+---
+---
+
+:root {
+<t-for step in styles.wig-stand.tokens.computed.typography>
+  --size-<t-var name="step.name" />: <t-var name="step.value" />;
+</t-for>
+}

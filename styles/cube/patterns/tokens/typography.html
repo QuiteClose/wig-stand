@@ -1,0 +1,19 @@
+---
+name: Typography Scale
+source: ":root (--size-step-*)"
+description: Fluid type scale steps generated from the site's typography configuration. Each step maps to a <code>--size-step-N</code> custom property.
+notes: |
+  Steps are computed by the token pipeline from <code>tokens.typography</code>
+  in the style configuration. The scale interpolates between minimum and
+  maximum viewport sizes using CSS <code>clamp()</code>.
+---
+<div class="stack">
+<p class="text-step--2">Step -2 &mdash; smallest text</p>
+<p class="text-step--1">Step -1 &mdash; small text</p>
+<p class="text-step-0">Step 0 &mdash; base body text</p>
+<p class="text-step-1">Step 1 &mdash; slightly larger</p>
+<p class="text-step-2">Step 2 &mdash; subheading</p>
+<p class="text-step-3">Step 3 &mdash; heading</p>
+<p class="text-step-4">Step 4 &mdash; large heading</p>
+<p class="text-step-5">Step 5 &mdash; display</p>
+</div>

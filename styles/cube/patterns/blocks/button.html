@@ -1,0 +1,45 @@
+---
+name: Button
+source: .button
+description: "Styled control for <code>&lt;button&gt;</code> and <code>&lt;a&gt;</code> elements. Use <code>templates/blocks/button.html</code> for consistent markup."
+config:
+  - property: "--button-bg"
+    default: "var(--color-bg-secondary)"
+    description: Background colour of the button.
+  - property: "--button-color"
+    default: "currentColor"
+    description: Text colour.
+  - property: "--button-border"
+    default: "var(--stroke, 1px solid currentColor)"
+    description: Border shorthand.
+  - property: "--button-padding"
+    default: "0.5em 1.2em"
+    description: Internal padding.
+  - property: "--button-radius"
+    default: "var(--radius-s, 0.2rem)"
+    description: Corner radius.
+exceptions:
+  - attribute: 'data-variant="primary"'
+    description: Inverted colours — filled background with contrasting text.
+  - attribute: 'data-variant="ghost"'
+    description: Transparent background with a visible border.
+  - attribute: 'data-variant="icon-only"'
+    description: Square aspect ratio with centred content. Padding is reduced.
+notes: |
+  Uses <code>inline-flex</code> so icons and text align naturally.
+  The hover and active states use <code>filter: brightness()</code> for
+  theme-agnostic feedback.
+---
+<p><button class="button" type="button">Default</button></p>
+<p><button class="button" type="button" data-variant="primary">Primary</button>
+<button class="button" type="button" data-variant="ghost">Ghost</button></p>
+<p><a class="button" data-variant="ghost" href="#">Link as button</a></p>
+
+<!-- variant: primary -->
+<button class="button" type="button" data-variant="primary">Primary</button>
+
+<!-- variant: ghost -->
+<button class="button" type="button" data-variant="ghost">Ghost</button>
+
+<!-- variant: icon-only -->
+<button class="button" type="button" data-variant="icon-only" aria-label="Close">&times;</button>

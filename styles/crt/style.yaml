@@ -1,9 +1,6 @@
 name: crt
 description: Retro amber/green CRT terminal with extended ASCII.
-depends: [cube]
 
-bundles:
-  css:
-    cube: cube:cube
-    crt:
-      - css/surface.css
+imports:
+  cube:
+    patterns: "**"

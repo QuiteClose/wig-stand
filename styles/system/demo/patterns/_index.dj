@@ -1,0 +1,10 @@
+---
+title: Patterns
+layout: cube:layouts/patterns.html
+paginate:
+  collection: document.style.patterns.all
+  size: 1
+  slug: slug
+  alias: pattern
+  layout: cube:layouts/pattern.html
+---

@@ -1,0 +1,96 @@
+:root {
+  --color-bg-primary: #faf9f6;
+  --color-bg-secondary: #f0eeeb;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #555;
+  --color-accent: #c41e1e;
+  --color-accent-hover: #9a1616;
+  --color-border: #ccc;
+  --stroke: 1px;
+  --radius-s: 0;
+  --font-family-body: "Charter", "Bitstream Charter", "Sitka Text", Cambria, serif;
+  --font-family-heading: Georgia, "Times New Roman", "Noto Serif", serif;
+  --gazette-rule: 2px solid var(--color-text-primary);
+  --gazette-rule-light: 1px solid var(--color-border);
+}
+
+body {
+  font-family: var(--font-family-body);
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  color: var(--color-text-primary);
+  line-height: 1.15;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 900;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  font-weight: 700;
+  padding-bottom: 0.3em;
+  border-bottom: var(--gazette-rule-light);
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+}
+
+a { color: var(--color-accent); text-decoration: none; }
+a:hover { color: var(--color-accent-hover); text-decoration: underline; }
+
+blockquote {
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1.25em;
+  font-style: italic;
+  color: var(--color-text-secondary);
+  font-size: 1.1em;
+}
+
+hr {
+  border: none;
+  border-top: var(--gazette-rule-light);
+  margin-block: 2em;
+}
+
+.prose > p:first-of-type::first-letter {
+  float: left;
+  font-family: var(--font-family-heading);
+  font-size: 3.2em;
+  line-height: 0.85;
+  padding-right: 0.08em;
+  padding-top: 0.05em;
+  font-weight: 900;
+  color: var(--color-accent);
+}
+
+code {
+  background: var(--color-bg-secondary);
+  padding: 0.15em 0.35em;
+  font-size: 0.88em;
+  border: 1px solid var(--color-border);
+}
+
+pre {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  padding: 1em;
+  overflow-x: auto;
+  font-size: 0.88em;
+}
+
+pre code { border: none; padding: 0; background: transparent; }
+
+::selection { background: var(--color-accent); color: #fff; }

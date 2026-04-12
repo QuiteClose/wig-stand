@@ -1,10 +1,9 @@
 name: marquee
 description: Landing page with hero sections and bold CTAs.
-depends: [cube, highlights]
 
-bundles:
-  css:
-    cube: cube:cube
-    syntax: highlights:syntax
-    marquee:
-      - css/surface.css
+imports:
+  cube:
+    patterns: "**"
+  highlights:
+    patterns:
+      globals: [syntax]

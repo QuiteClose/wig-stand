@@ -1,14 +1,7 @@
 name: highlights
 description: Syntax-highlighting colors, theme picker, and showcase blocks.
-depends: [cube]
 scheme: highlights
 
-bundles:
-  css:
-    cube: cube:cube
-    colors:
-      - css/globals/colors.css
-    syntax:
-      - css/globals/syntax.css
-    highlights:
-      - css/blocks/theme-picker.css
+imports:
+  cube:
+    patterns: "**"

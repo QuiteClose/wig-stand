@@ -1,0 +1,18 @@
+---
+name: Colour Scheme
+source: ":root, [data-theme]"
+description: "Semantic colour tokens for light and dark themes. Driven by the <code>highlights</code> colour data via Toupee rendering."
+notes: |
+  Provides <code>--color-text-*</code>, <code>--color-bg-*</code>, and
+  <code>--syntax-*</code> custom properties for both light and dark modes.
+  The dark theme is activated via <code>[data-theme="dark"]</code> on the
+  root element.
+---
+<div class="stack" style="--stack-space: 0.5rem;">
+<div class="cluster" style="--cluster-space: 0.5rem;">
+  <div style="width: 3rem; height: 3rem; border-radius: 0.25rem; background: var(--color-bg-primary); border: 1px solid var(--color-border, #ddd);"></div>
+  <div style="width: 3rem; height: 3rem; border-radius: 0.25rem; background: var(--color-bg-secondary); border: 1px solid var(--color-border, #ddd);"></div>
+  <div style="width: 3rem; height: 3rem; border-radius: 0.25rem; background: var(--color-bg-embed); border: 1px solid var(--color-border, #ddd);"></div>
+</div>
+<p><small>Light theme backgrounds</small></p>
+</div>

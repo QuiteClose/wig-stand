@@ -1,5 +1,21 @@
-<nav class="showcase-filters" aria-label="Style categories">
+---
+name: Showcase Filters
+source: .showcase-filters
+description: Horizontal scrollable category filter tabs for the style showcase grid.
+config:
+  - property: "--color-border"
+    default: "#404040"
+    description: Border colour for tab chrome.
+  - property: "--color-accent"
+    default: "#3b82f6"
+    description: Active/hover accent colour.
+  - property: "--transition-base"
+    default: "200ms"
+    description: Hover and press transition speed.
+---
+<div class="showcase-filters">
 <button type="button" aria-pressed="true">All</button>
-<button type="button" aria-pressed="false">Blog</button>
-<button type="button" aria-pressed="false">Portfolio</button>
-</nav>
+<button type="button">Blog</button>
+<button type="button">Portfolio</button>
+<button type="button">Documentation</button>
+</div>

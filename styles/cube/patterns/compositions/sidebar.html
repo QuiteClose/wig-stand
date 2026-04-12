@@ -1,0 +1,30 @@
+---
+name: Sidebar
+source: .sidebar
+description: Two-column layout where the sidebar has a fixed width and the main content fills the remaining space.
+config:
+  - property: "--sidebar-target-width"
+    default: "20rem"
+    description: Ideal width of the sidebar column.
+  - property: "--sidebar-content-min"
+    default: "50%"
+    description: Minimum width of the main content area. When the content would be narrower than this, the layout stacks.
+  - property: "--sidebar-gap"
+    default: "1rem"
+    description: Gap between sidebar and main content columns.
+notes: |
+  The sidebar stacks when the viewport is too narrow for both columns.
+  Use <code>--sidebar-content-min</code> to control the breakpoint.
+  The first child is the sidebar; the last child is the main content.
+links:
+  - label: Every Layout
+    url: https://every-layout.dev/layouts/sidebar/
+---
+<div class="sidebar">
+<aside style="border: 1px dashed currentColor; padding: 0.75rem;">
+<p>Sidebar column</p>
+</aside>
+<main style="border: 1px dashed currentColor; padding: 0.75rem;">
+<p>Main column grows when there is room.</p>
+</main>
+</div>

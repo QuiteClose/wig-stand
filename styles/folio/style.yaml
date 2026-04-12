@@ -1,10 +1,9 @@
 name: folio
 description: Image gallery and photography portfolio.
-depends: [cube, highlights]
 
-bundles:
-  css:
-    cube: cube:cube
-    syntax: highlights:syntax
-    folio:
-      - css/surface.css
+imports:
+  cube:
+    patterns: "**"
+  highlights:
+    patterns:
+      globals: [syntax]

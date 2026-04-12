@@ -1,0 +1,20 @@
+---
+name: Stack
+source: .stack
+description: "Vertical stacking with consistent spacing using flexbox gap. Like <code>flow</code> but uses <code>gap</code> instead of margin."
+config:
+  - property: "--stack-space"
+    default: "1rem"
+    description: Gap between stacked items.
+  - property: "--stack-align"
+    default: "stretch"
+    description: Horizontal alignment of items (<code>align-items</code>).
+notes: |
+  Prefer <code>stack</code> when you want uniform spacing that cannot be overridden
+  per-child. Prefer <code>flow</code> when individual children need varied spacing.
+---
+<div class="stack">
+<p style="border: 1px dashed currentColor; padding: 0.5rem;">First block in the stack.</p>
+<p style="border: 1px dashed currentColor; padding: 0.5rem;">Second block, spaced with --stack-space.</p>
+<p style="border: 1px dashed currentColor; padding: 0.5rem;">Third block.</p>
+</div>

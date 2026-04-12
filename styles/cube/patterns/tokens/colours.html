@@ -1,0 +1,24 @@
+---
+name: Colour Tokens
+source: ":root (--color-*)"
+description: Semantic colour custom properties for text, backgrounds, borders, and accents. Defined by the site style on <code>:root</code>.
+notes: |
+  Colours use a semantic naming convention (<code>--color-text-primary</code>,
+  <code>--color-bg-secondary</code>) rather than raw values. This allows
+  styles to define dark/light schemes by reassigning the same properties.
+---
+<div class="stack" style="--stack-space: 0.5rem;">
+<div class="cluster" style="--cluster-space: 0.5rem;">
+  <div style="width: 3rem; height: 3rem; border-radius: 0.25rem; background: var(--color-bg-primary, Canvas); border: 1px solid var(--color-border, #ddd);"></div>
+  <div style="width: 3rem; height: 3rem; border-radius: 0.25rem; background: var(--color-bg-secondary, #f6f6f6); border: 1px solid var(--color-border, #ddd);"></div>
+  <div style="width: 3rem; height: 3rem; border-radius: 0.25rem; background: var(--color-bg-embed, #eee); border: 1px solid var(--color-border, #ddd);"></div>
+</div>
+<p><small>Backgrounds: primary, secondary, embed</small></p>
+<div class="cluster" style="--cluster-space: 1rem;">
+  <span style="color: var(--color-text-primary, CanvasText);">Primary</span>
+  <span style="color: var(--color-text-secondary, #666);">Secondary</span>
+  <span style="color: var(--color-text-emphasis, CanvasText); font-weight: 700;">Emphasis</span>
+  <span style="color: var(--color-text-link, LinkText); text-decoration: underline;">Link</span>
+</div>
+<p><small>Text: primary, secondary, emphasis, link</small></p>
+</div>

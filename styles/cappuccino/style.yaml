@@ -1,10 +1,9 @@
 name: cappuccino
 description: Warm, earthy, natural blog aesthetic.
-depends: [cube, highlights]
 
-bundles:
-  css:
-    cube: cube:cube
-    syntax: highlights:syntax
-    cappuccino:
-      - css/surface.css
+imports:
+  cube:
+    patterns: "**"
+  highlights:
+    patterns:
+      globals: [syntax]

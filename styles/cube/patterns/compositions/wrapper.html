@@ -1,0 +1,18 @@
+---
+name: Wrapper
+source: .wrapper
+description: Constrains content to a maximum inline size with horizontal padding. The bread-and-butter page container.
+config:
+  - property: "--wrapper-max-width"
+    default: "85rem"
+    description: Maximum inline size of the wrapper.
+  - property: "--gutter"
+    default: "1rem"
+    description: Horizontal padding (inline gutters).
+notes: |
+  Uses <code>content-box</code> sizing so padding is added outside the max-width.
+  Sets <code>position: relative</code> for positioned children.
+---
+<div class="wrapper" style="background: color-mix(in srgb, CanvasText 3%, transparent);">
+<p>Wrapper: max width with horizontal padding.</p>
+</div>

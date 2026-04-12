@@ -1,11 +1,27 @@
-<article class="style-card">
-<a href="/demo/highlights/">
-<div class="style-card__preview">
-<iframe src="/demo/highlights/preview/" loading="lazy" tabindex="-1" title="Preview"></iframe>
+---
+name: Style Card
+source: .style-card
+description: Preview card with scaled iframe thumbnail for the style showcase grid.
+config:
+  - property: "--color-bg-card"
+    default: "#262626"
+    description: Card background.
+  - property: "--color-bg-card-hover"
+    default: "#333333"
+    description: Card background on hover.
+  - property: "--color-accent"
+    default: "#3b82f6"
+    description: Hover ring colour.
+  - property: "--radius-m"
+    default: "0.5rem"
+    description: Card corner radius.
+---
+<div class="style-card">
+<div class="style-card__preview" style="background: var(--color-bg-embed);">
+  <p style="padding: 1rem; color: var(--color-text-secondary);">Preview area</p>
 </div>
 <div class="style-card__info">
-<h2 class="style-card__name">Highlights</h2>
-<p class="style-card__description">Minimal, clean, warm. Built-in syntax highlighting.</p>
+  <h3 class="style-card__name">Style Name</h3>
+  <p class="style-card__description">A brief description of this style.</p>
 </div>
-</a>
-</article>
+</div>

@@ -1,8 +1,6 @@
 <t-extend template="readthedocs:layouts/base.html">
 <t-define name="head">
-<t-for stylesheet in document.style.bundles.css>
-<link rel="stylesheet" t-var:href="stylesheet.path" />
-</t-for>
+<link rel="stylesheet" t-var:href="document.style.css.path" />
 </t-define>
 <t-define name="body">
 <nav class="rtd-sidebar" aria-label="Main navigation">

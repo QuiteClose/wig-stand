@@ -1,5 +1,23 @@
+---
+name: Theme Picker
+source: .theme-picker
+description: Inline light/dark theme toggle. Displays labelled buttons for switching colour schemes.
+config:
+  - property: "--stroke-light"
+    default: "1px solid #ccc"
+    description: Border around the picker.
+  - property: "--radius-s"
+    default: "0.25rem"
+    description: Corner rounding.
+  - property: "--transition-base"
+    default: "200ms"
+    description: Hover and press transition speed.
+notes: |
+  Uses <code>aria-pressed</code> to indicate the current theme. The active
+  button receives a link-coloured border via <code>[aria-pressed="true"]</code>.
+---
 <div class="theme-picker">
-<span class="theme-picker__label">Theme</span>
-<button type="button" data-set-theme="light" aria-pressed="true">Light</button>
-<button type="button" data-set-theme="dark" aria-pressed="false">Dark</button>
+<span class="theme-picker__label">Theme:</span>
+<button type="button" aria-pressed="true">Light</button>
+<button type="button" aria-pressed="false">Dark</button>
 </div>

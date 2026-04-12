@@ -1,0 +1,17 @@
+.system-header {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.85rem;
+}
+
+.system-header h1 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+  display: inline;
+}
+
+.system-header .system-breadcrumb {
+  color: var(--color-text-secondary);
+  font-size: 0.8rem;
+}

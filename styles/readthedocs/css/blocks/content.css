@@ -1,0 +1,15 @@
+.rtd-content {
+  flex: 1;
+  min-width: 0;
+  max-width: 800px;
+  padding: 2rem 3rem;
+}
+
+@media (max-width: 768px) {
+  body { flex-direction: column; }
+
+  .rtd-content {
+    padding: 1.5rem;
+    max-width: 100%;
+  }
+}

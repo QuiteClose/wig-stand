@@ -1,0 +1,18 @@
+---
+name: Narrow
+source: "[data-exception='narrow']"
+description: "Exception that constrains content to a narrower width. Applied via <code>data-exception=\"narrow\"</code>."
+config:
+  - property: "--exception-narrow"
+    default: "45ch"
+    description: Maximum inline size for the narrowed element.
+notes: |
+  Centres horizontally with <code>margin-inline: auto</code>.
+  Use sparingly inside wider compositions — prefer composition-level
+  properties when possible.
+---
+<div class="center">
+<div data-exception="narrow" style="border: 1px dashed currentColor; padding: 0.75rem;">
+<p>Narrow exception inside a wide wrapper. Content is more tightly constrained.</p>
+</div>
+</div>

@@ -1,0 +1,10 @@
+---
+name: Skip Link
+source: .visually-hidden
+description: Accessibility block for keyboard users to skip past navigation. Uses the <code>visually-hidden</code> utility.
+notes: |
+  The link is invisible until focused via keyboard tab. On focus the
+  <code>:not(:focus):not(:active)</code> guard on <code>.visually-hidden</code>
+  makes it visible.
+---
+<a href="#main-content" class="visually-hidden">Skip to main content</a>
