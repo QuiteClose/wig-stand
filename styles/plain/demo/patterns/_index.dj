@@ -8,3 +8,7 @@ paginate:
   alias: pattern
   layout: cube:layouts/pattern.html
 ---
+
+# Plain
+
+A deliberately minimal style that prioritises readability above all else. Plain uses system fonts, a restrained colour palette, and no decorative elements --- a clean baseline that proves good typography and spacing are often all a site needs.

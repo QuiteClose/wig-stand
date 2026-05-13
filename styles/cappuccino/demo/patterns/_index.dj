@@ -8,3 +8,7 @@ paginate:
   alias: pattern
   layout: cube:layouts/pattern.html
 ---
+
+# Cappuccino
+
+A warm, inviting style with earthy tones and soft contrast. Cappuccino draws its colour palette from coffee-house aesthetics --- rich browns, creamy highlights, and comfortable reading typography. It inherits colour schemes from the Highlights style and layers its own surface treatment on top.

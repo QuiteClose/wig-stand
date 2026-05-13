@@ -8,3 +8,7 @@ paginate:
   alias: pattern
   layout: cube:layouts/pattern.html
 ---
+
+# Read the Docs
+
+A documentation-focused style inspired by technical reference sites. Read the Docs features persistent sidebar navigation, clear heading hierarchy, and code-friendly layouts --- purpose-built for API documentation, user guides, and knowledge bases.

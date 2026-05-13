@@ -8,3 +8,7 @@ paginate:
   alias: pattern
   layout: cube:layouts/pattern.html
 ---
+
+# Highlights
+
+A foundational style providing syntax highlighting and colour schemes for code-focused content. Highlights supplies curated colour palettes (Rosé Pine, Solarized, and others) that other styles can import, along with patterns for rendering code blocks with accurate, readable syntax colouring.

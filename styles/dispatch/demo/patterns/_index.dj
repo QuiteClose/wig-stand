@@ -8,3 +8,7 @@ paginate:
   alias: pattern
   layout: cube:layouts/pattern.html
 ---
+
+# Dispatch
+
+A news-oriented style built for timely content and editorial layouts. Dispatch uses bold headlines, clear article hierarchy, and structured grids to present stories with urgency and authority --- suited for newsletters, news sites, and editorial platforms.

@@ -61,6 +61,29 @@
   margin-block-start: 0;
 }
 
+/* ---- Library link ---- */
+
+.pattern-nav-library {
+  display: block;
+  font-weight: 700;
+  font-size: var(--size-step-0, 1rem);
+  padding: 0.35em 0.5em;
+  margin-block-end: var(--space-s, 0.75rem);
+  border-radius: var(--radius-s, 0.25rem);
+  text-decoration: none;
+  color: var(--color-text-secondary, #666);
+}
+
+.pattern-nav-library:hover {
+  color: var(--color-text-primary, #111);
+  background: var(--color-bg-secondary, #f6f6f6);
+}
+
+.pattern-nav-library.active {
+  color: var(--color-text-primary, #111);
+  background: var(--color-bg-secondary, #f6f6f6);
+}
+
 /* ---- Main content area ---- */
 
 .pattern-content {
@@ -69,10 +92,23 @@
   min-height: 100vh;
 }
 
+/* ---- Overview pane ---- */
+
+.pattern-overview {
+  display: none;
+  flex: 1;
+  padding: var(--space-l, 2rem) var(--space-xl, 3rem);
+  overflow-y: auto;
+}
+
+.pattern-overview.active {
+  display: block;
+}
+
 /* ---- Viewport controls ---- */
 
 .pattern-viewport-controls {
-  display: flex;
+  display: none;
   gap: 0.5rem;
   padding: var(--space-xs, 0.5rem) var(--space-m, 1.5rem);
   border-block-end: var(--stroke, 1px) solid var(--color-border, #ddd);
@@ -101,6 +137,12 @@
   border-color: var(--color-text-primary, #111);
 }
 
+/* ---- Viewport controls + iframe: visible when active ---- */
+
+.pattern-viewport-controls.active {
+  display: flex;
+}
+
 /* ---- Preview iframe ---- */
 
 .pattern-preview-frame {
@@ -108,9 +150,13 @@
   width: 100%;
   border: none;
   margin: 0 auto;
-  display: block;
+  display: none;
   transition: max-width 0.2s ease;
   background: white;
+}
+
+.pattern-preview-frame.active {
+  display: block;
 }
 
 /* ---- Responsive ---- */

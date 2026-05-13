@@ -8,3 +8,7 @@ paginate:
   alias: pattern
   layout: cube:layouts/pattern.html
 ---
+
+# Booth
+
+A clean exhibition style designed for showcasing work in a gallery-like presentation. Booth uses generous whitespace, restrained typography, and a neutral palette to let content take centre stage --- ideal for portfolios and curated collections.

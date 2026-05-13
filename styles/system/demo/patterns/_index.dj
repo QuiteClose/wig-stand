@@ -8,3 +8,7 @@ paginate:
   alias: pattern
   layout: cube:layouts/pattern.html
 ---
+
+# System
+
+A lightweight style that relies entirely on system fonts and native platform conventions. System delivers fast load times and a familiar feel by embracing the user's operating system typography and colour preferences, including automatic dark mode support where available.

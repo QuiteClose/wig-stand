@@ -8,3 +8,7 @@ paginate:
   alias: pattern
   layout: cube:layouts/pattern.html
 ---
+
+# The Gazette
+
+A classic newspaper-inspired style with serif typography, multi-column layouts, and traditional editorial structure. The Gazette evokes broadsheet journalism --- strong masthead, clear section hierarchy, and print-influenced visual rhythm for long-form reading.

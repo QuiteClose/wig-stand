@@ -6,6 +6,7 @@
 <t-define name="body">
 <div class="pattern-library">
 <nav class="pattern-nav" aria-label="Pattern categories">
+<a href="#library" class="pattern-nav-library active" data-library>Library</a>
 <t-if var="document.style.patterns.tokens.items">
 <h2>Tokens</h2>
 <ul>
@@ -86,13 +87,39 @@
 <button type="button" data-width="1024" aria-label="Desktop viewport">Desktop</button>
 <button type="button" data-width="100%" aria-label="Full width viewport" class="active">Full</button>
 </div>
+<div id="library" class="pattern-overview prose active"><t-slot /></div>
 <iframe name="pattern-preview" class="pattern-preview-frame" title="Pattern preview"></iframe>
 </main>
 </div>
 <script>
 (function() {
-  var buttons = document.querySelectorAll('.pattern-viewport-controls button');
+  var overview = document.querySelector('.pattern-overview');
   var frame = document.querySelector('.pattern-preview-frame');
+  var controls = document.querySelector('.pattern-viewport-controls');
+  var libraryLink = document.querySelector('[data-library]');
+  var patternLinks = document.querySelectorAll('.pattern-nav a[target="pattern-preview"]');
+
+  function showOverview(e) {
+    if (e) e.preventDefault();
+    overview.classList.add('active');
+    frame.classList.remove('active');
+    controls.classList.remove('active');
+    libraryLink.classList.add('active');
+  }
+
+  function showPattern() {
+    overview.classList.remove('active');
+    frame.classList.add('active');
+    controls.classList.add('active');
+    libraryLink.classList.remove('active');
+  }
+
+  libraryLink.addEventListener('click', showOverview);
+  patternLinks.forEach(function(link) {
+    link.addEventListener('click', showPattern);
+  });
+
+  var buttons = document.querySelectorAll('.pattern-viewport-controls button');
   buttons.forEach(function(btn) {
     btn.addEventListener('click', function() {
       buttons.forEach(function(b) { b.classList.remove('active'); });

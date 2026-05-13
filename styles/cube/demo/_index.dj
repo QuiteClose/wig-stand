@@ -2,3 +2,32 @@
 title: Pattern Library
 layout: cube:layouts/patterns.html
 ---
+
+# CUBE CSS Pattern Library
+
+This pattern library documents the design primitives and components available in the **Cube** style, organised according to the [CUBE CSS](https://cube.fyi/) methodology.
+
+## What is CUBE CSS?
+
+CUBE stands for **Composition, Utility, Block, Exception** --- a CSS methodology that embraces the cascade rather than fighting it. Instead of scoping every element, CUBE layers its styles so that each layer has a clear, predictable responsibility:
+
+{.flow}
+- **Tokens** --- design decisions expressed as CSS custom properties: colours, spacing scales, type scales, and radii.
+- **Resets** --- a thin normalisation layer that levels browser defaults.
+- **Globals** --- document-wide typographic and flow rules applied through the cascade.
+- **Fonts** --- web-font declarations and font-stack definitions.
+- **Compositions** --- skeletal layout primitives (stack, cluster, sidebar, grid, switcher, etc.) that control _how elements relate to each other_ without dictating appearance.
+- **Utilities** --- single-purpose classes that apply a single token or property (text sizes, colours, spacing, etc.).
+- **Blocks** --- the styled components: buttons, cards, prose regions, tags, and so on. Each block owns its own cosmetic rules.
+- **Exceptions** --- context-specific overrides applied via data attributes (e.g., `[data-variant="narrow"]`).
+
+## How Wig works with CUBE CSS
+
+Wig treats CUBE CSS as a first-class citizen. Each style declares its patterns in `patterns/` directories, organised into the categories above. At build time Wig:
+
+{.flow}
+1. Discovers pattern files (HTML with YAML front-matter) in each category directory.
+2. Auto-bundles the associated CSS into a single stylesheet ordered by `@layer` --- tokens first, exceptions last --- so that the cascade works correctly without manual ordering.
+3. Exposes every pattern, its rendered HTML, and its variants in the template context for pagination and display.
+
+Browse the sidebar to explore each pattern. Click any item to see a live preview with viewport controls.

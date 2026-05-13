@@ -8,3 +8,7 @@ paginate:
   alias: pattern
   layout: cube:layouts/pattern.html
 ---
+
+# Marquee
+
+A bold, attention-grabbing style designed for landing pages and promotional content. Marquee uses large hero sections, dramatic typography, and strong calls to action --- built for sites that need to make an immediate visual impact and guide visitors toward a goal.
