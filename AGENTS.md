@@ -21,7 +21,7 @@ wig-stand/
   data/               # site-level data (YAML)
   pages/              # content pages (Djot)
   styles/             # all styles (each with patterns, css, templates, demo content)
-  assets/             # static files (images, fonts, demo stock photos)
+  files/              # static files (images, fonts, demo stock photos) → output root
   zig-out/site/       # build output (not checked in)
 ```
 

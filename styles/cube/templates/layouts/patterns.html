@@ -6,7 +6,7 @@
 <t-define name="body">
 <div class="pattern-library">
 <nav class="pattern-nav" aria-label="Pattern categories">
-<a href="#library" class="pattern-nav-library active" data-library>Library</a>
+<a href="#library" class="pattern-nav-library" aria-current="page" data-library>Library</a>
 <t-if var="document.style.patterns.tokens.items">
 <h2>Tokens</h2>
 <ul>
@@ -99,24 +99,32 @@
   var libraryLink = document.querySelector('[data-library]');
   var patternLinks = document.querySelectorAll('.pattern-nav a[target="pattern-preview"]');
 
+  function clearNavCurrent() {
+    libraryLink.removeAttribute('aria-current');
+    patternLinks.forEach(function(l) { l.removeAttribute('aria-current'); });
+  }
+
   function showOverview(e) {
     if (e) e.preventDefault();
     overview.classList.add('active');
     frame.classList.remove('active');
     controls.classList.remove('active');
-    libraryLink.classList.add('active');
+    clearNavCurrent();
+    libraryLink.setAttribute('aria-current', 'page');
   }
 
-  function showPattern() {
+  function showPattern(link) {
     overview.classList.remove('active');
     frame.classList.add('active');
     controls.classList.add('active');
-    libraryLink.classList.remove('active');
+    clearNavCurrent();
+    link.setAttribute('aria-current', 'page');
+    link.scrollIntoView({ block: 'nearest' });
   }
 
   libraryLink.addEventListener('click', showOverview);
   patternLinks.forEach(function(link) {
-    link.addEventListener('click', showPattern);
+    link.addEventListener('click', function() { showPattern(link); });
   });
 
   var buttons = document.querySelectorAll('.pattern-viewport-controls button');
