@@ -1,70 +1,127 @@
 ---
 ---
+/*
+ * Colour tokens: per-theme document and syntax custom properties.
+ *
+ * Rendered per-consumer at bundle time. For each entry in `style.highlights.available`,
+ * emits a `[data-theme="{pair}-light"]` and `[data-theme="{pair}-dark"]` selector
+ * block containing the resolved hex values for every document and syntax role.
+ *
+ * Also emits `:root` rules for the default pair (both prefers-color-scheme variants)
+ * so the page has colours before any JS runs.
+ *
+ * Palette path: styles.{pair.source}.colors.{schemeId} … (consumer sets pair.source).
+ * Consumer declares: highlights.default (pair id) + highlights.available (map of pairs).
+ */
+<t-for pair in style.highlights.available>
+[data-theme="<t-raw name="pair.id" />-light"] {
+  --color-text-primary:   <t-raw name="styles.$(pair.source).colors.$(pair.light).document.text.primary" />;
+  --color-text-secondary: <t-raw name="styles.$(pair.source).colors.$(pair.light).document.text.secondary" />;
+  --color-text-emphasis:  <t-raw name="styles.$(pair.source).colors.$(pair.light).document.text.emphasis" />;
+  --color-text-heading:   <t-raw name="styles.$(pair.source).colors.$(pair.light).document.text.heading" />;
+  --color-text-link:      <t-raw name="styles.$(pair.source).colors.$(pair.light).document.text.link" />;
 
-:root {
-  --color-text-primary: <t-raw name="colors.highlights.light.styles.text.primary" />;
-  --color-text-secondary: <t-raw name="colors.highlights.light.styles.text.secondary" />;
-  --color-text-emphasis: <t-raw name="colors.highlights.light.styles.text.emphasis" />;
-  --color-text-heading: <t-raw name="colors.highlights.light.styles.text.heading" />;
-  --color-text-link: <t-raw name="colors.highlights.light.styles.text.link" />;
+  --color-bg-primary:   <t-raw name="styles.$(pair.source).colors.$(pair.light).document.background.primary" />;
+  --color-bg-secondary: <t-raw name="styles.$(pair.source).colors.$(pair.light).document.background.secondary" />;
+  --color-bg-embed:     <t-raw name="styles.$(pair.source).colors.$(pair.light).document.background.embed" />;
 
-  --color-bg-primary: <t-raw name="colors.highlights.light.styles.background.primary" />;
-  --color-bg-secondary: <t-raw name="colors.highlights.light.styles.background.secondary" />;
-  --color-bg-embed: <t-raw name="colors.highlights.light.styles.background.embed" />;
+  --syntax-variable:    <t-raw name="styles.$(pair.source).colors.$(pair.light).syntax.variable" />;
+  --syntax-constant:    <t-raw name="styles.$(pair.source).colors.$(pair.light).syntax.constant" />;
+  --syntax-punctuation: <t-raw name="styles.$(pair.source).colors.$(pair.light).syntax.punctuation" />;
+  --syntax-operator:    <t-raw name="styles.$(pair.source).colors.$(pair.light).syntax.operator" />;
+  --syntax-number:      <t-raw name="styles.$(pair.source).colors.$(pair.light).syntax.number" />;
+  --syntax-type:        <t-raw name="styles.$(pair.source).colors.$(pair.light).syntax.type" />;
+  --syntax-function:    <t-raw name="styles.$(pair.source).colors.$(pair.light).syntax.function" />;
+  --syntax-string:      <t-raw name="styles.$(pair.source).colors.$(pair.light).syntax.string" />;
+  --syntax-comment:     <t-raw name="styles.$(pair.source).colors.$(pair.light).syntax.comment" />;
+  --syntax-keyword:     <t-raw name="styles.$(pair.source).colors.$(pair.light).syntax.keyword" />;
 
-  --syntax-variable: <t-raw name="colors.highlights.light.syntax.variable" />;
-  --syntax-constant: <t-raw name="colors.highlights.light.syntax.constant" />;
-  --syntax-punctuation: <t-raw name="colors.highlights.light.syntax.punctuation" />;
-  --syntax-operator: <t-raw name="colors.highlights.light.syntax.operator" />;
-  --syntax-number: <t-raw name="colors.highlights.light.syntax.number" />;
-  --syntax-type: <t-raw name="colors.highlights.light.syntax.type" />;
-  --syntax-function: <t-raw name="colors.highlights.light.syntax.function" />;
-  --syntax-string: <t-raw name="colors.highlights.light.syntax.string" />;
-  --syntax-comment: <t-raw name="colors.highlights.light.syntax.comment" />;
-  --syntax-keyword: <t-raw name="colors.highlights.light.syntax.keyword" />;
-
-  --font-heading: Georgia, "Times New Roman", Times, serif;
-  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-
-  --space-xs: 0.25rem;
-  --space-s: 0.5rem;
-  --space-m: 1rem;
-  --space-l: 1.5rem;
-  --space-xl: 2rem;
-  --space-2xl: 3rem;
-  --gutter: 1rem;
-  --radius-s: 0.25rem;
-  --transition-base: 250ms;
-  --leading-fine: 1.1;
-  --measure: 65ch;
-
-  --stroke: 1px solid <t-raw name="colors.highlights.light.styles.text.secondary" />;
-  --stroke-light: 1px solid <t-raw name="colors.highlights.light.styles.background.secondary" />;
+  --stroke:       1px solid <t-raw name="styles.$(pair.source).colors.$(pair.light).document.text.secondary" />;
+  --stroke-light: 1px solid <t-raw name="styles.$(pair.source).colors.$(pair.light).document.background.secondary" />;
 }
 
-[data-theme="dark"] {
-  --color-text-primary: <t-raw name="colors.highlights.dark.styles.text.primary" />;
-  --color-text-secondary: <t-raw name="colors.highlights.dark.styles.text.secondary" />;
-  --color-text-emphasis: <t-raw name="colors.highlights.dark.styles.text.emphasis" />;
-  --color-text-heading: <t-raw name="colors.highlights.dark.styles.text.heading" />;
-  --color-text-link: <t-raw name="colors.highlights.dark.styles.text.link" />;
+[data-theme="<t-raw name="pair.id" />-dark"] {
+  --color-text-primary:   <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.text.primary" />;
+  --color-text-secondary: <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.text.secondary" />;
+  --color-text-emphasis:  <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.text.emphasis" />;
+  --color-text-heading:   <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.text.heading" />;
+  --color-text-link:      <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.text.link" />;
 
-  --color-bg-primary: <t-raw name="colors.highlights.dark.styles.background.primary" />;
-  --color-bg-secondary: <t-raw name="colors.highlights.dark.styles.background.secondary" />;
-  --color-bg-embed: <t-raw name="colors.highlights.dark.styles.background.embed" />;
+  --color-bg-primary:   <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.background.primary" />;
+  --color-bg-secondary: <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.background.secondary" />;
+  --color-bg-embed:     <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.background.embed" />;
 
-  --syntax-variable: <t-raw name="colors.highlights.dark.syntax.variable" />;
-  --syntax-constant: <t-raw name="colors.highlights.dark.syntax.constant" />;
-  --syntax-punctuation: <t-raw name="colors.highlights.dark.syntax.punctuation" />;
-  --syntax-operator: <t-raw name="colors.highlights.dark.syntax.operator" />;
-  --syntax-number: <t-raw name="colors.highlights.dark.syntax.number" />;
-  --syntax-type: <t-raw name="colors.highlights.dark.syntax.type" />;
-  --syntax-function: <t-raw name="colors.highlights.dark.syntax.function" />;
-  --syntax-string: <t-raw name="colors.highlights.dark.syntax.string" />;
-  --syntax-comment: <t-raw name="colors.highlights.dark.syntax.comment" />;
-  --syntax-keyword: <t-raw name="colors.highlights.dark.syntax.keyword" />;
+  --syntax-variable:    <t-raw name="styles.$(pair.source).colors.$(pair.dark).syntax.variable" />;
+  --syntax-constant:    <t-raw name="styles.$(pair.source).colors.$(pair.dark).syntax.constant" />;
+  --syntax-punctuation: <t-raw name="styles.$(pair.source).colors.$(pair.dark).syntax.punctuation" />;
+  --syntax-operator:    <t-raw name="styles.$(pair.source).colors.$(pair.dark).syntax.operator" />;
+  --syntax-number:      <t-raw name="styles.$(pair.source).colors.$(pair.dark).syntax.number" />;
+  --syntax-type:        <t-raw name="styles.$(pair.source).colors.$(pair.dark).syntax.type" />;
+  --syntax-function:    <t-raw name="styles.$(pair.source).colors.$(pair.dark).syntax.function" />;
+  --syntax-string:      <t-raw name="styles.$(pair.source).colors.$(pair.dark).syntax.string" />;
+  --syntax-comment:     <t-raw name="styles.$(pair.source).colors.$(pair.dark).syntax.comment" />;
+  --syntax-keyword:     <t-raw name="styles.$(pair.source).colors.$(pair.dark).syntax.keyword" />;
 
-  --stroke: 1px solid <t-raw name="colors.highlights.dark.styles.text.secondary" />;
-  --stroke-light: 1px solid <t-raw name="colors.highlights.dark.styles.background.secondary" />;
+  --stroke:       1px solid <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.text.secondary" />;
+  --stroke-light: 1px solid <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.background.secondary" />;
 }
+</t-for>
+
+/* Default pair: system-preference fallback before JS runs. */
+<t-if var="style.highlights.default">
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-text-primary:   <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.text.primary" />;
+    --color-text-secondary: <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.text.secondary" />;
+    --color-text-emphasis:  <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.text.emphasis" />;
+    --color-text-heading:   <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.text.heading" />;
+    --color-text-link:      <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.text.link" />;
+
+    --color-bg-primary:   <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.background.primary" />;
+    --color-bg-secondary: <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.background.secondary" />;
+    --color-bg-embed:     <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.background.embed" />;
+
+    --syntax-variable:    <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).syntax.variable" />;
+    --syntax-constant:    <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).syntax.constant" />;
+    --syntax-punctuation: <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).syntax.punctuation" />;
+    --syntax-operator:    <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).syntax.operator" />;
+    --syntax-number:      <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).syntax.number" />;
+    --syntax-type:        <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).syntax.type" />;
+    --syntax-function:    <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).syntax.function" />;
+    --syntax-string:      <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).syntax.string" />;
+    --syntax-comment:     <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).syntax.comment" />;
+    --syntax-keyword:     <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).syntax.keyword" />;
+
+    --stroke:       1px solid <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.text.secondary" />;
+    --stroke-light: 1px solid <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.background.secondary" />;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text-primary:   <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.text.primary" />;
+    --color-text-secondary: <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.text.secondary" />;
+    --color-text-emphasis:  <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.text.emphasis" />;
+    --color-text-heading:   <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.text.heading" />;
+    --color-text-link:      <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.text.link" />;
+
+    --color-bg-primary:   <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.background.primary" />;
+    --color-bg-secondary: <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.background.secondary" />;
+    --color-bg-embed:     <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.background.embed" />;
+
+    --syntax-variable:    <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).syntax.variable" />;
+    --syntax-constant:    <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).syntax.constant" />;
+    --syntax-punctuation: <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).syntax.punctuation" />;
+    --syntax-operator:    <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).syntax.operator" />;
+    --syntax-number:      <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).syntax.number" />;
+    --syntax-type:        <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).syntax.type" />;
+    --syntax-function:    <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).syntax.function" />;
+    --syntax-string:      <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).syntax.string" />;
+    --syntax-comment:     <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).syntax.comment" />;
+    --syntax-keyword:     <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).syntax.keyword" />;
+
+    --stroke:       1px solid <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.text.secondary" />;
+    --stroke-light: 1px solid <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.background.secondary" />;
+  }
+}
+</t-if>

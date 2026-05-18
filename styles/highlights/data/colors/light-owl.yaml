@@ -1,0 +1,64 @@
+meta:
+  name: Light Owl
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Light%20Owl.toml"
+
+palette:
+  background:    "#fbfbfb"
+  foreground:    "#403f53"
+  black:         "#403f53"
+  red:           "#de3d3b"
+  green:         "#08916a"
+  yellow:        "#e0af02"
+  blue:          "#288ed7"
+  magenta:       "#d6438a"
+  cyan:          "#2aa298"
+  white:         "#bdbdbd"
+  bright-black:  "#989fb1"
+  bright-red:    "#de3d3b"
+  bright-green:  "#08916a"
+  bright-yellow: "#daaa01"
+  bright-blue:   "#288ed7"
+  bright-magenta: "#d6438a"
+  bright-cyan:   "#2aa298"
+  bright-white:  "#f0f0f0"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Mirage
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Mirage.toml"
+
+palette:
+  background:    "#1b2738"
+  foreground:    "#a6b2c0"
+  black:         "#011627"
+  red:           "#ff9999"
+  green:         "#85cc95"
+  yellow:        "#ffd700"
+  blue:          "#7fb5ff"
+  magenta:       "#ddb3ff"
+  cyan:          "#21c7a8"
+  white:         "#ffffff"
+  bright-black:  "#575656"
+  bright-red:    "#ff9999"
+  bright-green:  "#85cc95"
+  bright-yellow: "#ffd700"
+  bright-blue:   "#7fb5ff"
+  bright-magenta: "#ddb3ff"
+  bright-cyan:   "#85cc95"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

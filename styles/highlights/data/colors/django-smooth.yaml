@@ -1,0 +1,64 @@
+meta:
+  name: Django Smooth
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Django%20Smooth.toml"
+
+palette:
+  background:    "#245032"
+  foreground:    "#f8f8f8"
+  black:         "#000000"
+  red:           "#fd6209"
+  green:         "#41a83e"
+  yellow:        "#ffe862"
+  blue:          "#989898"
+  magenta:       "#f8f8f8"
+  cyan:          "#9df39f"
+  white:         "#e8e8e7"
+  bright-black:  "#727272"
+  bright-red:    "#ff943b"
+  bright-green:  "#73da70"
+  bright-yellow: "#ffff94"
+  bright-blue:   "#cacaca"
+  bright-magenta: "#ffffff"
+  bright-cyan:   "#cfffd1"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

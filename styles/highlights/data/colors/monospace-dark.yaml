@@ -1,0 +1,64 @@
+meta:
+  name: Monospace Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Monospace%20Dark.toml"
+
+palette:
+  background:    "#10151d"
+  foreground:    "#a4afbd"
+  black:         "#738295"
+  red:           "#f76769"
+  green:         "#17b877"
+  yellow:        "#ffa23e"
+  blue:          "#708fff"
+  magenta:       "#a87ffb"
+  cyan:          "#25a6e9"
+  white:         "#a4afbd"
+  bright-black:  "#8b98a9"
+  bright-red:    "#fc8f8e"
+  bright-green:  "#66ce98"
+  bright-yellow: "#ffc26e"
+  bright-blue:   "#a2b6ff"
+  bright-magenta: "#c8aaff"
+  bright-cyan:   "#71c2ee"
+  bright-white:  "#fafbfe"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

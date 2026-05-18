@@ -1,0 +1,64 @@
+meta:
+  name: Karma Dark Dimmed
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Karma%20Dark%20Dimmed.toml"
+
+palette:
+  background:    "#14181f"
+  foreground:    "#e2def0"
+  black:         "#14181f"
+  red:           "#e87691"
+  green:         "#82c891"
+  yellow:        "#ebd870"
+  blue:          "#6cc4d2"
+  magenta:       "#a892d4"
+  cyan:          "#6cc4d2"
+  white:         "#a8a4ae"
+  bright-black:  "#5c5a5f"
+  bright-red:    "#e8869c"
+  bright-green:  "#98cea4"
+  bright-yellow: "#ebd870"
+  bright-blue:   "#80c8d2"
+  bright-magenta: "#b6a4d6"
+  bright-cyan:   "#80c8d2"
+  bright-white:  "#e2def0"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

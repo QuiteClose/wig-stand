@@ -1,0 +1,64 @@
+meta:
+  name: Deep
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Deep.toml"
+
+palette:
+  background:    "#090909"
+  foreground:    "#cdcdcd"
+  black:         "#000000"
+  red:           "#d70005"
+  green:         "#1cd915"
+  yellow:        "#d9bd26"
+  blue:          "#5665ff"
+  magenta:       "#b052da"
+  cyan:          "#50d2da"
+  white:         "#e0e0e0"
+  bright-black:  "#535353"
+  bright-red:    "#fb0007"
+  bright-green:  "#22ff18"
+  bright-yellow: "#fedc2b"
+  bright-blue:   "#9fa9ff"
+  bright-magenta: "#e09aff"
+  bright-cyan:   "#8df9ff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

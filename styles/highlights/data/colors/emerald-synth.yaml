@@ -1,0 +1,64 @@
+meta:
+  name: Emerald Synth
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Emerald%20Synth.toml"
+
+palette:
+  background:    "#0d0221"
+  foreground:    "#00ffcc"
+  black:         "#0a0118"
+  red:           "#ff2a6d"
+  green:         "#00e67e"
+  yellow:        "#ffcc66"
+  blue:          "#8b9cf7"
+  magenta:       "#ff79c6"
+  cyan:          "#4dd0e1"
+  white:         "#f0e6ff"
+  bright-black:  "#6a5585"
+  bright-red:    "#ff5c8a"
+  bright-green:  "#40ffdd"
+  bright-yellow: "#ffe099"
+  bright-blue:   "#b0b8fc"
+  bright-magenta: "#ff9ed0"
+  bright-cyan:   "#7ee0ec"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

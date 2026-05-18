@@ -1,0 +1,64 @@
+meta:
+  name: Red Sands
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Red%20Sands.toml"
+
+palette:
+  background:    "#7a251e"
+  foreground:    "#d7c9a7"
+  black:         "#000000"
+  red:           "#ff3f00"
+  green:         "#00bb00"
+  yellow:        "#e7b000"
+  blue:          "#0072ff"
+  magenta:       "#bb00bb"
+  cyan:          "#00bbbb"
+  white:         "#bbbbbb"
+  bright-black:  "#6e6e6e"
+  bright-red:    "#d41a1a"
+  bright-green:  "#00bb00"
+  bright-yellow: "#e7b000"
+  bright-blue:   "#0072ae"
+  bright-magenta: "#ff55ff"
+  bright-cyan:   "#55ffff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

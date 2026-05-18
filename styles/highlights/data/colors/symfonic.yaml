@@ -1,0 +1,64 @@
+meta:
+  name: Symfonic
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Symfonic.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#ffffff"
+  black:         "#000000"
+  red:           "#dc322f"
+  green:         "#56db3a"
+  yellow:        "#ff8400"
+  blue:          "#0084d4"
+  magenta:       "#b729d9"
+  cyan:          "#ccccff"
+  white:         "#ffffff"
+  bright-black:  "#414347"
+  bright-red:    "#dc322f"
+  bright-green:  "#56db3a"
+  bright-yellow: "#ff8400"
+  bright-blue:   "#0084d4"
+  bright-magenta: "#b729d9"
+  bright-cyan:   "#ccccff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

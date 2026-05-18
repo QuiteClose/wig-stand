@@ -1,0 +1,64 @@
+meta:
+  name: Carbonfox
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Carbonfox.toml"
+
+palette:
+  background:    "#161616"
+  foreground:    "#f2f4f8"
+  black:         "#282828"
+  red:           "#ee5396"
+  green:         "#25be6a"
+  yellow:        "#08bdba"
+  blue:          "#78a9ff"
+  magenta:       "#be95ff"
+  cyan:          "#33b1ff"
+  white:         "#dfdfe0"
+  bright-black:  "#484848"
+  bright-red:    "#f16da6"
+  bright-green:  "#46c880"
+  bright-yellow: "#2dc7c4"
+  bright-blue:   "#8cb6ff"
+  bright-magenta: "#c8a5ff"
+  bright-cyan:   "#52bdff"
+  bright-white:  "#e4e4e5"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

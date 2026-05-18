@@ -1,0 +1,64 @@
+meta:
+  name: Flexoki Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Flexoki%20Dark.toml"
+
+palette:
+  background:    "#100f0f"
+  foreground:    "#cecdc3"
+  black:         "#100f0f"
+  red:           "#d14d41"
+  green:         "#879a39"
+  yellow:        "#d0a215"
+  blue:          "#4385be"
+  magenta:       "#ce5d97"
+  cyan:          "#3aa99f"
+  white:         "#878580"
+  bright-black:  "#575653"
+  bright-red:    "#af3029"
+  bright-green:  "#66800b"
+  bright-yellow: "#ad8301"
+  bright-blue:   "#205ea6"
+  bright-magenta: "#a02f6f"
+  bright-cyan:   "#24837b"
+  bright-white:  "#cecdc3"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Toy Chest
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Toy%20Chest.toml"
+
+palette:
+  background:    "#24364b"
+  foreground:    "#31d07b"
+  black:         "#2c3f58"
+  red:           "#be2d26"
+  green:         "#1a9172"
+  yellow:        "#db8e27"
+  blue:          "#325d96"
+  magenta:       "#8a5edc"
+  cyan:          "#35a08f"
+  white:         "#23d183"
+  bright-black:  "#336889"
+  bright-red:    "#dd5944"
+  bright-green:  "#31d07b"
+  bright-yellow: "#e7d84b"
+  bright-blue:   "#34a6da"
+  bright-magenta: "#ae6bdc"
+  bright-cyan:   "#42c3ae"
+  bright-white:  "#d5d5d5"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

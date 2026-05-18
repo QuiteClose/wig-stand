@@ -1,7 +1,14 @@
 name: highlights
-description: Syntax-highlighting colors, theme picker, and showcase blocks.
-scheme: highlights
+description: Syntax-highlighting colours, theme picker, and showcase blocks.
 
 imports:
   cube:
     patterns: "**"
+
+highlights:
+  default: highlights
+  available:
+    highlights:
+      label: Highlights
+      light: highlights-light
+      dark: highlights-dark

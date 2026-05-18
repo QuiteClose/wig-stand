@@ -1,0 +1,64 @@
+meta:
+  name: Sundried
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Sundried.toml"
+
+palette:
+  background:    "#1a1818"
+  foreground:    "#c9c9c9"
+  black:         "#302b2a"
+  red:           "#a7463d"
+  green:         "#587744"
+  yellow:        "#9d602a"
+  blue:          "#485b98"
+  magenta:       "#864651"
+  cyan:          "#9c814f"
+  white:         "#c9c9c9"
+  bright-black:  "#4d4e48"
+  bright-red:    "#aa000c"
+  bright-green:  "#128c21"
+  bright-yellow: "#fc6a21"
+  bright-blue:   "#7999f7"
+  bright-magenta: "#fd8aa1"
+  bright-cyan:   "#fad484"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

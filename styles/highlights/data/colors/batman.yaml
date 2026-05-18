@@ -1,0 +1,64 @@
+meta:
+  name: Batman
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Batman.toml"
+
+palette:
+  background:    "#1b1d1e"
+  foreground:    "#6f6f6f"
+  black:         "#1b1d1e"
+  red:           "#e6dc44"
+  green:         "#c8be46"
+  yellow:        "#f4fd22"
+  blue:          "#737174"
+  magenta:       "#747271"
+  cyan:          "#62605f"
+  white:         "#c6c5bf"
+  bright-black:  "#505354"
+  bright-red:    "#fff78e"
+  bright-green:  "#fff27d"
+  bright-yellow: "#feed6c"
+  bright-blue:   "#919495"
+  bright-magenta: "#9a9a9d"
+  bright-cyan:   "#a3a3a6"
+  bright-white:  "#dadbd6"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

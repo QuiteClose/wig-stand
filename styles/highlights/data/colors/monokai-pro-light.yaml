@@ -1,0 +1,64 @@
+meta:
+  name: Monokai Pro Light
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Monokai%20Pro%20Light.toml"
+
+palette:
+  background:    "#faf4f2"
+  foreground:    "#29242a"
+  black:         "#faf4f2"
+  red:           "#e14775"
+  green:         "#269d69"
+  yellow:        "#cc7a0a"
+  blue:          "#e16032"
+  magenta:       "#7058be"
+  cyan:          "#1c8ca8"
+  white:         "#29242a"
+  bright-black:  "#a59fa0"
+  bright-red:    "#e14775"
+  bright-green:  "#269d69"
+  bright-yellow: "#cc7a0a"
+  bright-blue:   "#e16032"
+  bright-magenta: "#7058be"
+  bright-cyan:   "#1c8ca8"
+  bright-white:  "#29242a"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Shades Of Purple
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Shades%20Of%20Purple.toml"
+
+palette:
+  background:    "#1e1d40"
+  foreground:    "#ffffff"
+  black:         "#000000"
+  red:           "#d90429"
+  green:         "#3ad900"
+  yellow:        "#ffe700"
+  blue:          "#6943ff"
+  magenta:       "#ff2c70"
+  cyan:          "#00c5c7"
+  white:         "#c7c7c7"
+  bright-black:  "#686868"
+  bright-red:    "#f92a1c"
+  bright-green:  "#43d426"
+  bright-yellow: "#f1d000"
+  bright-blue:   "#6871ff"
+  bright-magenta: "#ff77ff"
+  bright-cyan:   "#79e8fb"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

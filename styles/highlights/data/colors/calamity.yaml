@@ -1,0 +1,64 @@
+meta:
+  name: Calamity
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Calamity.toml"
+
+palette:
+  background:    "#2f2833"
+  foreground:    "#d5ced9"
+  black:         "#2f2833"
+  red:           "#fc644d"
+  green:         "#a5f69c"
+  yellow:        "#e9d7a5"
+  blue:          "#3b79c7"
+  magenta:       "#f92672"
+  cyan:          "#74d3de"
+  white:         "#d5ced9"
+  bright-black:  "#7e6c88"
+  bright-red:    "#fc644d"
+  bright-green:  "#a5f69c"
+  bright-yellow: "#e9d7a5"
+  bright-blue:   "#3b79c7"
+  bright-magenta: "#f92672"
+  bright-cyan:   "#74d3de"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

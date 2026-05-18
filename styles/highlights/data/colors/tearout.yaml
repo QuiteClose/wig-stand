@@ -1,0 +1,64 @@
+meta:
+  name: Tearout
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Tearout.toml"
+
+palette:
+  background:    "#34392d"
+  foreground:    "#f4d2ae"
+  black:         "#685742"
+  red:           "#cc967b"
+  green:         "#97976d"
+  yellow:        "#6c9861"
+  blue:          "#b5955e"
+  magenta:       "#c9a554"
+  cyan:          "#d7c483"
+  white:         "#b5955e"
+  bright-black:  "#75644f"
+  bright-red:    "#cc967b"
+  bright-green:  "#97976d"
+  bright-yellow: "#6c9861"
+  bright-blue:   "#b5955e"
+  bright-magenta: "#c9a554"
+  bright-cyan:   "#d7c483"
+  bright-white:  "#b5955e"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: IRIX Terminal
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/IRIX%20Terminal.toml"
+
+palette:
+  background:    "#000043"
+  foreground:    "#f2f2f2"
+  black:         "#1a1919"
+  red:           "#ff2b1e"
+  green:         "#57ff3d"
+  yellow:        "#ffff44"
+  blue:          "#0004ff"
+  magenta:       "#ff2cff"
+  cyan:          "#56ffff"
+  white:         "#ffffff"
+  bright-black:  "#ffff44"
+  bright-red:    "#ffff44"
+  bright-green:  "#ffff44"
+  bright-yellow: "#fffc72"
+  bright-blue:   "#ffff44"
+  bright-magenta: "#ffff44"
+  bright-cyan:   "#ffff44"
+  bright-white:  "#ffff44"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

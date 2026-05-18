@@ -1,0 +1,64 @@
+meta:
+  name: Framer
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Framer.toml"
+
+palette:
+  background:    "#111111"
+  foreground:    "#777777"
+  black:         "#141414"
+  red:           "#ff5555"
+  green:         "#98ec65"
+  yellow:        "#ffcc33"
+  blue:          "#00aaff"
+  magenta:       "#aa88ff"
+  cyan:          "#88ddff"
+  white:         "#cccccc"
+  bright-black:  "#414141"
+  bright-red:    "#ff8888"
+  bright-green:  "#b6f292"
+  bright-yellow: "#ffd966"
+  bright-blue:   "#33bbff"
+  bright-magenta: "#cebbff"
+  bright-cyan:   "#bbecff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Slate
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Slate.toml"
+
+palette:
+  background:    "#222222"
+  foreground:    "#35b1d2"
+  black:         "#222222"
+  red:           "#e2a8bf"
+  green:         "#81d778"
+  yellow:        "#c4c9c0"
+  blue:          "#335856"
+  magenta:       "#a481d3"
+  cyan:          "#15ab9c"
+  white:         "#02c5e0"
+  bright-black:  "#ffffff"
+  bright-red:    "#ffcdd9"
+  bright-green:  "#beffa8"
+  bright-yellow: "#d0ccca"
+  bright-blue:   "#7ab0d2"
+  bright-magenta: "#c5a7d9"
+  bright-cyan:   "#8cdfe0"
+  bright-white:  "#e0e0e0"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Cobalt Next Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Cobalt%20Next%20Dark.toml"
+
+palette:
+  background:    "#0b1c24"
+  foreground:    "#d7deea"
+  black:         "#262f37"
+  red:           "#f94967"
+  green:         "#8cc98f"
+  yellow:        "#ffc64c"
+  blue:          "#409dd4"
+  magenta:       "#cba3c7"
+  cyan:          "#37b5b4"
+  white:         "#d7deea"
+  bright-black:  "#62747f"
+  bright-red:    "#e47e8b"
+  bright-green:  "#baddbb"
+  bright-yellow: "#ffdc91"
+  bright-blue:   "#7ac0eb"
+  bright-magenta: "#f3ccef"
+  bright-cyan:   "#84e4e3"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

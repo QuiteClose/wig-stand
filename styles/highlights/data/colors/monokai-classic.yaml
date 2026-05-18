@@ -1,0 +1,64 @@
+meta:
+  name: Monokai Classic
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Monokai%20Classic.toml"
+
+palette:
+  background:    "#272822"
+  foreground:    "#fdfff1"
+  black:         "#272822"
+  red:           "#f92672"
+  green:         "#a6e22e"
+  yellow:        "#e6db74"
+  blue:          "#fd971f"
+  magenta:       "#ae81ff"
+  cyan:          "#66d9ef"
+  white:         "#fdfff1"
+  bright-black:  "#6e7066"
+  bright-red:    "#f92672"
+  bright-green:  "#a6e22e"
+  bright-yellow: "#e6db74"
+  bright-blue:   "#fd971f"
+  bright-magenta: "#ae81ff"
+  bright-cyan:   "#66d9ef"
+  bright-white:  "#fdfff1"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

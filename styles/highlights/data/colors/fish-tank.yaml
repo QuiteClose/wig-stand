@@ -1,0 +1,64 @@
+meta:
+  name: Fish Tank
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Fish%20Tank.toml"
+
+palette:
+  background:    "#232537"
+  foreground:    "#ecf0fe"
+  black:         "#03073c"
+  red:           "#c6004a"
+  green:         "#acf157"
+  yellow:        "#fecd5e"
+  blue:          "#525fb8"
+  magenta:       "#986f82"
+  cyan:          "#968763"
+  white:         "#ecf0fc"
+  bright-black:  "#6c5b30"
+  bright-red:    "#da4b8a"
+  bright-green:  "#dbffa9"
+  bright-yellow: "#fee6a9"
+  bright-blue:   "#b2befa"
+  bright-magenta: "#fda5cd"
+  bright-cyan:   "#a5bd86"
+  bright-white:  "#f6ffec"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

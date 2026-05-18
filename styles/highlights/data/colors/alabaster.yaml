@@ -1,0 +1,64 @@
+meta:
+  name: Alabaster
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Alabaster.toml"
+
+palette:
+  background:    "#f7f7f7"
+  foreground:    "#000000"
+  black:         "#000000"
+  red:           "#aa3731"
+  green:         "#448c27"
+  yellow:        "#cb9000"
+  blue:          "#325cc0"
+  magenta:       "#7a3e9d"
+  cyan:          "#0083b2"
+  white:         "#b7b7b7"
+  bright-black:  "#777777"
+  bright-red:    "#f05050"
+  bright-green:  "#60cb00"
+  bright-yellow: "#f2af50"
+  bright-blue:   "#007acc"
+  bright-magenta: "#e64ce6"
+  bright-cyan:   "#00aacb"
+  bright-white:  "#f7f7f7"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

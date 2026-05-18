@@ -1,0 +1,64 @@
+meta:
+  name: Arcoiris
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Arcoiris.toml"
+
+palette:
+  background:    "#201f1e"
+  foreground:    "#eee4d9"
+  black:         "#333333"
+  red:           "#da2700"
+  green:         "#12c258"
+  yellow:        "#ffc656"
+  blue:          "#518bfc"
+  magenta:       "#e37bd9"
+  cyan:          "#63fad5"
+  white:         "#bab2b2"
+  bright-black:  "#777777"
+  bright-red:    "#ffb9b9"
+  bright-green:  "#e3f6aa"
+  bright-yellow: "#ffddaa"
+  bright-blue:   "#b3e8f3"
+  bright-magenta: "#cbbaf9"
+  bright-cyan:   "#bcffc7"
+  bright-white:  "#efefef"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Horizon
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Horizon.toml"
+
+palette:
+  background:    "#1c1e26"
+  foreground:    "#d5d8da"
+  black:         "#000000"
+  red:           "#e95678"
+  green:         "#29d398"
+  yellow:        "#fab795"
+  blue:          "#26bbd9"
+  magenta:       "#ee64ac"
+  cyan:          "#59e1e3"
+  white:         "#e5e5e5"
+  bright-black:  "#666666"
+  bright-red:    "#ec6a88"
+  bright-green:  "#3fdaa4"
+  bright-yellow: "#fbc3a7"
+  bright-blue:   "#3fc4de"
+  bright-magenta: "#f075b5"
+  bright-cyan:   "#6be4e6"
+  bright-white:  "#e5e5e5"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

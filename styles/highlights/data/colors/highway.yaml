@@ -1,0 +1,64 @@
+meta:
+  name: Highway
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Highway.toml"
+
+palette:
+  background:    "#222225"
+  foreground:    "#ededed"
+  black:         "#000000"
+  red:           "#d00e18"
+  green:         "#138034"
+  yellow:        "#ffcb3e"
+  blue:          "#006bb3"
+  magenta:       "#783482"
+  cyan:          "#455271"
+  white:         "#ededed"
+  bright-black:  "#5d504a"
+  bright-red:    "#f07e18"
+  bright-green:  "#b1d130"
+  bright-yellow: "#fff120"
+  bright-blue:   "#4fc2fd"
+  bright-magenta: "#de0071"
+  bright-cyan:   "#5d504a"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

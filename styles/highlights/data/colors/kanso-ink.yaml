@@ -1,0 +1,64 @@
+meta:
+  name: Kanso Ink
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Kanso%20Ink.toml"
+
+palette:
+  background:    "#14171d"
+  foreground:    "#c5c9c7"
+  black:         "#14171d"
+  red:           "#c4746e"
+  green:         "#8a9a7b"
+  yellow:        "#c4b28a"
+  blue:          "#8ba4b0"
+  magenta:       "#a292a3"
+  cyan:          "#8ea4a2"
+  white:         "#c8c093"
+  bright-black:  "#a4a7a4"
+  bright-red:    "#e46876"
+  bright-green:  "#87a987"
+  bright-yellow: "#e6c384"
+  bright-blue:   "#7fb4ca"
+  bright-magenta: "#938aa9"
+  bright-cyan:   "#7aa89f"
+  bright-white:  "#c5c9c7"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

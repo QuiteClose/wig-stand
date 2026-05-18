@@ -1,0 +1,64 @@
+meta:
+  name: Lovelace
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Lovelace.toml"
+
+palette:
+  background:    "#1d1f28"
+  foreground:    "#fdfdfd"
+  black:         "#282a36"
+  red:           "#f37f97"
+  green:         "#5adecd"
+  yellow:        "#f2a272"
+  blue:          "#8897f4"
+  magenta:       "#c574dd"
+  cyan:          "#79e6f3"
+  white:         "#fdfdfd"
+  bright-black:  "#4e5165"
+  bright-red:    "#ff4971"
+  bright-green:  "#18e3c8"
+  bright-yellow: "#ff8037"
+  bright-blue:   "#556fff"
+  bright-magenta: "#b043d1"
+  bright-cyan:   "#3fdcee"
+  bright-white:  "#bebec1"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

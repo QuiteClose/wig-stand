@@ -1,0 +1,64 @@
+meta:
+  name: Havn Skumring
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Havn%20Skumring.toml"
+
+palette:
+  background:    "#111522"
+  foreground:    "#d6dbeb"
+  black:         "#252c47"
+  red:           "#ea563e"
+  green:         "#6ead7b"
+  yellow:        "#f8b330"
+  blue:          "#596cf7"
+  magenta:       "#7c719e"
+  cyan:          "#d588c1"
+  white:         "#dce0ee"
+  bright-black:  "#38425c"
+  bright-red:    "#d17264"
+  bright-green:  "#8c9e8f"
+  bright-yellow: "#eac58c"
+  bright-blue:   "#5186cb"
+  bright-magenta: "#9b7cee"
+  bright-cyan:   "#d17ab6"
+  bright-white:  "#fff6e1"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

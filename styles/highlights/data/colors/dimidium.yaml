@@ -1,0 +1,64 @@
+meta:
+  name: Dimidium
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Dimidium.toml"
+
+palette:
+  background:    "#141414"
+  foreground:    "#bab7b6"
+  black:         "#000000"
+  red:           "#cf494c"
+  green:         "#60b442"
+  yellow:        "#db9c11"
+  blue:          "#0575d8"
+  magenta:       "#af5ed2"
+  cyan:          "#1db6bb"
+  white:         "#bab7b6"
+  bright-black:  "#817e7e"
+  bright-red:    "#ff643b"
+  bright-green:  "#37e57b"
+  bright-yellow: "#fccd1a"
+  bright-blue:   "#688dfd"
+  bright-magenta: "#ed6fe9"
+  bright-cyan:   "#32e0fb"
+  bright-white:  "#dee3e4"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

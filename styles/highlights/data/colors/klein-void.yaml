@@ -1,0 +1,64 @@
+meta:
+  name: Klein Void
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Klein%20Void.toml"
+
+palette:
+  background:    "#0b0d14"
+  foreground:    "#ede6d3"
+  black:         "#1a1c24"
+  red:           "#f09890"
+  green:         "#a6c080"
+  yellow:        "#e8bc75"
+  blue:          "#002fa7"
+  magenta:       "#d49bb5"
+  cyan:          "#9fc0e5"
+  white:         "#cdc7b8"
+  bright-black:  "#92907a"
+  bright-red:    "#d97757"
+  bright-green:  "#bcc89c"
+  bright-yellow: "#f0c880"
+  bright-blue:   "#a8bef0"
+  bright-magenta: "#c8b4d4"
+  bright-cyan:   "#b0d0ed"
+  bright-white:  "#f5efde"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

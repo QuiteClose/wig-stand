@@ -1,0 +1,64 @@
+meta:
+  name: Kanagawa Wave
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Kanagawa%20Wave.toml"
+
+palette:
+  background:    "#1f1f28"
+  foreground:    "#dcd7ba"
+  black:         "#090618"
+  red:           "#c34043"
+  green:         "#76946a"
+  yellow:        "#c0a36e"
+  blue:          "#7e9cd8"
+  magenta:       "#957fb8"
+  cyan:          "#6a9589"
+  white:         "#c8c093"
+  bright-black:  "#727169"
+  bright-red:    "#e82424"
+  bright-green:  "#98bb6c"
+  bright-yellow: "#e6c384"
+  bright-blue:   "#7fb4ca"
+  bright-magenta: "#938aa9"
+  bright-cyan:   "#7aa89f"
+  bright-white:  "#dcd7ba"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

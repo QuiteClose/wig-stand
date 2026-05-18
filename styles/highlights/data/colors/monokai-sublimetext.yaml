@@ -1,0 +1,64 @@
+meta:
+  name: Monokai SublimeText
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Monokai%20SublimeText.toml"
+
+palette:
+  background:    "#272822"
+  foreground:    "#f8f8f2"
+  black:         "#333333"
+  red:           "#c4265e"
+  green:         "#86b42b"
+  yellow:        "#b3b42b"
+  blue:          "#6a7ec8"
+  magenta:       "#8c6bc8"
+  cyan:          "#56adbc"
+  white:         "#e3e3dd"
+  bright-black:  "#666666"
+  bright-red:    "#f92672"
+  bright-green:  "#a6e22e"
+  bright-yellow: "#e2e22e"
+  bright-blue:   "#819aff"
+  bright-magenta: "#ae81ff"
+  bright-cyan:   "#66d9ef"
+  bright-white:  "#f8f8f2"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

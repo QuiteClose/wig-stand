@@ -1,0 +1,64 @@
+meta:
+  name: Xcode Light hc
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Xcode%20Light%20hc.toml"
+
+palette:
+  background:    "#ffffff"
+  foreground:    "#000000"
+  black:         "#b4d8fd"
+  red:           "#ad1805"
+  green:         "#355d61"
+  yellow:        "#78492a"
+  blue:          "#0058a1"
+  magenta:       "#9c2191"
+  cyan:          "#703daa"
+  white:         "#000000"
+  bright-black:  "#8a99a6"
+  bright-red:    "#ad1805"
+  bright-green:  "#174145"
+  bright-yellow: "#78492a"
+  bright-blue:   "#003f73"
+  bright-magenta: "#9c2191"
+  bright-cyan:   "#441ea1"
+  bright-white:  "#000000"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

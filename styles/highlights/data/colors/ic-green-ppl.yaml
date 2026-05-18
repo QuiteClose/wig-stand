@@ -1,0 +1,64 @@
+meta:
+  name: IC Green PPL
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/IC%20Green%20PPL.toml"
+
+palette:
+  background:    "#2c2c2c"
+  foreground:    "#e0f1dc"
+  black:         "#014401"
+  red:           "#ff2736"
+  green:         "#41a638"
+  yellow:        "#76a831"
+  blue:          "#2ec3b9"
+  magenta:       "#50a096"
+  cyan:          "#3ca078"
+  white:         "#e6fef2"
+  bright-black:  "#106910"
+  bright-red:    "#b4fa5c"
+  bright-green:  "#aefb86"
+  bright-yellow: "#dafa87"
+  bright-blue:   "#2efaeb"
+  bright-magenta: "#50fafa"
+  bright-cyan:   "#3cfac8"
+  bright-white:  "#e0f1dc"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

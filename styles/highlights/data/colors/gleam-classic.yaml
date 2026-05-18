@@ -1,0 +1,64 @@
+meta:
+  name: Gleam Classic
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Gleam%20Classic.toml"
+
+palette:
+  background:    "#1e1e1e"
+  foreground:    "#ffffff"
+  black:         "#000000"
+  red:           "#f44747"
+  green:         "#aadd8b"
+  yellow:        "#ffd596"
+  blue:          "#6796e6"
+  magenta:       "#fe7ab2"
+  cyan:          "#b181ec"
+  white:         "#f7f7f7"
+  bright-black:  "#808080"
+  bright-red:    "#ff4a4a"
+  bright-green:  "#c8ffa7"
+  bright-yellow: "#fdffab"
+  bright-blue:   "#9ce7ff"
+  bright-magenta: "#ffaff3"
+  bright-cyan:   "#d9baff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

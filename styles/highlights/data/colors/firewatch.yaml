@@ -1,0 +1,64 @@
+meta:
+  name: Firewatch
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Firewatch.toml"
+
+palette:
+  background:    "#1e2027"
+  foreground:    "#9ba2b2"
+  black:         "#585f6d"
+  red:           "#d95360"
+  green:         "#5ab977"
+  yellow:        "#dfb563"
+  blue:          "#4d89c4"
+  magenta:       "#d55119"
+  cyan:          "#44a8b6"
+  white:         "#e6e5ff"
+  bright-black:  "#585f6d"
+  bright-red:    "#d95360"
+  bright-green:  "#5ab977"
+  bright-yellow: "#dfb563"
+  bright-blue:   "#4c89c5"
+  bright-magenta: "#d55119"
+  bright-cyan:   "#44a8b6"
+  bright-white:  "#e6e5ff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

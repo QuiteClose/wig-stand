@@ -1,0 +1,64 @@
+meta:
+  name: Glacier
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Glacier.toml"
+
+palette:
+  background:    "#0c1115"
+  foreground:    "#ffffff"
+  black:         "#2e343c"
+  red:           "#bd0f2f"
+  green:         "#35a770"
+  yellow:        "#fb9435"
+  blue:          "#1f5872"
+  magenta:       "#bd2523"
+  cyan:          "#778397"
+  white:         "#ffffff"
+  bright-black:  "#404a55"
+  bright-red:    "#bd0f2f"
+  bright-green:  "#49e998"
+  bright-yellow: "#fddf6e"
+  bright-blue:   "#2a8bc1"
+  bright-magenta: "#ea4727"
+  bright-cyan:   "#a0b6d3"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

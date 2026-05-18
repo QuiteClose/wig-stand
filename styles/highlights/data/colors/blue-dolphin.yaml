@@ -1,0 +1,64 @@
+meta:
+  name: Blue Dolphin
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Blue%20Dolphin.toml"
+
+palette:
+  background:    "#006984"
+  foreground:    "#c5f2ff"
+  black:         "#292d3e"
+  red:           "#ff8288"
+  green:         "#b4e88d"
+  yellow:        "#f4d69f"
+  blue:          "#82aaff"
+  magenta:       "#e9c1ff"
+  cyan:          "#89ebff"
+  white:         "#d0d0d0"
+  bright-black:  "#9094a4"
+  bright-red:    "#ff8b92"
+  bright-green:  "#ddffa7"
+  bright-yellow: "#ffe585"
+  bright-blue:   "#9cc4ff"
+  bright-magenta: "#ddb0f6"
+  bright-cyan:   "#a3f7ff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

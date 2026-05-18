@@ -1,0 +1,64 @@
+meta:
+  name: Treehouse
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Treehouse.toml"
+
+palette:
+  background:    "#191919"
+  foreground:    "#786b53"
+  black:         "#321300"
+  red:           "#b2270e"
+  green:         "#44a900"
+  yellow:        "#aa820c"
+  blue:          "#58859a"
+  magenta:       "#97363d"
+  cyan:          "#b25a1e"
+  white:         "#786b53"
+  bright-black:  "#504333"
+  bright-red:    "#ed5d20"
+  bright-green:  "#55f238"
+  bright-yellow: "#f2b732"
+  bright-blue:   "#85cfed"
+  bright-magenta: "#e14c5a"
+  bright-cyan:   "#f07d14"
+  bright-white:  "#ffc800"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

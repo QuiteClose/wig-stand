@@ -1,0 +1,64 @@
+meta:
+  name: Ciapre
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Ciapre.toml"
+
+palette:
+  background:    "#191c27"
+  foreground:    "#aea47a"
+  black:         "#181818"
+  red:           "#8e0d16"
+  green:         "#48513b"
+  yellow:        "#cc8b3f"
+  blue:          "#576d8c"
+  magenta:       "#724d7c"
+  cyan:          "#5c4f4b"
+  white:         "#aea47f"
+  bright-black:  "#555555"
+  bright-red:    "#ac3835"
+  bright-green:  "#a6a75d"
+  bright-yellow: "#dcdf7c"
+  bright-blue:   "#3097c6"
+  bright-magenta: "#d33061"
+  bright-cyan:   "#f3dbb2"
+  bright-white:  "#f4f4f4"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

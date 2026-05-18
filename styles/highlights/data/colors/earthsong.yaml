@@ -1,0 +1,64 @@
+meta:
+  name: Earthsong
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Earthsong.toml"
+
+palette:
+  background:    "#292520"
+  foreground:    "#e5c7a9"
+  black:         "#121418"
+  red:           "#c94234"
+  green:         "#85c54c"
+  yellow:        "#f5ae2e"
+  blue:          "#1398b9"
+  magenta:       "#d0633d"
+  cyan:          "#509552"
+  white:         "#e5c6aa"
+  bright-black:  "#675f54"
+  bright-red:    "#ff645a"
+  bright-green:  "#98e036"
+  bright-yellow: "#e0d561"
+  bright-blue:   "#5fdaff"
+  bright-magenta: "#ff9269"
+  bright-cyan:   "#84f088"
+  bright-white:  "#f6f7ec"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

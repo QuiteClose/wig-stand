@@ -1,0 +1,64 @@
+meta:
+  name: Elementary
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Elementary.toml"
+
+palette:
+  background:    "#181818"
+  foreground:    "#efefef"
+  black:         "#242424"
+  red:           "#d71c15"
+  green:         "#5aa513"
+  yellow:        "#fdb40c"
+  blue:          "#134899"
+  magenta:       "#e40038"
+  cyan:          "#2595e1"
+  white:         "#efefef"
+  bright-black:  "#4b4b4b"
+  bright-red:    "#fc1c18"
+  bright-green:  "#6bc219"
+  bright-yellow: "#fec80e"
+  bright-blue:   "#0955ff"
+  bright-magenta: "#fb0050"
+  bright-cyan:   "#3ea8fc"
+  bright-white:  "#8c00ec"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

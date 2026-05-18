@@ -1,0 +1,64 @@
+meta:
+  name: Rapture
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Rapture.toml"
+
+palette:
+  background:    "#111e2a"
+  foreground:    "#c0c9e5"
+  black:         "#000000"
+  red:           "#fc644d"
+  green:         "#7afde1"
+  yellow:        "#fff09b"
+  blue:          "#6c9bf5"
+  magenta:       "#ff4fa1"
+  cyan:          "#64e0ff"
+  white:         "#c0c9e5"
+  bright-black:  "#304b66"
+  bright-red:    "#fc644d"
+  bright-green:  "#7afde1"
+  bright-yellow: "#fff09b"
+  bright-blue:   "#6c9bf5"
+  bright-magenta: "#ff4fa1"
+  bright-cyan:   "#64e0ff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

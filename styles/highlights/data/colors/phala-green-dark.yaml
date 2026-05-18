@@ -1,0 +1,64 @@
+meta:
+  name: Phala Green Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Phala%20Green%20Dark.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#c1fc03"
+  black:         "#000000"
+  red:           "#ab1500"
+  green:         "#00b100"
+  yellow:        "#a9a700"
+  blue:          "#0223c0"
+  magenta:       "#c22ec0"
+  cyan:          "#00b4c0"
+  white:         "#cbcbcb"
+  bright-black:  "#797979"
+  bright-red:    "#ed2200"
+  bright-green:  "#00db00"
+  bright-yellow: "#eae700"
+  bright-blue:   "#0433ff"
+  bright-magenta: "#ed3aea"
+  bright-cyan:   "#00e8ea"
+  bright-white:  "#eaeaea"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

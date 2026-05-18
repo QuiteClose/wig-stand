@@ -1,0 +1,64 @@
+meta:
+  name: Ubuntu
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Ubuntu.toml"
+
+palette:
+  background:    "#300a24"
+  foreground:    "#eeeeec"
+  black:         "#2e3436"
+  red:           "#cc0000"
+  green:         "#4e9a06"
+  yellow:        "#c4a000"
+  blue:          "#3465a4"
+  magenta:       "#75507b"
+  cyan:          "#06989a"
+  white:         "#d3d7cf"
+  bright-black:  "#555753"
+  bright-red:    "#ef2929"
+  bright-green:  "#8ae234"
+  bright-yellow: "#fce94f"
+  bright-blue:   "#729fcf"
+  bright-magenta: "#ad7fa8"
+  bright-cyan:   "#34e2e2"
+  bright-white:  "#eeeeec"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Catppuccin Macchiato
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Catppuccin%20Macchiato.toml"
+
+palette:
+  background:    "#24273a"
+  foreground:    "#cad3f5"
+  black:         "#494d64"
+  red:           "#ed8796"
+  green:         "#a6da95"
+  yellow:        "#eed49f"
+  blue:          "#8aadf4"
+  magenta:       "#f5bde6"
+  cyan:          "#8bd5ca"
+  white:         "#a5adcb"
+  bright-black:  "#5b6078"
+  bright-red:    "#ec7486"
+  bright-green:  "#8ccf7f"
+  bright-yellow: "#e1c682"
+  bright-blue:   "#78a1f6"
+  bright-magenta: "#f2a9dd"
+  bright-cyan:   "#63cbc0"
+  bright-white:  "#b8c0e0"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Tango Adapted
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Tango%20Adapted.toml"
+
+palette:
+  background:    "#ffffff"
+  foreground:    "#000000"
+  black:         "#000000"
+  red:           "#ff0000"
+  green:         "#59d600"
+  yellow:        "#e3be00"
+  blue:          "#00a2ff"
+  magenta:       "#c17ecc"
+  cyan:          "#00d0d6"
+  white:         "#c0c5bb"
+  bright-black:  "#8f928b"
+  bright-red:    "#ff0013"
+  bright-green:  "#6dd900"
+  bright-yellow: "#ccbe00"
+  bright-blue:   "#88c9ff"
+  bright-magenta: "#e9a7e1"
+  bright-cyan:   "#00d8d9"
+  bright-white:  "#f6f6f4"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

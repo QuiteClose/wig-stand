@@ -1,0 +1,64 @@
+meta:
+  name: Karma Dark HC
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Karma%20Dark%20HC.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#ffffff"
+  black:         "#000000"
+  red:           "#ff5c87"
+  green:         "#80e598"
+  yellow:        "#fce566"
+  blue:          "#61dceb"
+  magenta:       "#b9a3ee"
+  cyan:          "#61dceb"
+  white:         "#d6d2db"
+  bright-black:  "#69676c"
+  bright-red:    "#ff8aab"
+  bright-green:  "#a3e9b1"
+  bright-yellow: "#fff080"
+  bright-blue:   "#87e5f1"
+  bright-magenta: "#cab6f4"
+  bright-cyan:   "#87e5f1"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

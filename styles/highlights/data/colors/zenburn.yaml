@@ -1,0 +1,64 @@
+meta:
+  name: Zenburn
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Zenburn.toml"
+
+palette:
+  background:    "#3f3f3f"
+  foreground:    "#dcdccc"
+  black:         "#4d4d4d"
+  red:           "#7d5d5d"
+  green:         "#60b48a"
+  yellow:        "#f0dfaf"
+  blue:          "#5d6d7d"
+  magenta:       "#dc8cc3"
+  cyan:          "#8cd0d3"
+  white:         "#dcdccc"
+  bright-black:  "#709080"
+  bright-red:    "#dca3a3"
+  bright-green:  "#c3bf9f"
+  bright-yellow: "#e0cf9f"
+  bright-blue:   "#94bff3"
+  bright-magenta: "#ec93d3"
+  bright-cyan:   "#93e0e3"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

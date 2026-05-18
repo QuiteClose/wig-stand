@@ -1,0 +1,64 @@
+meta:
+  name: HaX0R Blue
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/HaX0R%20Blue.toml"
+
+palette:
+  background:    "#010515"
+  foreground:    "#11b7ff"
+  black:         "#010921"
+  red:           "#10b6ff"
+  green:         "#10b6ff"
+  yellow:        "#10b6ff"
+  blue:          "#10b6ff"
+  magenta:       "#10b6ff"
+  cyan:          "#10b6ff"
+  white:         "#fafafa"
+  bright-black:  "#484157"
+  bright-red:    "#00b3f7"
+  bright-green:  "#00b3f7"
+  bright-yellow: "#00b3f7"
+  bright-blue:   "#00b3f7"
+  bright-magenta: "#00b3f7"
+  bright-cyan:   "#00b3f7"
+  bright-white:  "#fefefe"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

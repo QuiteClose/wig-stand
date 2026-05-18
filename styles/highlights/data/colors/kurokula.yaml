@@ -1,0 +1,64 @@
+meta:
+  name: Kurokula
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Kurokula.toml"
+
+palette:
+  background:    "#141515"
+  foreground:    "#e0cfc2"
+  black:         "#333333"
+  red:           "#c35a52"
+  green:         "#78b3a9"
+  yellow:        "#e1b917"
+  blue:          "#5c91dd"
+  magenta:       "#8b79a6"
+  cyan:          "#867268"
+  white:         "#e0cfc2"
+  bright-black:  "#515151"
+  bright-red:    "#ffc34c"
+  bright-green:  "#afffa5"
+  bright-yellow: "#fff700"
+  bright-blue:   "#90dbff"
+  bright-magenta: "#ad93ff"
+  bright-cyan:   "#ffcdb6"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

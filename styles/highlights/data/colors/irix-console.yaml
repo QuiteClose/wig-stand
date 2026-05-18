@@ -1,0 +1,64 @@
+meta:
+  name: IRIX Console
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/IRIX%20Console.toml"
+
+palette:
+  background:    "#0c0c0c"
+  foreground:    "#f2f2f2"
+  black:         "#1a1919"
+  red:           "#d42426"
+  green:         "#37a327"
+  yellow:        "#c29d28"
+  blue:          "#0739e2"
+  magenta:       "#911f9c"
+  cyan:          "#4497df"
+  white:         "#cccccc"
+  bright-black:  "#767676"
+  bright-red:    "#f34f59"
+  bright-green:  "#45c731"
+  bright-yellow: "#f9f2a7"
+  bright-blue:   "#4079ff"
+  bright-magenta: "#c31ba2"
+  bright-cyan:   "#6ed7d7"
+  bright-white:  "#f2f2f2"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

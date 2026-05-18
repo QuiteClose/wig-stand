@@ -1,0 +1,64 @@
+meta:
+  name: Firefly Traditional
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Firefly%20Traditional.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#f5f5f5"
+  black:         "#000000"
+  red:           "#c23720"
+  green:         "#33bc26"
+  yellow:        "#afad24"
+  blue:          "#5a63ff"
+  magenta:       "#d53ad2"
+  cyan:          "#33bbc7"
+  white:         "#cccccc"
+  bright-black:  "#828282"
+  bright-red:    "#ff3b1e"
+  bright-green:  "#2ee720"
+  bright-yellow: "#ecec16"
+  bright-blue:   "#838dff"
+  bright-magenta: "#ff5cfe"
+  bright-cyan:   "#29f0f0"
+  bright-white:  "#ebebeb"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

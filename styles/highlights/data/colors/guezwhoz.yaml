@@ -1,0 +1,64 @@
+meta:
+  name: Guezwhoz
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Guezwhoz.toml"
+
+palette:
+  background:    "#1d1d1d"
+  foreground:    "#d9d9d9"
+  black:         "#333333"
+  red:           "#e85181"
+  green:         "#7ad694"
+  yellow:        "#b7d074"
+  blue:          "#5aa0d6"
+  magenta:       "#9a90e0"
+  cyan:          "#58d6ce"
+  white:         "#d9d9d9"
+  bright-black:  "#808080"
+  bright-red:    "#e85181"
+  bright-green:  "#afd7af"
+  bright-yellow: "#d1ed85"
+  bright-blue:   "#64b2ed"
+  bright-magenta: "#a398ed"
+  bright-cyan:   "#61ede4"
+  bright-white:  "#ededed"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

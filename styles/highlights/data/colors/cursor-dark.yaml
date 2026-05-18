@@ -1,0 +1,64 @@
+meta:
+  name: Cursor Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Cursor%20Dark.toml"
+
+palette:
+  background:    "#141414"
+  foreground:    "#d4d4d4"
+  black:         "#242424"
+  red:           "#fc6b83"
+  green:         "#3fa266"
+  yellow:        "#d2943e"
+  blue:          "#81a1c1"
+  magenta:       "#b48ead"
+  cyan:          "#88c0d0"
+  white:         "#e4e4e4"
+  bright-black:  "#4a4a4a"
+  bright-red:    "#fc6b83"
+  bright-green:  "#70b489"
+  bright-yellow: "#f1b467"
+  bright-blue:   "#87a6c4"
+  bright-magenta: "#b48ead"
+  bright-cyan:   "#88c0d0"
+  bright-white:  "#e4e4e4"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

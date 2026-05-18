@@ -1,0 +1,64 @@
+meta:
+  name: Coffee Theme
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Coffee%20Theme.toml"
+
+palette:
+  background:    "#f5deb3"
+  foreground:    "#000000"
+  black:         "#000000"
+  red:           "#c91b00"
+  green:         "#00c200"
+  yellow:        "#adaa00"
+  blue:          "#0225c7"
+  magenta:       "#ca30c7"
+  cyan:          "#00b8ba"
+  white:         "#a1a1a1"
+  bright-black:  "#686868"
+  bright-red:    "#ff6e67"
+  bright-green:  "#1fba28"
+  bright-yellow: "#b2af1b"
+  bright-blue:   "#6871ff"
+  bright-magenta: "#f26af2"
+  bright-cyan:   "#20bdbf"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

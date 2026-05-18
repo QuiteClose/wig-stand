@@ -1,0 +1,64 @@
+meta:
+  name: Sonokai
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Sonokai.toml"
+
+palette:
+  background:    "#2c2e34"
+  foreground:    "#e2e2e3"
+  black:         "#181819"
+  red:           "#fc5d7c"
+  green:         "#9ed072"
+  yellow:        "#e7c664"
+  blue:          "#76cce0"
+  magenta:       "#b39df3"
+  cyan:          "#f39660"
+  white:         "#e2e2e3"
+  bright-black:  "#7f8490"
+  bright-red:    "#fc5d7c"
+  bright-green:  "#9ed072"
+  bright-yellow: "#e7c664"
+  bright-blue:   "#76cce0"
+  bright-magenta: "#b39df3"
+  bright-cyan:   "#f39660"
+  bright-white:  "#e2e2e3"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

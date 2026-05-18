@@ -1,0 +1,64 @@
+meta:
+  name: Operator Mono Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Operator%20Mono%20Dark.toml"
+
+palette:
+  background:    "#191919"
+  foreground:    "#c3cac2"
+  black:         "#5a5a5a"
+  red:           "#ca372d"
+  green:         "#4d7b3a"
+  yellow:        "#d4d697"
+  blue:          "#4387cf"
+  magenta:       "#b86cb4"
+  cyan:          "#72d5c6"
+  white:         "#ced4cd"
+  bright-black:  "#9a9b99"
+  bright-red:    "#c37d62"
+  bright-green:  "#83d0a2"
+  bright-yellow: "#fdfdc5"
+  bright-blue:   "#89d3f6"
+  bright-magenta: "#ff2c7a"
+  bright-cyan:   "#82eada"
+  bright-white:  "#fdfdf6"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

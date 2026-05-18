@@ -1,0 +1,64 @@
+meta:
+  name: Unikitty
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Unikitty.toml"
+
+palette:
+  background:    "#ff8cd9"
+  foreground:    "#0b0b0b"
+  black:         "#0c0c0c"
+  red:           "#a80f20"
+  green:         "#c7ff98"
+  yellow:        "#fff964"
+  blue:          "#145fcd"
+  magenta:       "#ffe9ff"
+  cyan:          "#9effef"
+  white:         "#fcf1fb"
+  bright-black:  "#434343"
+  bright-red:    "#d91329"
+  bright-green:  "#d3ffaf"
+  bright-yellow: "#ffef50"
+  bright-blue:   "#0075ea"
+  bright-magenta: "#ffefff"
+  bright-cyan:   "#93ffef"
+  bright-white:  "#fff3fe"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

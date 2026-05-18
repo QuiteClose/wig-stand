@@ -1,0 +1,64 @@
+meta:
+  name: Bright Lights
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Bright%20Lights.toml"
+
+palette:
+  background:    "#191919"
+  foreground:    "#b3c9d7"
+  black:         "#191919"
+  red:           "#ff355b"
+  green:         "#b7e876"
+  yellow:        "#ffc251"
+  blue:          "#76d4ff"
+  magenta:       "#ba76e7"
+  cyan:          "#6cbfb5"
+  white:         "#c2c8d7"
+  bright-black:  "#4c4c4c"
+  bright-red:    "#ff355b"
+  bright-green:  "#b7e876"
+  bright-yellow: "#ffc251"
+  bright-blue:   "#76d5ff"
+  bright-magenta: "#ba76e7"
+  bright-cyan:   "#6cbfb5"
+  bright-white:  "#c2c8d7"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

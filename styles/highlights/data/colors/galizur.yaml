@@ -1,0 +1,64 @@
+meta:
+  name: Galizur
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Galizur.toml"
+
+palette:
+  background:    "#071317"
+  foreground:    "#ddeeff"
+  black:         "#223344"
+  red:           "#aa1122"
+  green:         "#33aa11"
+  yellow:        "#ccaa22"
+  blue:          "#2255cc"
+  magenta:       "#7755aa"
+  cyan:          "#22bbdd"
+  white:         "#8899aa"
+  bright-black:  "#556677"
+  bright-red:    "#ff1133"
+  bright-green:  "#33ff11"
+  bright-yellow: "#ffdd33"
+  bright-blue:   "#3377ff"
+  bright-magenta: "#aa77ff"
+  bright-cyan:   "#33ddff"
+  bright-white:  "#bbccdd"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

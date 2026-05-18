@@ -1,0 +1,64 @@
+meta:
+  name: Modus Operandi
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Modus%20Operandi.toml"
+
+palette:
+  background:    "#ffffff"
+  foreground:    "#000000"
+  black:         "#000000"
+  red:           "#a60000"
+  green:         "#006800"
+  yellow:        "#6f5500"
+  blue:          "#0031a9"
+  magenta:       "#721045"
+  cyan:          "#005e8b"
+  white:         "#a6a6a6"
+  bright-black:  "#595959"
+  bright-red:    "#972500"
+  bright-green:  "#00663f"
+  bright-yellow: "#884900"
+  bright-blue:   "#3548cf"
+  bright-magenta: "#531ab6"
+  bright-cyan:   "#005f5f"
+  bright-white:  "#595959"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

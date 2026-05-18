@@ -1,0 +1,64 @@
+meta:
+  name: Retro
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Retro.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#13a10e"
+  black:         "#13a10e"
+  red:           "#13a10e"
+  green:         "#13a10e"
+  yellow:        "#13a10e"
+  blue:          "#13a10e"
+  magenta:       "#13a10e"
+  cyan:          "#13a10e"
+  white:         "#13a10e"
+  bright-black:  "#16ba10"
+  bright-red:    "#16ba10"
+  bright-green:  "#16ba10"
+  bright-yellow: "#16ba10"
+  bright-blue:   "#16ba10"
+  bright-magenta: "#16ba10"
+  bright-cyan:   "#16ba10"
+  bright-white:  "#16ba10"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Darkmatrix
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Darkmatrix.toml"
+
+palette:
+  background:    "#070c0e"
+  foreground:    "#3e5715"
+  black:         "#091013"
+  red:           "#006536"
+  green:         "#6fa64c"
+  yellow:        "#7e8000"
+  blue:          "#2c9a84"
+  magenta:       "#523a60"
+  cyan:          "#114d53"
+  white:         "#006536"
+  bright-black:  "#404040"
+  bright-red:    "#00733d"
+  bright-green:  "#90d762"
+  bright-yellow: "#e2e500"
+  bright-blue:   "#46d8b8"
+  bright-magenta: "#573d66"
+  bright-cyan:   "#12545a"
+  bright-white:  "#006536"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

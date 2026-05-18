@@ -1,0 +1,64 @@
+meta:
+  name: Duotone Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Duotone%20Dark.toml"
+
+palette:
+  background:    "#1f1d27"
+  foreground:    "#b7a1ff"
+  black:         "#1f1d27"
+  red:           "#d9393e"
+  green:         "#2dcd73"
+  yellow:        "#d9b76e"
+  blue:          "#ffc284"
+  magenta:       "#de8d40"
+  cyan:          "#2488ff"
+  white:         "#b7a1ff"
+  bright-black:  "#4e4a60"
+  bright-red:    "#d9393e"
+  bright-green:  "#2dcd73"
+  bright-yellow: "#d9b76e"
+  bright-blue:   "#ffc284"
+  bright-magenta: "#de8d40"
+  bright-cyan:   "#2488ff"
+  bright-white:  "#eae5ff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

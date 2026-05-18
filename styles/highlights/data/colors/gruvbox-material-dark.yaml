@@ -1,0 +1,64 @@
+meta:
+  name: Gruvbox Material Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Gruvbox%20Material%20Dark.toml"
+
+palette:
+  background:    "#282828"
+  foreground:    "#d4be98"
+  black:         "#282828"
+  red:           "#ea6962"
+  green:         "#a9b665"
+  yellow:        "#d8a657"
+  blue:          "#7daea3"
+  magenta:       "#d3869b"
+  cyan:          "#89b482"
+  white:         "#d4be98"
+  bright-black:  "#7c6f64"
+  bright-red:    "#ea6962"
+  bright-green:  "#a9b665"
+  bright-yellow: "#d8a657"
+  bright-blue:   "#7daea3"
+  bright-magenta: "#d3869b"
+  bright-cyan:   "#89b482"
+  bright-white:  "#ddc7a1"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Nightfox
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Nightfox.toml"
+
+palette:
+  background:    "#192330"
+  foreground:    "#cdcecf"
+  black:         "#393b44"
+  red:           "#c94f6d"
+  green:         "#81b29a"
+  yellow:        "#dbc074"
+  blue:          "#719cd6"
+  magenta:       "#9d79d6"
+  cyan:          "#63cdcf"
+  white:         "#dfdfe0"
+  bright-black:  "#575860"
+  bright-red:    "#d16983"
+  bright-green:  "#8ebaa4"
+  bright-yellow: "#e0c989"
+  bright-blue:   "#86abdc"
+  bright-magenta: "#baa1e2"
+  bright-cyan:   "#7ad5d6"
+  bright-white:  "#e4e4e5"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

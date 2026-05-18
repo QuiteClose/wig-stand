@@ -1,0 +1,64 @@
+meta:
+  name: Terafox
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Terafox.toml"
+
+palette:
+  background:    "#152528"
+  foreground:    "#e6eaea"
+  black:         "#2f3239"
+  red:           "#e85c51"
+  green:         "#7aa4a1"
+  yellow:        "#fda47f"
+  blue:          "#5a93aa"
+  magenta:       "#ad5c7c"
+  cyan:          "#a1cdd8"
+  white:         "#ebebeb"
+  bright-black:  "#4e5157"
+  bright-red:    "#eb746b"
+  bright-green:  "#8eb2af"
+  bright-yellow: "#fdb292"
+  bright-blue:   "#73a3b7"
+  bright-magenta: "#b97490"
+  bright-cyan:   "#afd4de"
+  bright-white:  "#eeeeee"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Wild Cherry
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Wild%20Cherry.toml"
+
+palette:
+  background:    "#1f1726"
+  foreground:    "#dafaff"
+  black:         "#000507"
+  red:           "#d94085"
+  green:         "#2ab250"
+  yellow:        "#ffd16f"
+  blue:          "#883cdc"
+  magenta:       "#ececec"
+  cyan:          "#c1b8b7"
+  white:         "#fff8de"
+  bright-black:  "#009cc9"
+  bright-red:    "#da6bac"
+  bright-green:  "#f4dca5"
+  bright-yellow: "#eac066"
+  bright-blue:   "#308cba"
+  bright-magenta: "#ae636b"
+  bright-cyan:   "#ff919d"
+  bright-white:  "#e4838d"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Farmhouse Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Farmhouse%20Dark.toml"
+
+palette:
+  background:    "#1d2027"
+  foreground:    "#e8e4e1"
+  black:         "#1d2027"
+  red:           "#ba0004"
+  green:         "#549d00"
+  yellow:        "#c87300"
+  blue:          "#0049e6"
+  magenta:       "#9f1b61"
+  cyan:          "#1fb65c"
+  white:         "#e8e4e1"
+  bright-black:  "#464d54"
+  bright-red:    "#eb0009"
+  bright-green:  "#7ac100"
+  bright-yellow: "#ea9a00"
+  bright-blue:   "#006efe"
+  bright-magenta: "#bf3b7f"
+  bright-cyan:   "#19e062"
+  bright-white:  "#f4eef0"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

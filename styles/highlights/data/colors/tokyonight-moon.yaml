@@ -1,0 +1,64 @@
+meta:
+  name: TokyoNight Moon
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/TokyoNight%20Moon.toml"
+
+palette:
+  background:    "#222436"
+  foreground:    "#c8d3f5"
+  black:         "#1b1d2b"
+  red:           "#ff757f"
+  green:         "#c3e88d"
+  yellow:        "#ffc777"
+  blue:          "#82aaff"
+  magenta:       "#c099ff"
+  cyan:          "#86e1fc"
+  white:         "#828bb8"
+  bright-black:  "#444a73"
+  bright-red:    "#ff757f"
+  bright-green:  "#c3e88d"
+  bright-yellow: "#ffc777"
+  bright-blue:   "#82aaff"
+  bright-magenta: "#c099ff"
+  bright-cyan:   "#86e1fc"
+  bright-white:  "#c8d3f5"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Claude Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Claude%20Dark.toml"
+
+palette:
+  background:    "#262624"
+  foreground:    "#e5e4e1"
+  black:         "#888681"
+  red:           "#d47563"
+  green:         "#9aca86"
+  yellow:        "#e8c96b"
+  blue:          "#6a9bcc"
+  magenta:       "#9b87f5"
+  cyan:          "#3cbe8c"
+  white:         "#e2e1da"
+  bright-black:  "#a6a59b"
+  bright-red:    "#f4a9a9"
+  bright-green:  "#a8d166"
+  bright-yellow: "#fab319"
+  bright-blue:   "#9fc5f4"
+  bright-magenta: "#f3aac5"
+  bright-cyan:   "#79d7b3"
+  bright-white:  "#efeeeb"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

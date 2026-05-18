@@ -1,0 +1,64 @@
+meta:
+  name: Trapped in Amber
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Trapped%20in%20Amber.toml"
+
+palette:
+  background:    "#0a1017"
+  foreground:    "#f0a020"
+  black:         "#4a3220"
+  red:           "#e05c1c"
+  green:         "#7a9c4a"
+  yellow:        "#f0a020"
+  blue:          "#4a7ec9"
+  magenta:       "#c95a8c"
+  cyan:          "#7a9ea8"
+  white:         "#ffd9a0"
+  bright-black:  "#5a4a3a"
+  bright-red:    "#ff7832"
+  bright-green:  "#a8c46b"
+  bright-yellow: "#ffd700"
+  bright-blue:   "#6b9fff"
+  bright-magenta: "#ff7fa8"
+  bright-cyan:   "#a5c2cc"
+  bright-white:  "#fff5e0"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

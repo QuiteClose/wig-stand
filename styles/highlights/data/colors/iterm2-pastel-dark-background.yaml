@@ -1,0 +1,64 @@
+meta:
+  name: iTerm2 Pastel Dark Background
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/iTerm2%20Pastel%20Dark%20Background.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#c7c7c7"
+  black:         "#626262"
+  red:           "#ff8373"
+  green:         "#b4fb73"
+  yellow:        "#fffdc3"
+  blue:          "#a5d5fe"
+  magenta:       "#ff90fe"
+  cyan:          "#d1d1fe"
+  white:         "#f1f1f1"
+  bright-black:  "#8f8f8f"
+  bright-red:    "#ffc4be"
+  bright-green:  "#d6fcba"
+  bright-yellow: "#fffed5"
+  bright-blue:   "#c2e3ff"
+  bright-magenta: "#ffb2fe"
+  bright-cyan:   "#e6e6fe"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

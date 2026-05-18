@@ -1,0 +1,64 @@
+meta:
+  name: Liquid Carbon
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Liquid%20Carbon.toml"
+
+palette:
+  background:    "#303030"
+  foreground:    "#afc2c2"
+  black:         "#000000"
+  red:           "#ff3030"
+  green:         "#559a70"
+  yellow:        "#ccac00"
+  blue:          "#0099cc"
+  magenta:       "#cc69c8"
+  cyan:          "#7ac4cc"
+  white:         "#bccccc"
+  bright-black:  "#595959"
+  bright-red:    "#ff3030"
+  bright-green:  "#559a70"
+  bright-yellow: "#ccac00"
+  bright-blue:   "#0099cc"
+  bright-magenta: "#cc69c8"
+  bright-cyan:   "#7ac4cc"
+  bright-white:  "#bccccc"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

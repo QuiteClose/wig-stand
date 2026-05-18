@@ -1,0 +1,64 @@
+meta:
+  name: Raycast Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Raycast%20Dark.toml"
+
+palette:
+  background:    "#1a1a1a"
+  foreground:    "#ffffff"
+  black:         "#000000"
+  red:           "#ff5360"
+  green:         "#59d499"
+  yellow:        "#ffc531"
+  blue:          "#56c2ff"
+  magenta:       "#cf2f98"
+  cyan:          "#52eee5"
+  white:         "#ffffff"
+  bright-black:  "#4c4c4c"
+  bright-red:    "#ff6363"
+  bright-green:  "#59d499"
+  bright-yellow: "#ffc531"
+  bright-blue:   "#56c2ff"
+  bright-magenta: "#cf2f98"
+  bright-cyan:   "#52eee5"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

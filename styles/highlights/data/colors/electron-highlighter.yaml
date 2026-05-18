@@ -1,0 +1,64 @@
+meta:
+  name: Electron Highlighter
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Electron%20Highlighter.toml"
+
+palette:
+  background:    "#23283d"
+  foreground:    "#a5b6d4"
+  black:         "#15161f"
+  red:           "#ff6c8d"
+  green:         "#00ffc3"
+  yellow:        "#ffd7a9"
+  blue:          "#77abff"
+  magenta:       "#daa4f4"
+  cyan:          "#00fdff"
+  white:         "#778faf"
+  bright-black:  "#4a6789"
+  bright-red:    "#ff6c8d"
+  bright-green:  "#00ffc3"
+  bright-yellow: "#ffd7a9"
+  bright-blue:   "#77abff"
+  bright-magenta: "#daa4f4"
+  bright-cyan:   "#00fdff"
+  bright-white:  "#c3cee2"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

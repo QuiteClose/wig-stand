@@ -1,0 +1,64 @@
+meta:
+  name: Tomorrow Night Blue
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Tomorrow%20Night%20Blue.toml"
+
+palette:
+  background:    "#002451"
+  foreground:    "#ffffff"
+  black:         "#000000"
+  red:           "#ff9da4"
+  green:         "#d1f1a9"
+  yellow:        "#ffeead"
+  blue:          "#bbdaff"
+  magenta:       "#ebbbff"
+  cyan:          "#99ffff"
+  white:         "#ffffff"
+  bright-black:  "#4c4c4c"
+  bright-red:    "#ff9da4"
+  bright-green:  "#d1f1a9"
+  bright-yellow: "#ffeead"
+  bright-blue:   "#bbdaff"
+  bright-magenta: "#ebbbff"
+  bright-cyan:   "#99ffff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Breeze
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Breeze.toml"
+
+palette:
+  background:    "#31363b"
+  foreground:    "#eff0f1"
+  black:         "#31363b"
+  red:           "#ed1515"
+  green:         "#11d116"
+  yellow:        "#f67400"
+  blue:          "#1d99f3"
+  magenta:       "#9b59b6"
+  cyan:          "#1abc9c"
+  white:         "#eff0f1"
+  bright-black:  "#7f8c8d"
+  bright-red:    "#c0392b"
+  bright-green:  "#1cdc9a"
+  bright-yellow: "#fdbc4b"
+  bright-blue:   "#3daee9"
+  bright-magenta: "#8e44ad"
+  bright-cyan:   "#16a085"
+  bright-white:  "#fcfcfc"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

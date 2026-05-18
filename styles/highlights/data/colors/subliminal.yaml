@@ -1,0 +1,64 @@
+meta:
+  name: Subliminal
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Subliminal.toml"
+
+palette:
+  background:    "#282c35"
+  foreground:    "#d4d4d4"
+  black:         "#7f7f7f"
+  red:           "#e15a60"
+  green:         "#a9cfa4"
+  yellow:        "#ffe2a9"
+  blue:          "#6699cc"
+  magenta:       "#f1a5ab"
+  cyan:          "#5fb3b3"
+  white:         "#d4d4d4"
+  bright-black:  "#7f7f7f"
+  bright-red:    "#e15a60"
+  bright-green:  "#a9cfa4"
+  bright-yellow: "#ffe2a9"
+  bright-blue:   "#6699cc"
+  bright-magenta: "#f1a5ab"
+  bright-cyan:   "#5fb3b3"
+  bright-white:  "#d4d4d4"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

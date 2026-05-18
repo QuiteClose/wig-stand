@@ -1,0 +1,64 @@
+meta:
+  name: SeedFlip Pulse
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/SeedFlip%20Pulse.toml"
+
+palette:
+  background:    "#121212"
+  foreground:    "#ffffff"
+  black:         "#0d0d0d"
+  red:           "#e34f4f"
+  green:         "#4fe380"
+  yellow:        "#e3cb4f"
+  blue:          "#4f8de3"
+  magenta:       "#e34fe3"
+  cyan:          "#4fe3e3"
+  white:         "#ffffff"
+  bright-black:  "#454545"
+  bright-red:    "#ee9191"
+  bright-green:  "#91eeb0"
+  bright-yellow: "#eede91"
+  bright-blue:   "#91b8ee"
+  bright-magenta: "#ee91ee"
+  bright-cyan:   "#91eeee"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

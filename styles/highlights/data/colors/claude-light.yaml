@@ -1,0 +1,64 @@
+meta:
+  name: Claude Light
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Claude%20Light.toml"
+
+palette:
+  background:    "#faf9f5"
+  foreground:    "#141413"
+  black:         "#0a0a0a"
+  red:           "#a84b3a"
+  green:         "#2e7c4c"
+  yellow:        "#8a6220"
+  blue:          "#184e95"
+  magenta:       "#882b4d"
+  cyan:          "#066049"
+  white:         "#b6b5aa"
+  bright-black:  "#51504d"
+  bright-red:    "#e34a4a"
+  bright-green:  "#639900"
+  bright-yellow: "#b87700"
+  bright-blue:   "#3886e5"
+  bright-magenta: "#d55382"
+  bright-cyan:   "#199f70"
+  bright-white:  "#e2e1da"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

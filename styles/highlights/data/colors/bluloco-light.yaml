@@ -1,0 +1,64 @@
+meta:
+  name: Bluloco Light
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Bluloco%20Light.toml"
+
+palette:
+  background:    "#f9f9f9"
+  foreground:    "#373a41"
+  black:         "#373a41"
+  red:           "#d52753"
+  green:         "#23974a"
+  yellow:        "#df631c"
+  blue:          "#275fe4"
+  magenta:       "#823ff1"
+  cyan:          "#27618d"
+  white:         "#babbc2"
+  bright-black:  "#676a77"
+  bright-red:    "#ff6480"
+  bright-green:  "#3cbc66"
+  bright-yellow: "#c5a332"
+  bright-blue:   "#0099e1"
+  bright-magenta: "#ce33c0"
+  bright-cyan:   "#6d93bb"
+  bright-white:  "#d3d3d3"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

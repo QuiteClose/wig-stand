@@ -1,0 +1,64 @@
+meta:
+  name: Shaman
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Shaman.toml"
+
+palette:
+  background:    "#001015"
+  foreground:    "#405555"
+  black:         "#012026"
+  red:           "#b2302d"
+  green:         "#00a941"
+  yellow:        "#5e8baa"
+  blue:          "#449a86"
+  magenta:       "#00599d"
+  cyan:          "#5d7e19"
+  white:         "#405555"
+  bright-black:  "#384451"
+  bright-red:    "#ff4242"
+  bright-green:  "#2aea5e"
+  bright-yellow: "#8ed4fd"
+  bright-blue:   "#61d5ba"
+  bright-magenta: "#1298ff"
+  bright-cyan:   "#98d028"
+  bright-white:  "#58fbd6"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

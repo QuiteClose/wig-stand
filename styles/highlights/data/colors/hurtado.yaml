@@ -1,0 +1,64 @@
+meta:
+  name: Hurtado
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Hurtado.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#dbdbdb"
+  black:         "#575757"
+  red:           "#ff1b00"
+  green:         "#a5e055"
+  yellow:        "#fbe74a"
+  blue:          "#496487"
+  magenta:       "#fd5ff1"
+  cyan:          "#86e9fe"
+  white:         "#cbcccb"
+  bright-black:  "#404040"
+  bright-red:    "#d51d00"
+  bright-green:  "#a5df55"
+  bright-yellow: "#fbe84a"
+  bright-blue:   "#89beff"
+  bright-magenta: "#c001c1"
+  bright-cyan:   "#86eafe"
+  bright-white:  "#dbdbdb"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

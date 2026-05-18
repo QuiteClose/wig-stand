@@ -1,0 +1,64 @@
+meta:
+  name: Teerb
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Teerb.toml"
+
+palette:
+  background:    "#262626"
+  foreground:    "#d0d0d0"
+  black:         "#1c1c1c"
+  red:           "#d68686"
+  green:         "#aed686"
+  yellow:        "#d7af87"
+  blue:          "#86aed6"
+  magenta:       "#d6aed6"
+  cyan:          "#8adbb4"
+  white:         "#d0d0d0"
+  bright-black:  "#4f4f4f"
+  bright-red:    "#d68686"
+  bright-green:  "#aed686"
+  bright-yellow: "#e4c9af"
+  bright-blue:   "#86aed6"
+  bright-magenta: "#d6aed6"
+  bright-cyan:   "#b1e7dd"
+  bright-white:  "#efefef"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

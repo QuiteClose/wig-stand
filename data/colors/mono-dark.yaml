@@ -1,0 +1,32 @@
+meta:
+  name: Mono Dark
+palette:
+  white: "#f0f6fc"
+  black: "#0d1117"
+  grey: "#8b949e"
+  blue: "#58a6ff"
+  green: "#3fb950"
+  orange: "#ffa657"
+  purple: "#d2a8ff"
+document:
+  text:
+    primary: white
+    secondary: grey
+    emphasis: white
+    heading: white
+    link: blue
+  background:
+    primary: black
+    secondary: grey
+    embed: grey
+syntax:
+  variable: purple
+  constant: purple
+  punctuation: grey
+  operator: white
+  number: green
+  type: orange
+  function: blue
+  string: blue
+  comment: grey
+  keyword: blue

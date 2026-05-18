@@ -1,0 +1,64 @@
+meta:
+  name: Mona Lisa
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Mona%20Lisa.toml"
+
+palette:
+  background:    "#120b0d"
+  foreground:    "#f7d66a"
+  black:         "#351b0e"
+  red:           "#9b291c"
+  green:         "#636232"
+  yellow:        "#c36e28"
+  blue:          "#515c5d"
+  magenta:       "#9b1d29"
+  cyan:          "#588056"
+  white:         "#f7d75c"
+  bright-black:  "#874228"
+  bright-red:    "#ff4331"
+  bright-green:  "#b4b264"
+  bright-yellow: "#ff9566"
+  bright-blue:   "#9eb2b4"
+  bright-magenta: "#ff5b6a"
+  bright-cyan:   "#8acd8f"
+  bright-white:  "#ffe598"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

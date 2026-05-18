@@ -1,18 +1,20 @@
 ---
-name: Colour Scheme
-source: ":root, [data-theme]"
-description: "Semantic colour tokens for light and dark themes. Driven by the <code>highlights</code> colour data via Toupee rendering."
+name: Colour Tokens
+source: "[data-theme], :root"
+description: "Per-theme document and syntax colour custom properties. Rendered per-consumer: only the themes declared in the consumer's <code>highlights.available</code> are emitted."
 notes: |
   Provides <code>--color-text-*</code>, <code>--color-bg-*</code>, and
-  <code>--syntax-*</code> custom properties for both light and dark modes.
-  The dark theme is activated via <code>[data-theme="dark"]</code> on the
-  root element.
+  <code>--syntax-*</code> custom properties for each declared theme pair.
+  Themes are activated by setting <code>[data-theme="{pair}-light"]</code> or
+  <code>[data-theme="{pair}-dark"]</code> on any ancestor element (typically <code>&lt;html&gt;</code>).
+  A <code>prefers-color-scheme</code> fallback on <code>:root</code> covers the default
+  pair before JS runs.
 ---
 <div class="stack" style="--stack-space: 0.5rem;">
-<div class="cluster" style="--cluster-space: 0.5rem;">
-  <div style="width: 3rem; height: 3rem; border-radius: 0.25rem; background: var(--color-bg-primary); border: 1px solid var(--color-border, #ddd);"></div>
-  <div style="width: 3rem; height: 3rem; border-radius: 0.25rem; background: var(--color-bg-secondary); border: 1px solid var(--color-border, #ddd);"></div>
-  <div style="width: 3rem; height: 3rem; border-radius: 0.25rem; background: var(--color-bg-embed); border: 1px solid var(--color-border, #ddd);"></div>
-</div>
-<p><small>Light theme backgrounds</small></p>
+  <div class="cluster" style="--cluster-space: 0.5rem;">
+    <div style="width: 3rem; height: 3rem; border-radius: var(--radius-s, 0.25rem); background: var(--color-bg-primary); border: var(--stroke, 1px solid #ddd);"></div>
+    <div style="width: 3rem; height: 3rem; border-radius: var(--radius-s, 0.25rem); background: var(--color-bg-secondary); border: var(--stroke, 1px solid #ddd);"></div>
+    <div style="width: 3rem; height: 3rem; border-radius: var(--radius-s, 0.25rem); background: var(--color-bg-embed); border: var(--stroke, 1px solid #ddd);"></div>
+  </div>
+  <p style="color: var(--color-text-primary)"><small>Active theme backgrounds (switch <code>data-theme</code> to preview)</small></p>
 </div>

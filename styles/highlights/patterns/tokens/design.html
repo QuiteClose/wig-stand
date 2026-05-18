@@ -1,0 +1,17 @@
+---
+name: Design Tokens
+source: ":root"
+description: "Static typography, spacing, and geometry custom properties. Same for all consumers regardless of active colour scheme."
+notes: |
+  Provides <code>--font-*</code>, <code>--space-*</code>, <code>--gutter</code>,
+  <code>--radius-s</code>, <code>--transition-base</code>, <code>--leading-fine</code>,
+  and <code>--measure</code>.
+  Import alongside <code>tokens/colors</code> to complete the Highlights token set.
+---
+<div class="cluster" style="--cluster-space: 0.5rem; font-family: var(--font-mono, monospace);">
+  <span style="font-size: var(--space-s)">xs</span>
+  <span style="font-size: var(--space-m)">s</span>
+  <span style="font-size: var(--space-l)">m</span>
+  <span style="font-size: var(--space-xl)">l</span>
+  <span style="font-size: var(--space-2xl)">xl</span>
+</div>

@@ -1,0 +1,64 @@
+meta:
+  name: Idle Toes
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Idle%20Toes.toml"
+
+palette:
+  background:    "#323232"
+  foreground:    "#ffffff"
+  black:         "#323232"
+  red:           "#d25252"
+  green:         "#7fe173"
+  yellow:        "#ffc66d"
+  blue:          "#4099ff"
+  magenta:       "#f680ff"
+  cyan:          "#bed6ff"
+  white:         "#eeeeec"
+  bright-black:  "#606060"
+  bright-red:    "#f07070"
+  bright-green:  "#9dff91"
+  bright-yellow: "#ffe48b"
+  bright-blue:   "#5eb7f7"
+  bright-magenta: "#ff9dff"
+  bright-cyan:   "#dcf4ff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

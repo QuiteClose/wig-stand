@@ -1,0 +1,64 @@
+meta:
+  name: Fairyfloss
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Fairyfloss.toml"
+
+palette:
+  background:    "#5a5475"
+  foreground:    "#f8f8f2"
+  black:         "#040303"
+  red:           "#f92672"
+  green:         "#c2ffdf"
+  yellow:        "#e6c000"
+  blue:          "#c2ffdf"
+  magenta:       "#ffb8d1"
+  cyan:          "#c5a3ff"
+  white:         "#f8f8f0"
+  bright-black:  "#6090cb"
+  bright-red:    "#ff857f"
+  bright-green:  "#c2ffdf"
+  bright-yellow: "#ffea00"
+  bright-blue:   "#c2ffdf"
+  bright-magenta: "#ffb8d1"
+  bright-cyan:   "#c5a3ff"
+  bright-white:  "#f8f8f0"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

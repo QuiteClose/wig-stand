@@ -1,0 +1,64 @@
+meta:
+  name: Oceanic Next
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Oceanic%20Next.toml"
+
+palette:
+  background:    "#162c35"
+  foreground:    "#c0c5ce"
+  black:         "#162c35"
+  red:           "#ec5f67"
+  green:         "#99c794"
+  yellow:        "#fac863"
+  blue:          "#6699cc"
+  magenta:       "#c594c5"
+  cyan:          "#5fb3b3"
+  white:         "#ffffff"
+  bright-black:  "#65737e"
+  bright-red:    "#ec5f67"
+  bright-green:  "#99c794"
+  bright-yellow: "#fac863"
+  bright-blue:   "#6699cc"
+  bright-magenta: "#c594c5"
+  bright-cyan:   "#5fb3b3"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

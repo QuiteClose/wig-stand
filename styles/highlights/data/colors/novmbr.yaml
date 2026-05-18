@@ -1,0 +1,64 @@
+meta:
+  name: novmbr
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/novmbr.toml"
+
+palette:
+  background:    "#241d1a"
+  foreground:    "#c7b8ac"
+  black:         "#282a2e"
+  red:           "#9f6434"
+  green:         "#9dac5f"
+  yellow:        "#cca75f"
+  blue:          "#2f7d7c"
+  magenta:       "#b5896e"
+  cyan:          "#52877f"
+  white:         "#c7b8ac"
+  bright-black:  "#5d4e47"
+  bright-red:    "#9f6434"
+  bright-green:  "#9dac5f"
+  bright-yellow: "#cca75f"
+  bright-blue:   "#2f7d7c"
+  bright-magenta: "#b5896e"
+  bright-cyan:   "#52877f"
+  bright-white:  "#c7b8ac"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Sakura
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Sakura.toml"
+
+palette:
+  background:    "#18131e"
+  foreground:    "#dd7bdc"
+  black:         "#000000"
+  red:           "#d52370"
+  green:         "#41af1a"
+  yellow:        "#bc7053"
+  blue:          "#6964ab"
+  magenta:       "#c71fbf"
+  cyan:          "#939393"
+  white:         "#998eac"
+  bright-black:  "#786d69"
+  bright-red:    "#f41d99"
+  bright-green:  "#22e529"
+  bright-yellow: "#f59574"
+  bright-blue:   "#9892f1"
+  bright-magenta: "#e90cdd"
+  bright-cyan:   "#eeeeee"
+  bright-white:  "#cbb6ff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

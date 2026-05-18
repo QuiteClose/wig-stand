@@ -1,0 +1,64 @@
+meta:
+  name: Challenger Deep
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Challenger%20Deep.toml"
+
+palette:
+  background:    "#1e1c31"
+  foreground:    "#cbe1e7"
+  black:         "#141228"
+  red:           "#ff5458"
+  green:         "#62d196"
+  yellow:        "#ffb378"
+  blue:          "#65b2ff"
+  magenta:       "#906cff"
+  cyan:          "#63f2f1"
+  white:         "#a6b3cc"
+  bright-black:  "#565575"
+  bright-red:    "#ff8080"
+  bright-green:  "#95ffa4"
+  bright-yellow: "#ffe9aa"
+  bright-blue:   "#91ddff"
+  bright-magenta: "#c991e1"
+  bright-cyan:   "#aaffe4"
+  bright-white:  "#cbe3e7"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

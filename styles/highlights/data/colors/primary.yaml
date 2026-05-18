@@ -1,0 +1,64 @@
+meta:
+  name: Primary
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Primary.toml"
+
+palette:
+  background:    "#ffffff"
+  foreground:    "#000000"
+  black:         "#000000"
+  red:           "#db4437"
+  green:         "#0f9d58"
+  yellow:        "#f4b400"
+  blue:          "#4285f4"
+  magenta:       "#db4437"
+  cyan:          "#4285f4"
+  white:         "#bfbfbf"
+  bright-black:  "#000000"
+  bright-red:    "#db4437"
+  bright-green:  "#0f9d58"
+  bright-yellow: "#f4b400"
+  bright-blue:   "#4285f4"
+  bright-magenta: "#4285f4"
+  bright-cyan:   "#0f9d58"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

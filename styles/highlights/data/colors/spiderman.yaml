@@ -1,0 +1,64 @@
+meta:
+  name: Spiderman
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Spiderman.toml"
+
+palette:
+  background:    "#1b1d1e"
+  foreground:    "#e3e3e3"
+  black:         "#1b1d1e"
+  red:           "#e60813"
+  green:         "#e22928"
+  yellow:        "#e24756"
+  blue:          "#2c3fff"
+  magenta:       "#2435db"
+  cyan:          "#3256ff"
+  white:         "#fffef6"
+  bright-black:  "#505354"
+  bright-red:    "#ff0325"
+  bright-green:  "#ff3338"
+  bright-yellow: "#fe3a35"
+  bright-blue:   "#1d50ff"
+  bright-magenta: "#747cff"
+  bright-cyan:   "#6184ff"
+  bright-white:  "#fffff9"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

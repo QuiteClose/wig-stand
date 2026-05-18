@@ -1,0 +1,64 @@
+meta:
+  name: Oxocarbon
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Oxocarbon.toml"
+
+palette:
+  background:    "#161616"
+  foreground:    "#f2f4f8"
+  black:         "#161616"
+  red:           "#00dfdb"
+  green:         "#00b4ff"
+  yellow:        "#ff4297"
+  blue:          "#00c15a"
+  magenta:       "#c693ff"
+  cyan:          "#ff74b8"
+  white:         "#f2f4f8"
+  bright-black:  "#585858"
+  bright-red:    "#00dfdb"
+  bright-green:  "#00b4ff"
+  bright-yellow: "#ff4297"
+  bright-blue:   "#00c15a"
+  bright-magenta: "#c693ff"
+  bright-cyan:   "#ff74b8"
+  bright-white:  "#f2f4f8"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

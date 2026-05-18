@@ -1,0 +1,64 @@
+meta:
+  name: Spacedust
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Spacedust.toml"
+
+palette:
+  background:    "#0a1e24"
+  foreground:    "#ecf0c1"
+  black:         "#6e5346"
+  red:           "#e35b00"
+  green:         "#5cab96"
+  yellow:        "#e3cd7b"
+  blue:          "#0f548b"
+  magenta:       "#e35b00"
+  cyan:          "#06afc7"
+  white:         "#f0f1ce"
+  bright-black:  "#684c31"
+  bright-red:    "#ff8a3a"
+  bright-green:  "#aecab8"
+  bright-yellow: "#ffc878"
+  bright-blue:   "#67a0ce"
+  bright-magenta: "#ff8a3a"
+  bright-cyan:   "#83a7b4"
+  bright-white:  "#fefff1"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

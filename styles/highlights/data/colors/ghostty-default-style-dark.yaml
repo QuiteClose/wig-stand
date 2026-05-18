@@ -1,0 +1,64 @@
+meta:
+  name: Ghostty Default Style Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Ghostty%20Default%20Style%20Dark.toml"
+
+palette:
+  background:    "#282c34"
+  foreground:    "#ffffff"
+  black:         "#1d1f21"
+  red:           "#cc6566"
+  green:         "#b6bd68"
+  yellow:        "#f0c674"
+  blue:          "#82a2be"
+  magenta:       "#b294bb"
+  cyan:          "#8abeb7"
+  white:         "#c4c8c6"
+  bright-black:  "#666666"
+  bright-red:    "#d54e53"
+  bright-green:  "#b9ca4b"
+  bright-yellow: "#e7c547"
+  bright-blue:   "#7aa6da"
+  bright-magenta: "#c397d8"
+  bright-cyan:   "#70c0b1"
+  bright-white:  "#eaeaea"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Dalton Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Dalton%20Dark.toml"
+
+palette:
+  background:    "#1b1b1b"
+  foreground:    "#c8c9cc"
+  black:         "#282828"
+  red:           "#d85050"
+  green:         "#5b914e"
+  yellow:        "#c4c40c"
+  blue:          "#7aa2f7"
+  magenta:       "#a050d0"
+  cyan:          "#56717f"
+  white:         "#b8b8b8"
+  bright-black:  "#494949"
+  bright-red:    "#f07068"
+  bright-green:  "#88b97d"
+  bright-yellow: "#eded02"
+  bright-blue:   "#97b1f1"
+  bright-magenta: "#c070f0"
+  bright-cyan:   "#6691a7"
+  bright-white:  "#d8d8d8"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

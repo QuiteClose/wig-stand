@@ -1,0 +1,64 @@
+meta:
+  name: Argonaut
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Argonaut.toml"
+
+palette:
+  background:    "#0e1019"
+  foreground:    "#fffaf4"
+  black:         "#232323"
+  red:           "#ff000f"
+  green:         "#8ce10b"
+  yellow:        "#ffb900"
+  blue:          "#008df8"
+  magenta:       "#6d43a6"
+  cyan:          "#00d8eb"
+  white:         "#ffffff"
+  bright-black:  "#444444"
+  bright-red:    "#ff2740"
+  bright-green:  "#abe15b"
+  bright-yellow: "#ffd242"
+  bright-blue:   "#0092ff"
+  bright-magenta: "#9a5feb"
+  bright-cyan:   "#67fff0"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

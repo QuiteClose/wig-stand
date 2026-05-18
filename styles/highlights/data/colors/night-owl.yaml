@@ -1,0 +1,64 @@
+meta:
+  name: Night Owl
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Night%20Owl.toml"
+
+palette:
+  background:    "#011627"
+  foreground:    "#d6deeb"
+  black:         "#011627"
+  red:           "#ef5350"
+  green:         "#22da6e"
+  yellow:        "#addb67"
+  blue:          "#82aaff"
+  magenta:       "#c792ea"
+  cyan:          "#21c7a8"
+  white:         "#ffffff"
+  bright-black:  "#575656"
+  bright-red:    "#ef5350"
+  bright-green:  "#22da6e"
+  bright-yellow: "#ffeb95"
+  bright-blue:   "#82aaff"
+  bright-magenta: "#c792ea"
+  bright-cyan:   "#7fdbca"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

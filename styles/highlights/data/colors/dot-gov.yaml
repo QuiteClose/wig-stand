@@ -1,0 +1,64 @@
+meta:
+  name: Dot Gov
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Dot%20Gov.toml"
+
+palette:
+  background:    "#262c35"
+  foreground:    "#ebebeb"
+  black:         "#191919"
+  red:           "#bf091d"
+  green:         "#3d9751"
+  yellow:        "#f6bb34"
+  blue:          "#17b2e0"
+  magenta:       "#7830b0"
+  cyan:          "#8bd2ed"
+  white:         "#ffffff"
+  bright-black:  "#595959"
+  bright-red:    "#bf091d"
+  bright-green:  "#3d9751"
+  bright-yellow: "#f6bb34"
+  bright-blue:   "#17b2e0"
+  bright-magenta: "#7830b0"
+  bright-cyan:   "#8bd2ed"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

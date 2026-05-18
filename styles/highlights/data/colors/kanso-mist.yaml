@@ -1,0 +1,64 @@
+meta:
+  name: Kanso Mist
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Kanso%20Mist.toml"
+
+palette:
+  background:    "#22262d"
+  foreground:    "#c5c9c7"
+  black:         "#22262d"
+  red:           "#c4746e"
+  green:         "#8a9a7b"
+  yellow:        "#c4b28a"
+  blue:          "#8ba4b0"
+  magenta:       "#a292a3"
+  cyan:          "#8ea4a2"
+  white:         "#a4a7a4"
+  bright-black:  "#5c6066"
+  bright-red:    "#e46876"
+  bright-green:  "#87a987"
+  bright-yellow: "#e6c384"
+  bright-blue:   "#7fb4ca"
+  bright-magenta: "#938aa9"
+  bright-cyan:   "#7aa89f"
+  bright-white:  "#c5c9c7"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

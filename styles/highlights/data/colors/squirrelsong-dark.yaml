@@ -1,0 +1,64 @@
+meta:
+  name: Squirrelsong Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Squirrelsong%20Dark.toml"
+
+palette:
+  background:    "#372920"
+  foreground:    "#b19b89"
+  black:         "#372920"
+  red:           "#ba4138"
+  green:         "#468336"
+  yellow:        "#d4b139"
+  blue:          "#4395c6"
+  magenta:       "#855fb8"
+  cyan:          "#2f9794"
+  white:         "#d3b9a2"
+  bright-black:  "#704f39"
+  bright-red:    "#df4d43"
+  bright-green:  "#659a4c"
+  bright-yellow: "#e8c23f"
+  bright-blue:   "#4ca4db"
+  bright-magenta: "#9d70da"
+  bright-cyan:   "#60aca9"
+  bright-white:  "#f2d4bb"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

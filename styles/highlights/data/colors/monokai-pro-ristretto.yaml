@@ -1,0 +1,64 @@
+meta:
+  name: Monokai Pro Ristretto
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Monokai%20Pro%20Ristretto.toml"
+
+palette:
+  background:    "#2c2525"
+  foreground:    "#fff1f3"
+  black:         "#2c2525"
+  red:           "#fd6883"
+  green:         "#adda78"
+  yellow:        "#f9cc6c"
+  blue:          "#f38d70"
+  magenta:       "#a8a9eb"
+  cyan:          "#85dacc"
+  white:         "#fff1f3"
+  bright-black:  "#72696a"
+  bright-red:    "#fd6883"
+  bright-green:  "#adda78"
+  bright-yellow: "#f9cc6c"
+  bright-blue:   "#f38d70"
+  bright-magenta: "#a8a9eb"
+  bright-cyan:   "#85dacc"
+  bright-white:  "#fff1f3"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Kitty Default
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Kitty%20Default.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#dddddd"
+  black:         "#000000"
+  red:           "#cc0403"
+  green:         "#19cb00"
+  yellow:        "#cecb00"
+  blue:          "#0d73cc"
+  magenta:       "#cb1ed1"
+  cyan:          "#0dcdcd"
+  white:         "#dddddd"
+  bright-black:  "#767676"
+  bright-red:    "#f2201f"
+  bright-green:  "#23fd00"
+  bright-yellow: "#fffd00"
+  bright-blue:   "#1a8fff"
+  bright-magenta: "#fd28ff"
+  bright-cyan:   "#14ffff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

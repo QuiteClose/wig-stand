@@ -4,7 +4,8 @@
 </t-define>
 <t-define name="body">
 <t-include template="cube:blocks/skip-link.html" />
-<header class="marquee-hero" style="background-image: url('/assets/demo/heroes/landing.svg'); background-size: cover; background-position: center;">
+<t-let name="hero_style">background-image: url('<t-var name="document.style.files.images.circuit-bg" />'); background-size: cover; background-position: center;</t-let>
+<header class="marquee-hero" t-var:style="hero_style">
 <nav aria-label="Site" style="position: absolute; top: 1rem; right: 1.5rem; font-size: 0.8rem;">
 <t-for link in site.nav>
 <t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>

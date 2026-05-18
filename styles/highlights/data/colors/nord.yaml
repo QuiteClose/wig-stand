@@ -1,0 +1,64 @@
+meta:
+  name: Nord
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Nord.toml"
+
+palette:
+  background:    "#2e3440"
+  foreground:    "#d8dee9"
+  black:         "#3b4252"
+  red:           "#bf616a"
+  green:         "#a3be8c"
+  yellow:        "#ebcb8b"
+  blue:          "#81a1c1"
+  magenta:       "#b48ead"
+  cyan:          "#88c0d0"
+  white:         "#e5e9f0"
+  bright-black:  "#596377"
+  bright-red:    "#bf616a"
+  bright-green:  "#a3be8c"
+  bright-yellow: "#ebcb8b"
+  bright-blue:   "#81a1c1"
+  bright-magenta: "#b48ead"
+  bright-cyan:   "#8fbcbb"
+  bright-white:  "#eceff4"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

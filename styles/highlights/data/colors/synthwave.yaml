@@ -1,0 +1,64 @@
+meta:
+  name: Synthwave
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Synthwave.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#dad9c7"
+  black:         "#000000"
+  red:           "#f6188f"
+  green:         "#1ebb2b"
+  yellow:        "#fdf834"
+  blue:          "#2186ec"
+  magenta:       "#f85a21"
+  cyan:          "#12c3e2"
+  white:         "#ffffff"
+  bright-black:  "#7f7094"
+  bright-red:    "#f841a0"
+  bright-green:  "#25c141"
+  bright-yellow: "#fdf454"
+  bright-blue:   "#2f9ded"
+  bright-magenta: "#f97137"
+  bright-cyan:   "#19cde6"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

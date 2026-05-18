@@ -1,0 +1,64 @@
+meta:
+  name: Pierre Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Pierre%20Dark.toml"
+
+palette:
+  background:    "#070707"
+  foreground:    "#fbfbfb"
+  black:         "#141415"
+  red:           "#ff2e3f"
+  green:         "#0dbe4e"
+  yellow:        "#ffca00"
+  blue:          "#009fff"
+  magenta:       "#c635e4"
+  cyan:          "#08c0ef"
+  white:         "#c6c6c8"
+  bright-black:  "#6c6c71"
+  bright-red:    "#ff6762"
+  bright-green:  "#5ecc71"
+  bright-yellow: "#ffd452"
+  bright-blue:   "#69b1ff"
+  bright-magenta: "#d568ea"
+  bright-cyan:   "#68cdf2"
+  bright-white:  "#fbfbfb"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

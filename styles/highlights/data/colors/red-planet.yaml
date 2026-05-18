@@ -1,0 +1,64 @@
+meta:
+  name: Red Planet
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Red%20Planet.toml"
+
+palette:
+  background:    "#222222"
+  foreground:    "#c2b790"
+  black:         "#202020"
+  red:           "#8c3432"
+  green:         "#728271"
+  yellow:        "#e8bf6a"
+  blue:          "#69819e"
+  magenta:       "#896492"
+  cyan:          "#5b8390"
+  white:         "#b9aa99"
+  bright-black:  "#676767"
+  bright-red:    "#b55242"
+  bright-green:  "#869985"
+  bright-yellow: "#ebeb91"
+  bright-blue:   "#60827e"
+  bright-magenta: "#de4974"
+  bright-cyan:   "#38add8"
+  bright-white:  "#d6bfb8"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

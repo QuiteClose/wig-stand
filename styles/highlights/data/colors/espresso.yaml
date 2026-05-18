@@ -1,0 +1,64 @@
+meta:
+  name: Espresso
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Espresso.toml"
+
+palette:
+  background:    "#323232"
+  foreground:    "#ffffff"
+  black:         "#353535"
+  red:           "#d25252"
+  green:         "#a5c261"
+  yellow:        "#ffc66d"
+  blue:          "#6c99bb"
+  magenta:       "#d197d9"
+  cyan:          "#bed6ff"
+  white:         "#eeeeec"
+  bright-black:  "#606060"
+  bright-red:    "#f00c0c"
+  bright-green:  "#c2e075"
+  bright-yellow: "#e1e48b"
+  bright-blue:   "#8ab7d9"
+  bright-magenta: "#efb5f7"
+  bright-cyan:   "#dcf4ff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

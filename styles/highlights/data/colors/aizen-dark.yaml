@@ -1,0 +1,64 @@
+meta:
+  name: Aizen Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Aizen%20Dark.toml"
+
+palette:
+  background:    "#1a1a1a"
+  foreground:    "#d0d6f0"
+  black:         "#1a1a1a"
+  red:           "#f08898"
+  green:         "#a4e09c"
+  yellow:        "#f5dea4"
+  blue:          "#84b4f8"
+  magenta:       "#c8a2f4"
+  cyan:          "#90dcd0"
+  white:         "#d0d6f0"
+  bright-black:  "#444444"
+  bright-red:    "#f08898"
+  bright-green:  "#a4e09c"
+  bright-yellow: "#f5dea4"
+  bright-blue:   "#84b4f8"
+  bright-magenta: "#c8a2f4"
+  bright-cyan:   "#90dcd0"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

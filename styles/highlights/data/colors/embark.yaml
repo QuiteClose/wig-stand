@@ -1,0 +1,64 @@
+meta:
+  name: Embark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Embark.toml"
+
+palette:
+  background:    "#1e1c31"
+  foreground:    "#eeffff"
+  black:         "#1e1c31"
+  red:           "#f0719b"
+  green:         "#a1efd3"
+  yellow:        "#ffe9aa"
+  blue:          "#57c7ff"
+  magenta:       "#c792ea"
+  cyan:          "#87dfeb"
+  white:         "#f8f8f2"
+  bright-black:  "#585273"
+  bright-red:    "#f02e6e"
+  bright-green:  "#2ce592"
+  bright-yellow: "#ffb378"
+  bright-blue:   "#1da0e2"
+  bright-magenta: "#a742ea"
+  bright-cyan:   "#63f2f1"
+  bright-white:  "#a6b3cc"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

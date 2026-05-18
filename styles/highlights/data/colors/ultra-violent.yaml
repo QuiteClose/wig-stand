@@ -1,0 +1,64 @@
+meta:
+  name: Ultra Violent
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Ultra%20Violent.toml"
+
+palette:
+  background:    "#242728"
+  foreground:    "#c1c1c1"
+  black:         "#242728"
+  red:           "#ff0090"
+  green:         "#b6ff00"
+  yellow:        "#fff727"
+  blue:          "#47e0fb"
+  magenta:       "#d731ff"
+  cyan:          "#0effbb"
+  white:         "#e1e1e1"
+  bright-black:  "#636667"
+  bright-red:    "#fb58b4"
+  bright-green:  "#deff8c"
+  bright-yellow: "#ebe087"
+  bright-blue:   "#7fecff"
+  bright-magenta: "#e681ff"
+  bright-cyan:   "#69fcd3"
+  bright-white:  "#f9f9f5"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

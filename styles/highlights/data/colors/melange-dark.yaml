@@ -1,0 +1,64 @@
+meta:
+  name: Melange Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Melange%20Dark.toml"
+
+palette:
+  background:    "#292522"
+  foreground:    "#ece1d7"
+  black:         "#34302c"
+  red:           "#bd8183"
+  green:         "#78997a"
+  yellow:        "#e49b5d"
+  blue:          "#7f91b2"
+  magenta:       "#b380b0"
+  cyan:          "#7b9695"
+  white:         "#c1a78e"
+  bright-black:  "#867462"
+  bright-red:    "#d47766"
+  bright-green:  "#85b695"
+  bright-yellow: "#ebc06d"
+  bright-blue:   "#a3a9ce"
+  bright-magenta: "#cf9bc2"
+  bright-cyan:   "#89b3b6"
+  bright-white:  "#ece1d7"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

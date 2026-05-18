@@ -1,0 +1,64 @@
+meta:
+  name: Terminal Basic Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Terminal%20Basic%20Dark.toml"
+
+palette:
+  background:    "#1d1e1d"
+  foreground:    "#ffffff"
+  black:         "#000000"
+  red:           "#c65339"
+  green:         "#6ac44b"
+  yellow:        "#b8b74a"
+  blue:          "#6444ed"
+  magenta:       "#d357db"
+  cyan:          "#69c1cf"
+  white:         "#d1d1d1"
+  bright-black:  "#909090"
+  bright-red:    "#eb5a3a"
+  bright-green:  "#77ea51"
+  bright-yellow: "#efef53"
+  bright-blue:   "#d09af9"
+  bright-magenta: "#eb5af7"
+  bright-cyan:   "#78f1f2"
+  bright-white:  "#ededed"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

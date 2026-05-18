@@ -1,0 +1,64 @@
+meta:
+  name: Citruszest
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Citruszest.toml"
+
+palette:
+  background:    "#121212"
+  foreground:    "#bfbfbf"
+  black:         "#404040"
+  red:           "#ff5454"
+  green:         "#00cc7a"
+  yellow:        "#ffd400"
+  blue:          "#00bfff"
+  magenta:       "#ff90fe"
+  cyan:          "#48d1cc"
+  white:         "#bfbfbf"
+  bright-black:  "#808080"
+  bright-red:    "#ff1a75"
+  bright-green:  "#1affa3"
+  bright-yellow: "#ffff00"
+  bright-blue:   "#33cfff"
+  bright-magenta: "#ffb2fe"
+  bright-cyan:   "#00fff2"
+  bright-white:  "#f9f9f9"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

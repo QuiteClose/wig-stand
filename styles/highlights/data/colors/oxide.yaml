@@ -1,0 +1,64 @@
+meta:
+  name: Oxide
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Oxide.toml"
+
+palette:
+  background:    "#161616"
+  foreground:    "#cecece"
+  black:         "#262626"
+  red:           "#ed756e"
+  green:         "#5bb661"
+  yellow:        "#c39900"
+  blue:          "#3ba6f5"
+  magenta:       "#968ff7"
+  cyan:          "#00baaa"
+  white:         "#cecece"
+  bright-black:  "#8f8f8f"
+  bright-red:    "#ff9890"
+  bright-green:  "#7bd77f"
+  bright-yellow: "#e3b831"
+  bright-blue:   "#6fc6ff"
+  bright-magenta: "#b5b2ff"
+  bright-cyan:   "#00dcca"
+  bright-white:  "#dedede"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

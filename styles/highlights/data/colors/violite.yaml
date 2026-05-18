@@ -1,0 +1,64 @@
+meta:
+  name: Violite
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Violite.toml"
+
+palette:
+  background:    "#241c36"
+  foreground:    "#eef4f6"
+  black:         "#241c36"
+  red:           "#ec7979"
+  green:         "#79ecb3"
+  yellow:        "#ece279"
+  blue:          "#a979ec"
+  magenta:       "#ec79ec"
+  cyan:          "#79ecec"
+  white:         "#eef4f6"
+  bright-black:  "#56447a"
+  bright-red:    "#ef8f8f"
+  bright-green:  "#9fefbf"
+  bright-yellow: "#efe78f"
+  bright-blue:   "#b78fef"
+  bright-magenta: "#ef8fcf"
+  bright-cyan:   "#9fefef"
+  bright-white:  "#f8fafc"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: 0x96f
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/0x96f.toml"
+
+palette:
+  background:    "#262427"
+  foreground:    "#fcfcfa"
+  black:         "#262427"
+  red:           "#ff666d"
+  green:         "#b3e03a"
+  yellow:        "#ffc739"
+  blue:          "#00cde8"
+  magenta:       "#a392e8"
+  cyan:          "#9deaf6"
+  white:         "#fcfcfa"
+  bright-black:  "#545452"
+  bright-red:    "#ff7e83"
+  bright-green:  "#bee55e"
+  bright-yellow: "#ffd05e"
+  bright-blue:   "#1bd5eb"
+  bright-magenta: "#b0a3eb"
+  bright-cyan:   "#acedf8"
+  bright-white:  "#fcfcfa"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

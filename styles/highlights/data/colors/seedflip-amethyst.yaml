@@ -1,0 +1,64 @@
+meta:
+  name: SeedFlip Amethyst
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/SeedFlip%20Amethyst.toml"
+
+palette:
+  background:    "#f8f7f6"
+  foreground:    "#1a0a2e"
+  black:         "#d7d1cb"
+  red:           "#bd0f0f"
+  green:         "#0fbd49"
+  yellow:        "#bda00f"
+  blue:          "#0f58bd"
+  magenta:       "#bd0fbd"
+  cyan:          "#0fbdbd"
+  white:         "#0e0519"
+  bright-black:  "#b5aba0"
+  bright-red:    "#ee2b2b"
+  bright-green:  "#12d452"
+  bright-yellow: "#d4b312"
+  bright-blue:   "#2b7cee"
+  bright-magenta: "#ee2bee"
+  bright-cyan:   "#05c8c8"
+  bright-white:  "#1a0a2e"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

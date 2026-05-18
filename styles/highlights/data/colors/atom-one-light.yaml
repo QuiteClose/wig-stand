@@ -1,0 +1,64 @@
+meta:
+  name: Atom One Light
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Atom%20One%20Light.toml"
+
+palette:
+  background:    "#f9f9f9"
+  foreground:    "#2a2c33"
+  black:         "#000000"
+  red:           "#de3e35"
+  green:         "#3f953a"
+  yellow:        "#d2b67c"
+  blue:          "#2f5af3"
+  magenta:       "#950095"
+  cyan:          "#3f953a"
+  white:         "#bbbbbb"
+  bright-black:  "#000000"
+  bright-red:    "#de3e35"
+  bright-green:  "#3f953a"
+  bright-yellow: "#d2b67c"
+  bright-blue:   "#2f5af3"
+  bright-magenta: "#a00095"
+  bright-cyan:   "#3f953a"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

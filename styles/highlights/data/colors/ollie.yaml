@@ -1,0 +1,64 @@
+meta:
+  name: Ollie
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Ollie.toml"
+
+palette:
+  background:    "#222125"
+  foreground:    "#8a8dae"
+  black:         "#000000"
+  red:           "#ac2e31"
+  green:         "#31ac61"
+  yellow:        "#ac4300"
+  blue:          "#2d57ac"
+  magenta:       "#b08528"
+  cyan:          "#1fa6ac"
+  white:         "#8a8eac"
+  bright-black:  "#684432"
+  bright-red:    "#ff3d48"
+  bright-green:  "#3bff99"
+  bright-yellow: "#ff5e1e"
+  bright-blue:   "#4488ff"
+  bright-magenta: "#ffc21d"
+  bright-cyan:   "#1ffaff"
+  bright-white:  "#5b6ea7"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

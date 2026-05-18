@@ -1,0 +1,64 @@
+meta:
+  name: Spacegray Eighties
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Spacegray%20Eighties.toml"
+
+palette:
+  background:    "#222222"
+  foreground:    "#bdbaae"
+  black:         "#15171c"
+  red:           "#ec5f67"
+  green:         "#81a764"
+  yellow:        "#fec254"
+  blue:          "#5486c0"
+  magenta:       "#bf83c1"
+  cyan:          "#57c2c1"
+  white:         "#efece7"
+  bright-black:  "#555555"
+  bright-red:    "#ff6973"
+  bright-green:  "#93d493"
+  bright-yellow: "#ffd256"
+  bright-blue:   "#4d84d1"
+  bright-magenta: "#ff55ff"
+  bright-cyan:   "#83e9e4"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

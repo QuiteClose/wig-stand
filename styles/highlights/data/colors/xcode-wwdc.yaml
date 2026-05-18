@@ -1,0 +1,64 @@
+meta:
+  name: Xcode WWDC
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Xcode%20WWDC.toml"
+
+palette:
+  background:    "#292c36"
+  foreground:    "#e7e8eb"
+  black:         "#494d5c"
+  red:           "#bb383a"
+  green:         "#94c66e"
+  yellow:        "#d28e5d"
+  blue:          "#8884c5"
+  magenta:       "#b73999"
+  cyan:          "#00aba4"
+  white:         "#e7e8eb"
+  bright-black:  "#7f869e"
+  bright-red:    "#bb383a"
+  bright-green:  "#94c66e"
+  bright-yellow: "#d28e5d"
+  bright-blue:   "#8884c5"
+  bright-magenta: "#b73999"
+  bright-cyan:   "#00aba4"
+  bright-white:  "#e7e8eb"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Peppermint
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Peppermint.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#c8c8c8"
+  black:         "#353535"
+  red:           "#e74669"
+  green:         "#89d287"
+  yellow:        "#dab853"
+  blue:          "#449fd0"
+  magenta:       "#da62dc"
+  cyan:          "#65aaaf"
+  white:         "#b4b4b4"
+  bright-black:  "#535353"
+  bright-red:    "#e4859b"
+  bright-green:  "#a3cca2"
+  bright-yellow: "#e1e487"
+  bright-blue:   "#6fbce2"
+  bright-magenta: "#e586e7"
+  bright-cyan:   "#96dcdb"
+  bright-white:  "#dfdfdf"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Builtin Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Builtin%20Dark.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#bbbbbb"
+  black:         "#000000"
+  red:           "#bb0000"
+  green:         "#00bb00"
+  yellow:        "#bbbb00"
+  blue:          "#0d0dc8"
+  magenta:       "#bb00bb"
+  cyan:          "#00bbbb"
+  white:         "#bbbbbb"
+  bright-black:  "#555555"
+  bright-red:    "#ff5555"
+  bright-green:  "#55ff55"
+  bright-yellow: "#ffff55"
+  bright-blue:   "#5555ff"
+  bright-magenta: "#ff55ff"
+  bright-cyan:   "#55ffff"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

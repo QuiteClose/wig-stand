@@ -1,0 +1,64 @@
+meta:
+  name: Spacegray Bright
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Spacegray%20Bright.toml"
+
+palette:
+  background:    "#2a2e3a"
+  foreground:    "#f3f3f3"
+  black:         "#080808"
+  red:           "#bc5553"
+  green:         "#a0b56c"
+  yellow:        "#f6c987"
+  blue:          "#7baec1"
+  magenta:       "#b98aae"
+  cyan:          "#85c9b8"
+  white:         "#d8d8d8"
+  bright-black:  "#626262"
+  bright-red:    "#bc5553"
+  bright-green:  "#a0b56c"
+  bright-yellow: "#f6c987"
+  bright-blue:   "#7baec1"
+  bright-magenta: "#b98aae"
+  bright-cyan:   "#85c9b8"
+  bright-white:  "#f7f7f7"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

@@ -1,0 +1,64 @@
+meta:
+  name: Ryuuko
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Ryuuko.toml"
+
+palette:
+  background:    "#2c3941"
+  foreground:    "#ececec"
+  black:         "#2c3941"
+  red:           "#865f5b"
+  green:         "#66907d"
+  yellow:        "#b1a990"
+  blue:          "#6a8e95"
+  magenta:       "#b18a73"
+  cyan:          "#88b2ac"
+  white:         "#ececec"
+  bright-black:  "#5d7079"
+  bright-red:    "#865f5b"
+  bright-green:  "#66907d"
+  bright-yellow: "#b1a990"
+  bright-blue:   "#6a8e95"
+  bright-magenta: "#b18a73"
+  bright-cyan:   "#88b2ac"
+  bright-white:  "#ececec"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

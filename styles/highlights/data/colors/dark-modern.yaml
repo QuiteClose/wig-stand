@@ -1,0 +1,64 @@
+meta:
+  name: Dark Modern
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Dark%20Modern.toml"
+
+palette:
+  background:    "#1f1f1f"
+  foreground:    "#cccccc"
+  black:         "#272727"
+  red:           "#f74949"
+  green:         "#2ea043"
+  yellow:        "#9e6a03"
+  blue:          "#0078d4"
+  magenta:       "#d01273"
+  cyan:          "#1db4d6"
+  white:         "#cccccc"
+  bright-black:  "#5d5d5d"
+  bright-red:    "#dc5452"
+  bright-green:  "#23d18b"
+  bright-yellow: "#f5f543"
+  bright-blue:   "#3b8eea"
+  bright-magenta: "#d670d6"
+  bright-cyan:   "#29b8db"
+  bright-white:  "#e5e5e5"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

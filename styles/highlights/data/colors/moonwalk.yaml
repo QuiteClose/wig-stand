@@ -1,0 +1,64 @@
+meta:
+  name: Moonwalk
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Moonwalk.toml"
+
+palette:
+  background:    "#e4e2e0"
+  foreground:    "#061f4a"
+  black:         "#080808"
+  red:           "#7a0047"
+  green:         "#145b0e"
+  yellow:        "#733a11"
+  blue:          "#002fa7"
+  magenta:       "#5400a8"
+  cyan:          "#00566b"
+  white:         "#9c958d"
+  bright-black:  "#494440"
+  bright-red:    "#af1608"
+  bright-green:  "#4c6129"
+  bright-yellow: "#7a5000"
+  bright-blue:   "#0d50c5"
+  bright-magenta: "#952197"
+  bright-cyan:   "#006092"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

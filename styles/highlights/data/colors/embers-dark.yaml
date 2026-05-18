@@ -1,0 +1,64 @@
+meta:
+  name: Embers Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Embers%20Dark.toml"
+
+palette:
+  background:    "#16130f"
+  foreground:    "#a39a90"
+  black:         "#16130f"
+  red:           "#826d57"
+  green:         "#57826d"
+  yellow:        "#6d8257"
+  blue:          "#6d5782"
+  magenta:       "#82576d"
+  cyan:          "#576d82"
+  white:         "#a39a90"
+  bright-black:  "#5a5047"
+  bright-red:    "#828257"
+  bright-green:  "#464039"
+  bright-yellow: "#50483f"
+  bright-blue:   "#8a8075"
+  bright-magenta: "#beb6ae"
+  bright-cyan:   "#825757"
+  bright-white:  "#dbd6d1"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

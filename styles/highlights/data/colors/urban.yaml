@@ -1,0 +1,64 @@
+meta:
+  name: urban
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/urban.toml"
+
+palette:
+  background:    "#312e39"
+  foreground:    "#c0a79a"
+  black:         "#33303b"
+  red:           "#87404f"
+  green:         "#74934e"
+  yellow:        "#ae835a"
+  blue:          "#615772"
+  magenta:       "#854b64"
+  cyan:          "#625464"
+  white:         "#c0a79a"
+  bright-black:  "#5c5865"
+  bright-red:    "#87404f"
+  bright-green:  "#74934e"
+  bright-yellow: "#ae835a"
+  bright-blue:   "#615772"
+  bright-magenta: "#854b64"
+  bright-cyan:   "#625464"
+  bright-white:  "#c0a79a"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

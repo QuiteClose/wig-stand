@@ -1,0 +1,64 @@
+meta:
+  name: Material Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Material%20Dark.toml"
+
+palette:
+  background:    "#232322"
+  foreground:    "#e5e5e5"
+  black:         "#212121"
+  red:           "#b7141f"
+  green:         "#457b24"
+  yellow:        "#f6981e"
+  blue:          "#134eb2"
+  magenta:       "#701aa2"
+  cyan:          "#0e717c"
+  white:         "#efefef"
+  bright-black:  "#4f4f4f"
+  bright-red:    "#e83b3f"
+  bright-green:  "#7aba3a"
+  bright-yellow: "#ffea2e"
+  bright-blue:   "#54a4f3"
+  bright-magenta: "#aa4dbc"
+  bright-cyan:   "#26bbd1"
+  bright-white:  "#d9d9d9"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

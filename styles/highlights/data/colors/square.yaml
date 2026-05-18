@@ -1,0 +1,64 @@
+meta:
+  name: Square
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Square.toml"
+
+palette:
+  background:    "#1a1a1a"
+  foreground:    "#acacab"
+  black:         "#050505"
+  red:           "#e9897c"
+  green:         "#b6377d"
+  yellow:        "#ecebbe"
+  blue:          "#a9cdeb"
+  magenta:       "#75507b"
+  cyan:          "#c9caec"
+  white:         "#f2f2f2"
+  bright-black:  "#474747"
+  bright-red:    "#f99286"
+  bright-green:  "#c3f786"
+  bright-yellow: "#fcfbcc"
+  bright-blue:   "#b6defb"
+  bright-magenta: "#ad7fa8"
+  bright-cyan:   "#d7d9fc"
+  bright-white:  "#e2e2e2"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

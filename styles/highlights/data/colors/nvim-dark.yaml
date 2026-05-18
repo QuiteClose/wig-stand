@@ -1,0 +1,64 @@
+meta:
+  name: Nvim Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Nvim%20Dark.toml"
+
+palette:
+  background:    "#14161b"
+  foreground:    "#e0e2ea"
+  black:         "#07080d"
+  red:           "#ffc0b9"
+  green:         "#b3f6c0"
+  yellow:        "#fce094"
+  blue:          "#a6dbff"
+  magenta:       "#ffcaff"
+  cyan:          "#8cf8f7"
+  white:         "#eef1f8"
+  bright-black:  "#4f5258"
+  bright-red:    "#ffc0b9"
+  bright-green:  "#b3f6c0"
+  bright-yellow: "#fce094"
+  bright-blue:   "#a6dbff"
+  bright-magenta: "#ffcaff"
+  bright-cyan:   "#8cf8f7"
+  bright-white:  "#eef1f8"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

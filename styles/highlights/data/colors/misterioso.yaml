@@ -1,0 +1,64 @@
+meta:
+  name: Misterioso
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Misterioso.toml"
+
+palette:
+  background:    "#2d3743"
+  foreground:    "#e1e1e0"
+  black:         "#000000"
+  red:           "#ff4242"
+  green:         "#74af68"
+  yellow:        "#ffad29"
+  blue:          "#338f86"
+  magenta:       "#9414e6"
+  cyan:          "#23d7d7"
+  white:         "#e1e1e0"
+  bright-black:  "#626262"
+  bright-red:    "#ff3242"
+  bright-green:  "#74cd68"
+  bright-yellow: "#ffb929"
+  bright-blue:   "#23d7d7"
+  bright-magenta: "#ff37ff"
+  bright-cyan:   "#00ede1"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

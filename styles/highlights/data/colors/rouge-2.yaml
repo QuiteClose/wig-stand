@@ -1,0 +1,64 @@
+meta:
+  name: Rouge 2
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Rouge%202.toml"
+
+palette:
+  background:    "#17182b"
+  foreground:    "#a2a3aa"
+  black:         "#5d5d6b"
+  red:           "#c6797e"
+  green:         "#969e92"
+  yellow:        "#dbcdab"
+  blue:          "#6e94b9"
+  magenta:       "#4c4e78"
+  cyan:          "#8ab6c1"
+  white:         "#e8e8ea"
+  bright-black:  "#616274"
+  bright-red:    "#c6797e"
+  bright-green:  "#e6dcc4"
+  bright-yellow: "#e6dcc4"
+  bright-blue:   "#98b3cd"
+  bright-magenta: "#8283a1"
+  bright-cyan:   "#abcbd3"
+  bright-white:  "#e8e8ea"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

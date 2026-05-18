@@ -1,0 +1,64 @@
+meta:
+  name: Blue Berry Pie
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Blue%20Berry%20Pie.toml"
+
+palette:
+  background:    "#1c0c28"
+  foreground:    "#babab9"
+  black:         "#0a4c62"
+  red:           "#99246e"
+  green:         "#5cb1b3"
+  yellow:        "#eab9a8"
+  blue:          "#90a5bd"
+  magenta:       "#9d54a7"
+  cyan:          "#7e83cc"
+  white:         "#f0e8d6"
+  bright-black:  "#463c5d"
+  bright-red:    "#c87272"
+  bright-green:  "#0a6c7e"
+  bright-yellow: "#7a3188"
+  bright-blue:   "#5f3d63"
+  bright-magenta: "#bc94b7"
+  bright-cyan:   "#5e6071"
+  bright-white:  "#0a6c7e"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

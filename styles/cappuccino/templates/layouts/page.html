@@ -8,7 +8,10 @@
 <div class="wrapper">
 <nav class="repel" aria-label="Site">
 <t-let name="home_href"><t-var name="site.path" /></t-let>
-<a t-var:href="home_href" style="text-decoration: none;"><h1 style="display: inline;"><t-var name="site.title">Cappuccino</t-var></h1></a>
+<a t-var:href="home_href" style="text-decoration: none;">
+<img t-var:src="document.style.files.images.cup" alt="" class="capp-logo" width="32" height="32" />
+<h1 style="display: inline;"><t-var name="site.title">Cappuccino</t-var></h1>
+</a>
 <span style="font-size: 0.85rem;">
 <t-for link in site.nav>
 <t-let name="full_href"><t-var name="site.path" /><t-var name="link.href" /></t-let>

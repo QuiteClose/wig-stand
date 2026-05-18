@@ -1,0 +1,64 @@
+meta:
+  name: Tinacious Design Light
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Tinacious%20Design%20Light.toml"
+
+palette:
+  background:    "#f8f8ff"
+  foreground:    "#1d1d26"
+  black:         "#1d1d26"
+  red:           "#ff3399"
+  green:         "#00d364"
+  yellow:        "#e5b24d"
+  blue:          "#00cbff"
+  magenta:       "#cc66ff"
+  cyan:          "#00ceca"
+  white:         "#b1b1d6"
+  bright-black:  "#636667"
+  bright-red:    "#ff2f92"
+  bright-green:  "#00d364"
+  bright-yellow: "#d9ae53"
+  bright-blue:   "#00cbff"
+  bright-magenta: "#d783ff"
+  bright-cyan:   "#00c8c7"
+  bright-white:  "#d5d6f3"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

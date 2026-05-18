@@ -1,0 +1,64 @@
+meta:
+  name: Red Alert
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Red%20Alert.toml"
+
+palette:
+  background:    "#762423"
+  foreground:    "#ffffff"
+  black:         "#000000"
+  red:           "#d62e4e"
+  green:         "#71be6b"
+  yellow:        "#beb86b"
+  blue:          "#489bee"
+  magenta:       "#e979d7"
+  cyan:          "#6bbeb8"
+  white:         "#d6d6d6"
+  bright-black:  "#666666"
+  bright-red:    "#e02553"
+  bright-green:  "#aff08c"
+  bright-yellow: "#dfddb7"
+  bright-blue:   "#65aaf1"
+  bright-magenta: "#ddb7df"
+  bright-cyan:   "#b7dfdd"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

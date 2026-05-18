@@ -1,0 +1,64 @@
+meta:
+  name: traffic
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/traffic.toml"
+
+palette:
+  background:    "#272c30"
+  foreground:    "#cfb9a8"
+  black:         "#282d31"
+  red:           "#934e46"
+  green:         "#637268"
+  yellow:        "#c79e84"
+  blue:          "#515e67"
+  magenta:       "#715f5e"
+  cyan:          "#5c6f7d"
+  white:         "#cfb9a8"
+  bright-black:  "#4e575e"
+  bright-red:    "#934e46"
+  bright-green:  "#637270"
+  bright-yellow: "#c79e84"
+  bright-blue:   "#515e67"
+  bright-magenta: "#715f5e"
+  bright-cyan:   "#5c6f7d"
+  bright-white:  "#ddcec2"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

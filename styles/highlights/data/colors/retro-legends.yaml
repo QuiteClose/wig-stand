@@ -1,0 +1,64 @@
+meta:
+  name: Retro Legends
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Retro%20Legends.toml"
+
+palette:
+  background:    "#0d0d0d"
+  foreground:    "#45eb45"
+  black:         "#262626"
+  red:           "#de5454"
+  green:         "#45eb45"
+  yellow:        "#f7bf2b"
+  blue:          "#4066f2"
+  magenta:       "#bf4cf2"
+  cyan:          "#40d9e6"
+  white:         "#bfe6bf"
+  bright-black:  "#4c594c"
+  bright-red:    "#ff6666"
+  bright-green:  "#59ff59"
+  bright-yellow: "#ffd933"
+  bright-blue:   "#4c80ff"
+  bright-magenta: "#e666ff"
+  bright-cyan:   "#59e6ff"
+  bright-white:  "#f2fff2"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

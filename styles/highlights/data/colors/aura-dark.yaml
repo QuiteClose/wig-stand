@@ -1,0 +1,64 @@
+meta:
+  name: Aura Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Aura%20Dark.toml"
+
+palette:
+  background:    "#15141b"
+  foreground:    "#cdccce"
+  black:         "#15141b"
+  red:           "#ff6767"
+  green:         "#61ffca"
+  yellow:        "#ffca85"
+  blue:          "#a277ff"
+  magenta:       "#61ffca"
+  cyan:          "#a277ff"
+  white:         "#cdccce"
+  bright-black:  "#464646"
+  bright-red:    "#ffca85"
+  bright-green:  "#a277ff"
+  bright-yellow: "#ffca85"
+  bright-blue:   "#a277ff"
+  bright-magenta: "#61ffca"
+  bright-cyan:   "#61ffca"
+  bright-white:  "#edecee"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

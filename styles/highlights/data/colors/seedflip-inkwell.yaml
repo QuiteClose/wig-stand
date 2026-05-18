@@ -1,0 +1,64 @@
+meta:
+  name: SeedFlip Inkwell
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/SeedFlip%20Inkwell.toml"
+
+palette:
+  background:    "#0a0a0a"
+  foreground:    "#e8e4df"
+  black:         "#050505"
+  red:           "#cc6666"
+  green:         "#66cc88"
+  yellow:        "#ccbb66"
+  blue:          "#6690cc"
+  magenta:       "#cc66cc"
+  cyan:          "#66cccc"
+  white:         "#f3f1ee"
+  bright-black:  "#3d3d3d"
+  bright-red:    "#df9f9f"
+  bright-green:  "#9fdfb5"
+  bright-yellow: "#dfd49f"
+  bright-blue:   "#9fbadf"
+  bright-magenta: "#df9fdf"
+  bright-cyan:   "#9fdfdf"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

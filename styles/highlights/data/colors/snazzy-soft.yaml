@@ -1,0 +1,64 @@
+meta:
+  name: Snazzy Soft
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Snazzy%20Soft.toml"
+
+palette:
+  background:    "#282a36"
+  foreground:    "#eff0eb"
+  black:         "#000000"
+  red:           "#ff5c57"
+  green:         "#5af78e"
+  yellow:        "#f3f99d"
+  blue:          "#57c7ff"
+  magenta:       "#ff6ac1"
+  cyan:          "#9aedfe"
+  white:         "#f1f1f0"
+  bright-black:  "#686868"
+  bright-red:    "#ff5c57"
+  bright-green:  "#5af78e"
+  bright-yellow: "#f3f99d"
+  bright-blue:   "#57c7ff"
+  bright-magenta: "#ff6ac1"
+  bright-cyan:   "#9aedfe"
+  bright-white:  "#f1f1f0"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

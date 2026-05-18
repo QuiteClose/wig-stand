@@ -1,0 +1,64 @@
+meta:
+  name: Srcery
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Srcery.toml"
+
+palette:
+  background:    "#1c1b19"
+  foreground:    "#fce8c3"
+  black:         "#1c1b19"
+  red:           "#ef2f27"
+  green:         "#519f50"
+  yellow:        "#fbb829"
+  blue:          "#2c78bf"
+  magenta:       "#e02c6d"
+  cyan:          "#0aaeb3"
+  white:         "#baa67f"
+  bright-black:  "#918175"
+  bright-red:    "#f75341"
+  bright-green:  "#98bc37"
+  bright-yellow: "#fed06e"
+  bright-blue:   "#68a8e4"
+  bright-magenta: "#ff5c8f"
+  bright-cyan:   "#2be4d0"
+  bright-white:  "#fce8c3"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

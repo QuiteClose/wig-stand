@@ -1,0 +1,64 @@
+meta:
+  name: Everblush
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Everblush.toml"
+
+palette:
+  background:    "#141b1e"
+  foreground:    "#dadada"
+  black:         "#232a2d"
+  red:           "#e57474"
+  green:         "#8ccf7e"
+  yellow:        "#e5c76b"
+  blue:          "#67b0e8"
+  magenta:       "#c47fd5"
+  cyan:          "#6cbfbf"
+  white:         "#b3b9b8"
+  bright-black:  "#464e50"
+  bright-red:    "#ef7e7e"
+  bright-green:  "#96d988"
+  bright-yellow: "#f4d67a"
+  bright-blue:   "#71baf2"
+  bright-magenta: "#ce89df"
+  bright-cyan:   "#67cbe7"
+  bright-white:  "#bdc3c2"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

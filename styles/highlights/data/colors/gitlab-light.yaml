@@ -1,0 +1,64 @@
+meta:
+  name: GitLab Light
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/GitLab%20Light.toml"
+
+palette:
+  background:    "#fafaff"
+  foreground:    "#303030"
+  black:         "#303030"
+  red:           "#a31700"
+  green:         "#0a7f3d"
+  yellow:        "#af551d"
+  blue:          "#006cd8"
+  magenta:       "#583cac"
+  cyan:          "#00798a"
+  white:         "#303030"
+  bright-black:  "#303030"
+  bright-red:    "#a31700"
+  bright-green:  "#0a7f3d"
+  bright-yellow: "#af551d"
+  bright-blue:   "#006cd8"
+  bright-magenta: "#583cac"
+  bright-cyan:   "#00798a"
+  bright-white:  "#303030"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

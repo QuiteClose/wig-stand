@@ -1,0 +1,64 @@
+meta:
+  name: Firefox Dev
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Firefox%20Dev.toml"
+
+palette:
+  background:    "#0e1011"
+  foreground:    "#7c8fa4"
+  black:         "#002831"
+  red:           "#e63853"
+  green:         "#5eb83c"
+  yellow:        "#a57706"
+  blue:          "#359ddf"
+  magenta:       "#d75cff"
+  cyan:          "#4b73a2"
+  white:         "#dcdcdc"
+  bright-black:  "#26444d"
+  bright-red:    "#e1003f"
+  bright-green:  "#1d9000"
+  bright-yellow: "#cd9409"
+  bright-blue:   "#006fc0"
+  bright-magenta: "#a200da"
+  bright-cyan:   "#005794"
+  bright-white:  "#e2e2e2"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

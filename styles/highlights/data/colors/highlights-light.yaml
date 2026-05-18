@@ -1,0 +1,54 @@
+meta:
+  name: Warm Light
+palette:
+  cream: "#faf6f1"
+  linen: "#f0ebe4"
+  charcoal: "#2d2926"
+  walnut: "#4a3f35"
+  clay: "#8a7968"
+  rust: "#a0522d"
+  ink: "#1a1a2e"
+  sage: "#5a7247"
+  mauve: "#6f4e7c"
+  cobalt: "#2b6cb0"
+terminal:
+  background: cream
+  foreground: charcoal
+  black: walnut
+  red: rust
+  green: sage
+  yellow: clay
+  blue: cobalt
+  magenta: mauve
+  cyan: sage
+  white: linen
+  bright-black: clay
+  bright-red: rust
+  bright-green: sage
+  bright-yellow: clay
+  bright-blue: cobalt
+  bright-magenta: mauve
+  bright-cyan: cobalt
+  bright-white: ink
+document:
+  text:
+    primary: charcoal
+    secondary: clay
+    emphasis: ink
+    heading: walnut
+    link: rust
+  background:
+    primary: cream
+    secondary: linen
+    embed: linen
+syntax:
+  variable: mauve
+  constant: mauve
+  punctuation: clay
+  operator: charcoal
+  number: sage
+  type: rust
+  function: cobalt
+  string: sage
+  comment: clay
+  keyword: rust

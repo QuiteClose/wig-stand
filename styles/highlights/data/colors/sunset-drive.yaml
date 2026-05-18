@@ -1,0 +1,64 @@
+meta:
+  name: Sunset Drive
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Sunset%20Drive.toml"
+
+palette:
+  background:    "#0f0f1a"
+  foreground:    "#ededfe"
+  black:         "#0a0a13"
+  red:           "#ff0063"
+  green:         "#00f992"
+  yellow:        "#ffe900"
+  blue:          "#00a4ff"
+  magenta:       "#ff57fd"
+  cyan:          "#00ffed"
+  white:         "#ededff"
+  bright-black:  "#3e3e4b"
+  bright-red:    "#ff948b"
+  bright-green:  "#00fcb9"
+  bright-yellow: "#ffff68"
+  bright-blue:   "#3ea0ff"
+  bright-magenta: "#ff93ff"
+  bright-cyan:   "#38ffff"
+  bright-white:  "#f8f8ff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

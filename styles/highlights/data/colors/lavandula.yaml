@@ -1,0 +1,64 @@
+meta:
+  name: Lavandula
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Lavandula.toml"
+
+palette:
+  background:    "#050014"
+  foreground:    "#736e7d"
+  black:         "#230046"
+  red:           "#7d1625"
+  green:         "#337e6f"
+  yellow:        "#7f6f49"
+  blue:          "#4f4a7f"
+  magenta:       "#5a3f7f"
+  cyan:          "#58777f"
+  white:         "#736e7d"
+  bright-black:  "#443a53"
+  bright-red:    "#e05167"
+  bright-green:  "#52e0c4"
+  bright-yellow: "#e0c386"
+  bright-blue:   "#8e87e0"
+  bright-magenta: "#a776e0"
+  bright-cyan:   "#9ad4e0"
+  bright-white:  "#8c91fa"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

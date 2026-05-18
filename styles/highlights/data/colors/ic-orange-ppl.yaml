@@ -1,0 +1,64 @@
+meta:
+  name: IC Orange PPL
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/IC%20Orange%20PPL.toml"
+
+palette:
+  background:    "#262626"
+  foreground:    "#ffcb83"
+  black:         "#000000"
+  red:           "#c13900"
+  green:         "#a4a900"
+  yellow:        "#caaf00"
+  blue:          "#bd6d00"
+  magenta:       "#fc5e00"
+  cyan:          "#f79500"
+  white:         "#ffc88a"
+  bright-black:  "#6a4f2a"
+  bright-red:    "#ff8c68"
+  bright-green:  "#f6ff40"
+  bright-yellow: "#ffe36e"
+  bright-blue:   "#ffbe55"
+  bright-magenta: "#fc874f"
+  bright-cyan:   "#c69752"
+  bright-white:  "#fafaff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

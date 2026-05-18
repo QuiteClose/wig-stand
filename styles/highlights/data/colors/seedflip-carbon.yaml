@@ -1,0 +1,64 @@
+meta:
+  name: SeedFlip Carbon
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/SeedFlip%20Carbon.toml"
+
+palette:
+  background:    "#fafafa"
+  foreground:    "#000000"
+  black:         "#d4d4d4"
+  red:           "#993333"
+  green:         "#339955"
+  yellow:        "#998833"
+  blue:          "#335d99"
+  magenta:       "#993399"
+  cyan:          "#339999"
+  white:         "#000000"
+  bright-black:  "#aeaeae"
+  bright-red:    "#c65353"
+  bright-green:  "#53c679"
+  bright-yellow: "#c6b353"
+  bright-blue:   "#5383c6"
+  bright-magenta: "#c653c6"
+  bright-cyan:   "#53c6c6"
+  bright-white:  "#000000"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

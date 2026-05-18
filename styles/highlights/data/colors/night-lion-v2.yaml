@@ -1,0 +1,64 @@
+meta:
+  name: Night Lion V2
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Night%20Lion%20V2.toml"
+
+palette:
+  background:    "#171717"
+  foreground:    "#bbbbbb"
+  black:         "#4c4c4c"
+  red:           "#bb0000"
+  green:         "#04f623"
+  yellow:        "#f3f167"
+  blue:          "#64d0f0"
+  magenta:       "#ce6fdb"
+  cyan:          "#00dadf"
+  white:         "#bbbbbb"
+  bright-black:  "#555555"
+  bright-red:    "#ff5555"
+  bright-green:  "#7df71d"
+  bright-yellow: "#ffff55"
+  bright-blue:   "#62cbe8"
+  bright-magenta: "#ff9bf5"
+  bright-cyan:   "#00ccd8"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

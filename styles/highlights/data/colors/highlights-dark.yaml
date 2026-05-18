@@ -1,0 +1,54 @@
+meta:
+  name: Warm Dark
+palette:
+  cream: "#1c1917"
+  linen: "#292524"
+  charcoal: "#e7e5e4"
+  walnut: "#d6d3d1"
+  clay: "#a8a29e"
+  rust: "#d97706"
+  ink: "#fafaf9"
+  sage: "#84cc16"
+  mauve: "#c084fc"
+  cobalt: "#60a5fa"
+terminal:
+  background: cream
+  foreground: charcoal
+  black: walnut
+  red: rust
+  green: sage
+  yellow: clay
+  blue: cobalt
+  magenta: mauve
+  cyan: sage
+  white: linen
+  bright-black: clay
+  bright-red: rust
+  bright-green: sage
+  bright-yellow: clay
+  bright-blue: cobalt
+  bright-magenta: mauve
+  bright-cyan: cobalt
+  bright-white: ink
+document:
+  text:
+    primary: charcoal
+    secondary: clay
+    emphasis: ink
+    heading: walnut
+    link: rust
+  background:
+    primary: cream
+    secondary: linen
+    embed: linen
+syntax:
+  variable: mauve
+  constant: mauve
+  punctuation: clay
+  operator: charcoal
+  number: sage
+  type: rust
+  function: cobalt
+  string: sage
+  comment: clay
+  keyword: rust

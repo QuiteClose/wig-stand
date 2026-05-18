@@ -1,0 +1,64 @@
+meta:
+  name: Onenord Light
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Onenord%20Light.toml"
+
+palette:
+  background:    "#f7f8fa"
+  foreground:    "#2e3440"
+  black:         "#2e3440"
+  red:           "#cb4f53"
+  green:         "#48a53d"
+  yellow:        "#ee5e25"
+  blue:          "#3879c5"
+  magenta:       "#9f4aca"
+  cyan:          "#3ea1ad"
+  white:         "#b2b6bd"
+  bright-black:  "#646a76"
+  bright-red:    "#d16366"
+  bright-green:  "#5f9e9d"
+  bright-yellow: "#ba793e"
+  bright-blue:   "#1b40a6"
+  bright-magenta: "#9665af"
+  bright-cyan:   "#8fbcbb"
+  bright-white:  "#eceff4"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

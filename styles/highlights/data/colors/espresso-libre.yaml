@@ -1,0 +1,64 @@
+meta:
+  name: Espresso Libre
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Espresso%20Libre.toml"
+
+palette:
+  background:    "#2a211c"
+  foreground:    "#b8a898"
+  black:         "#000000"
+  red:           "#cc0000"
+  green:         "#1a921c"
+  yellow:        "#f0e53a"
+  blue:          "#0066ff"
+  magenta:       "#c5656b"
+  cyan:          "#06989a"
+  white:         "#d3d7cf"
+  bright-black:  "#555753"
+  bright-red:    "#ef2929"
+  bright-green:  "#9aff87"
+  bright-yellow: "#fffb5c"
+  bright-blue:   "#43a8ed"
+  bright-magenta: "#ff818a"
+  bright-cyan:   "#34e2e2"
+  bright-white:  "#eeeeec"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

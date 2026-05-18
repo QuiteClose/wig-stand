@@ -1,0 +1,64 @@
+meta:
+  name: Vibrant Ink
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Vibrant%20Ink.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#ffffff"
+  black:         "#878787"
+  red:           "#ff6600"
+  green:         "#ccff04"
+  yellow:        "#ffcc00"
+  blue:          "#44b4cc"
+  magenta:       "#9933cc"
+  cyan:          "#44b4cc"
+  white:         "#f5f5f5"
+  bright-black:  "#555555"
+  bright-red:    "#ff0000"
+  bright-green:  "#00ff00"
+  bright-yellow: "#ffff00"
+  bright-blue:   "#0000ff"
+  bright-magenta: "#ff00ff"
+  bright-cyan:   "#00ffff"
+  bright-white:  "#e5e5e5"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

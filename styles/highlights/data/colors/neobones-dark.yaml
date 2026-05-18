@@ -1,0 +1,64 @@
+meta:
+  name: Neobones Dark
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Neobones%20Dark.toml"
+
+palette:
+  background:    "#0f191f"
+  foreground:    "#c6d5cf"
+  black:         "#0f191f"
+  red:           "#de6e7c"
+  green:         "#90ff6b"
+  yellow:        "#b77e64"
+  blue:          "#8190d4"
+  magenta:       "#b279a7"
+  cyan:          "#66a5ad"
+  white:         "#c6d5cf"
+  bright-black:  "#334652"
+  bright-red:    "#e8838f"
+  bright-green:  "#a0ff85"
+  bright-yellow: "#d68c67"
+  bright-blue:   "#92a0e2"
+  bright-magenta: "#cf86c1"
+  bright-cyan:   "#65b8c1"
+  bright-white:  "#98a39e"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

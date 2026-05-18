@@ -1,0 +1,64 @@
+meta:
+  name: iTerm2 Tango Light
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/iTerm2%20Tango%20Light.toml"
+
+palette:
+  background:    "#ffffff"
+  foreground:    "#000000"
+  black:         "#000000"
+  red:           "#d81e00"
+  green:         "#5ea702"
+  yellow:        "#cfae00"
+  blue:          "#427ab3"
+  magenta:       "#89658e"
+  cyan:          "#00a7aa"
+  white:         "#c1c4be"
+  bright-black:  "#686a66"
+  bright-red:    "#f54235"
+  bright-green:  "#8cd636"
+  bright-yellow: "#d7c53b"
+  bright-blue:   "#84b0d8"
+  bright-magenta: "#bc94b7"
+  bright-cyan:   "#1eccce"
+  bright-white:  "#f1f1f0"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

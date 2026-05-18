@@ -1,0 +1,64 @@
+meta:
+  name: N0Tch2K
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/N0Tch2K.toml"
+
+palette:
+  background:    "#222222"
+  foreground:    "#a0a0a0"
+  black:         "#383838"
+  red:           "#a95551"
+  green:         "#666666"
+  yellow:        "#a98051"
+  blue:          "#657d3e"
+  magenta:       "#767676"
+  cyan:          "#c9c9c9"
+  white:         "#d0b8a3"
+  bright-black:  "#545454"
+  bright-red:    "#a97775"
+  bright-green:  "#8c8c8c"
+  bright-yellow: "#a99175"
+  bright-blue:   "#98bd5e"
+  bright-magenta: "#a3a3a3"
+  bright-cyan:   "#dcdcdc"
+  bright-white:  "#d8c8bb"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

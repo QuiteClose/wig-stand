@@ -1,0 +1,64 @@
+meta:
+  name: Novel
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Novel.toml"
+
+palette:
+  background:    "#dfdbc3"
+  foreground:    "#3b2322"
+  black:         "#000000"
+  red:           "#cc0000"
+  green:         "#009600"
+  yellow:        "#d06b00"
+  blue:          "#0000cc"
+  magenta:       "#cc00cc"
+  cyan:          "#0087cc"
+  white:         "#a6a6a6"
+  bright-black:  "#808080"
+  bright-red:    "#cc0000"
+  bright-green:  "#009600"
+  bright-yellow: "#d06b00"
+  bright-blue:   "#0000cc"
+  bright-magenta: "#cc00cc"
+  bright-cyan:   "#0087cc"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

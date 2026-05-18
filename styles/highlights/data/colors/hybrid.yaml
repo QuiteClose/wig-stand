@@ -1,0 +1,64 @@
+meta:
+  name: Hybrid
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Hybrid.toml"
+
+palette:
+  background:    "#161719"
+  foreground:    "#b7bcba"
+  black:         "#2a2e33"
+  red:           "#b84d51"
+  green:         "#b3bf5a"
+  yellow:        "#e4b55e"
+  blue:          "#6e90b0"
+  magenta:       "#a17eac"
+  cyan:          "#7fbfb4"
+  white:         "#b5b9b6"
+  bright-black:  "#434548"
+  bright-red:    "#8d2e32"
+  bright-green:  "#798431"
+  bright-yellow: "#e58a50"
+  bright-blue:   "#4b6b88"
+  bright-magenta: "#6e5079"
+  bright-cyan:   "#4d7b74"
+  bright-white:  "#5a626a"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

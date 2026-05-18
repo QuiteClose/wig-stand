@@ -1,0 +1,64 @@
+meta:
+  name: Atelier Sulphurpool
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Atelier%20Sulphurpool.toml"
+
+palette:
+  background:    "#202746"
+  foreground:    "#979db4"
+  black:         "#202746"
+  red:           "#c94922"
+  green:         "#ac9739"
+  yellow:        "#c08b30"
+  blue:          "#3d8fd1"
+  magenta:       "#6679cc"
+  cyan:          "#22a2c9"
+  white:         "#979db4"
+  bright-black:  "#6b7394"
+  bright-red:    "#c76b29"
+  bright-green:  "#4f587c"
+  bright-yellow: "#5e6687"
+  bright-blue:   "#898ea4"
+  bright-magenta: "#dfe2f1"
+  bright-cyan:   "#9c637a"
+  bright-white:  "#f5f7ff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

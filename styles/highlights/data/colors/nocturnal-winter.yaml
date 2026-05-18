@@ -1,0 +1,64 @@
+meta:
+  name: Nocturnal Winter
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Nocturnal%20Winter.toml"
+
+palette:
+  background:    "#0d0d17"
+  foreground:    "#e6e5e5"
+  black:         "#4d4d4d"
+  red:           "#f12d52"
+  green:         "#09cd7e"
+  yellow:        "#f5f17a"
+  blue:          "#3182e0"
+  magenta:       "#ff2b6d"
+  cyan:          "#09c87a"
+  white:         "#fcfcfc"
+  bright-black:  "#808080"
+  bright-red:    "#f16d86"
+  bright-green:  "#0ae78d"
+  bright-yellow: "#fffc67"
+  bright-blue:   "#6096ff"
+  bright-magenta: "#ff78a2"
+  bright-cyan:   "#0ae78d"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

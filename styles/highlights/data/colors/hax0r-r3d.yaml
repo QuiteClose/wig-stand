@@ -1,0 +1,64 @@
+meta:
+  name: HaX0R R3D
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/HaX0R%20R3D.toml"
+
+palette:
+  background:    "#200101"
+  foreground:    "#b10e0e"
+  black:         "#1f0000"
+  red:           "#b00d0d"
+  green:         "#b00d0d"
+  yellow:        "#b00d0d"
+  blue:          "#b00d0d"
+  magenta:       "#b00d0d"
+  cyan:          "#b00d0d"
+  white:         "#fafafa"
+  bright-black:  "#554040"
+  bright-red:    "#ff1111"
+  bright-green:  "#ff1010"
+  bright-yellow: "#ff1010"
+  bright-blue:   "#ff1010"
+  bright-magenta: "#ff1010"
+  bright-cyan:   "#ff1010"
+  bright-white:  "#fefefe"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

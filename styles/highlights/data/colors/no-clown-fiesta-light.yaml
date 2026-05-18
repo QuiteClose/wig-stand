@@ -1,0 +1,64 @@
+meta:
+  name: No Clown Fiesta Light
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/No%20Clown%20Fiesta%20Light.toml"
+
+palette:
+  background:    "#e1e1e1"
+  foreground:    "#151515"
+  black:         "#d6d6d6"
+  red:           "#874e42"
+  green:         "#677940"
+  yellow:        "#b89058"
+  blue:          "#8ba1bf"
+  magenta:       "#aa759f"
+  cyan:          "#3e5f66"
+  white:         "#151515"
+  bright-black:  "#2b2b2b"
+  bright-red:    "#637786"
+  bright-green:  "#677940"
+  bright-yellow: "#b89058"
+  bright-blue:   "#93a2ab"
+  bright-magenta: "#aa759f"
+  bright-cyan:   "#99ab93"
+  bright-white:  "#373737"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

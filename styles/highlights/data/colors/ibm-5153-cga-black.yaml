@@ -1,0 +1,64 @@
+meta:
+  name: IBM 5153 CGA (Black)
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/IBM%205153%20CGA%20%28Black%29.toml"
+
+palette:
+  background:    "#000000"
+  foreground:    "#c4c4c4"
+  black:         "#000000"
+  red:           "#c40000"
+  green:         "#00c400"
+  yellow:        "#c47e00"
+  blue:          "#0000c4"
+  magenta:       "#c400c4"
+  cyan:          "#00c4c4"
+  white:         "#c4c4c4"
+  bright-black:  "#4e4e4e"
+  bright-red:    "#dc4e4e"
+  bright-green:  "#4edc4e"
+  bright-yellow: "#f3f34e"
+  bright-blue:   "#4e4edc"
+  bright-magenta: "#f34ef3"
+  bright-cyan:   "#4ef3f3"
+  bright-white:  "#ffffff"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

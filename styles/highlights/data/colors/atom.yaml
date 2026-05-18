@@ -1,0 +1,64 @@
+meta:
+  name: Atom
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/Atom.toml"
+
+palette:
+  background:    "#161719"
+  foreground:    "#c5c8c6"
+  black:         "#000000"
+  red:           "#fd5ff1"
+  green:         "#87c38a"
+  yellow:        "#ffd7b1"
+  blue:          "#85befd"
+  magenta:       "#b9b6fc"
+  cyan:          "#85befd"
+  white:         "#e0e0e0"
+  bright-black:  "#4c4c4c"
+  bright-red:    "#fd5ff1"
+  bright-green:  "#94fa36"
+  bright-yellow: "#f5ffa8"
+  bright-blue:   "#96cbfe"
+  bright-magenta: "#b9b6fc"
+  bright-cyan:   "#85befd"
+  bright-white:  "#e0e0e0"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

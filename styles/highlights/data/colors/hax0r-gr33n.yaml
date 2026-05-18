@@ -1,0 +1,64 @@
+meta:
+  name: HaX0R Gr33N
+  origin: "https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/alacritty/HaX0R%20Gr33N.toml"
+
+palette:
+  background:    "#020f01"
+  foreground:    "#16b10e"
+  black:         "#001f0b"
+  red:           "#15d00d"
+  green:         "#15d00d"
+  yellow:        "#15d00d"
+  blue:          "#15d00d"
+  magenta:       "#15d00d"
+  cyan:          "#15d00d"
+  white:         "#fafafa"
+  bright-black:  "#334843"
+  bright-red:    "#19e20e"
+  bright-green:  "#19e20e"
+  bright-yellow: "#19e20e"
+  bright-blue:   "#19e20e"
+  bright-magenta: "#19e20e"
+  bright-cyan:   "#19e20e"
+  bright-white:  "#fefefe"
+terminal:
+  background:    background
+  foreground:    foreground
+  black:         black
+  red:           red
+  green:         green
+  yellow:        yellow
+  blue:          blue
+  magenta:       magenta
+  cyan:          cyan
+  white:         white
+  bright-black:  bright-black
+  bright-red:    bright-red
+  bright-green:  bright-green
+  bright-yellow: bright-yellow
+  bright-blue:   bright-blue
+  bright-magenta: bright-magenta
+  bright-cyan:   bright-cyan
+  bright-white:  bright-white
+document:
+  text:
+    primary:   foreground
+    secondary: bright-black
+    emphasis:  bright-white
+    heading:   foreground
+    link:      blue
+  background:
+    primary:   background
+    secondary: black
+    embed:     bright-black
+syntax:
+  variable:    magenta
+  constant:    bright-magenta
+  punctuation: bright-black
+  operator:    white
+  number:      yellow
+  type:        cyan
+  function:    blue
+  string:      green
+  comment:     bright-black
+  keyword:     red

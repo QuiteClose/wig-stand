@@ -1,0 +1,32 @@
+meta:
+  name: Mono Light
+palette:
+  white: "#ffffff"
+  black: "#000000"
+  grey: "#57606a"
+  blue: "#0550ae"
+  green: "#116329"
+  orange: "#953800"
+  purple: "#8250df"
+document:
+  text:
+    primary: black
+    secondary: grey
+    emphasis: black
+    heading: black
+    link: blue
+  background:
+    primary: white
+    secondary: grey
+    embed: grey
+syntax:
+  variable: purple
+  constant: purple
+  punctuation: grey
+  operator: black
+  number: green
+  type: orange
+  function: blue
+  string: blue
+  comment: grey
+  keyword: blue
