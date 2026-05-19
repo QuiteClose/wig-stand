@@ -1,0 +1,20 @@
+/*
+ * Syntax token utilities (LDT / textarea decorator form).
+ * Applied by run-time annotation (Slice 4). Bare selectors scope globally;
+ * for static pre/code display use blocks/highlighted-code instead.
+ *
+ * :where() keeps specificity at 0 so block rules always win.
+ */
+
+:where(pre code) { color: var(--color-text-primary, inherit); }
+
+:where(.variable)    { color: var(--syntax-variable,    #005cc5); }
+:where(.constant)    { color: var(--syntax-constant,    #6f42c1); }
+:where(.punctuation) { color: var(--syntax-punctuation, #24292f); }
+:where(.operator)    { color: var(--syntax-operator,    #cf222e); }
+:where(.number)      { color: var(--syntax-number,      #0550ae); }
+:where(.type)        { color: var(--syntax-type,        #953800); }
+:where(.function)    { color: var(--syntax-function,    #8250df); }
+:where(.string)      { color: var(--syntax-string,      #0a3069); }
+:where(.comment)     { color: var(--syntax-comment,     #57606a); }
+:where(.keyword)     { color: var(--syntax-keyword,     #cf222e); }

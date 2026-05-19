@@ -1,5 +1,16 @@
 <t-extend template="cube:layouts/base.html">
 <t-define name="head">
+<script>
+(function initHighlightsTheme() {
+  "use strict";
+  try {
+    const saved = localStorage.getItem("highlights-theme");
+    if (saved) {
+      document.documentElement.dataset.theme = saved;
+    }
+  } catch (e) { /* storage unavailable */ }
+}());
+</script>
 <link rel="stylesheet" t-var:href="document.style.css.path" />
 </t-define>
 <t-define name="body">

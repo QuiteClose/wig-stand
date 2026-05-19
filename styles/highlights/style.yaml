@@ -12,3 +12,4 @@ highlights:
       label: Highlights
       light: highlights-light
       dark: highlights-dark
+      source: highlights

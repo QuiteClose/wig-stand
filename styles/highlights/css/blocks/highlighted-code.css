@@ -1,0 +1,31 @@
+/*
+ * highlighted-code
+ * Styled wrapper for static code display.
+ * --color-bg-embed:     background of the code block
+ * --color-text-primary: fallback text colour
+ * --syntax-*:           colour per syntax role (from tokens/colors)
+ * --radius-s:           corner rounding
+ * --font-mono:          monospace font stack
+ */
+
+pre.highlighted-code {
+  background: var(--color-bg-embed, #f6f8fa);
+  color: var(--color-text-primary, inherit);
+  font-family: var(--font-mono, monospace);
+  font-size: 0.9em;
+  line-height: 1.5;
+  padding: var(--space-m, 1rem);
+  border-radius: var(--radius-s, 0.25rem);
+  overflow-x: auto;
+}
+
+.highlighted-code .variable    { color: var(--syntax-variable); }
+.highlighted-code .constant    { color: var(--syntax-constant); }
+.highlighted-code .punctuation { color: var(--syntax-punctuation); }
+.highlighted-code .operator    { color: var(--syntax-operator); }
+.highlighted-code .number      { color: var(--syntax-number); }
+.highlighted-code .type        { color: var(--syntax-type); }
+.highlighted-code .function    { color: var(--syntax-function); }
+.highlighted-code .string      { color: var(--syntax-string); }
+.highlighted-code .comment     { color: var(--syntax-comment); }
+.highlighted-code .keyword     { color: var(--syntax-keyword); }

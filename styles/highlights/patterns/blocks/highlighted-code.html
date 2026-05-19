@@ -1,0 +1,21 @@
+---
+name: Highlighted Code
+source: pre.highlighted-code
+description: Scoped syntax-highlighting wrapper for static pre/code display. Reads <code>--syntax-*</code> custom properties from the active theme.
+config:
+  - property: "--color-bg-embed"
+    default: "#f6f8fa"
+    description: Block background colour.
+  - property: "--font-mono"
+    default: "monospace"
+    description: Monospace font stack.
+  - property: "--radius-s"
+    default: "0.25rem"
+    description: Corner rounding.
+notes: |
+  Syntax classes (<code>.keyword</code>, <code>.string</code>, etc.) must be applied to
+  <code>&lt;span&gt;</code> elements inside the <code>&lt;code&gt;</code> block.
+  Use alongside the <code>tokens/colors</code> pattern to supply the <code>--syntax-*</code> values.
+  In Djot pages, apply <code>class="highlighted-code"</code> to the outer <code>&lt;pre&gt;</code>.
+---
+<pre class="highlighted-code"><code><span class="keyword">const</span> <span class="variable">greeting</span> <span class="operator">=</span> <span class="string">"hello"</span><span class="punctuation">;</span></code></pre>

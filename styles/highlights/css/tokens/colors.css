@@ -4,7 +4,7 @@
  * Colour tokens: per-theme document and syntax custom properties.
  *
  * Rendered per-consumer at bundle time. For each entry in `style.highlights.available`,
- * emits a `[data-theme="{pair}-light"]` and `[data-theme="{pair}-dark"]` selector
+ * emits a `[data-theme="{pair.light}"]` and `[data-theme="{pair.dark}"]` selector
  * block containing the resolved hex values for every document and syntax role.
  *
  * Also emits `:root` rules for the default pair (both prefers-color-scheme variants)
@@ -14,7 +14,7 @@
  * Consumer declares: highlights.default (pair id) + highlights.available (map of pairs).
  */
 <t-for pair in style.highlights.available>
-[data-theme="<t-raw name="pair.id" />-light"] {
+[data-theme="<t-raw name="pair.light" />"] {
   --color-text-primary:   <t-raw name="styles.$(pair.source).colors.$(pair.light).document.text.primary" />;
   --color-text-secondary: <t-raw name="styles.$(pair.source).colors.$(pair.light).document.text.secondary" />;
   --color-text-emphasis:  <t-raw name="styles.$(pair.source).colors.$(pair.light).document.text.emphasis" />;
@@ -40,7 +40,7 @@
   --stroke-light: 1px solid <t-raw name="styles.$(pair.source).colors.$(pair.light).document.background.secondary" />;
 }
 
-[data-theme="<t-raw name="pair.id" />-dark"] {
+[data-theme="<t-raw name="pair.dark" />"] {
   --color-text-primary:   <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.text.primary" />;
   --color-text-secondary: <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.text.secondary" />;
   --color-text-emphasis:  <t-raw name="styles.$(pair.source).colors.$(pair.dark).document.text.emphasis" />;
@@ -70,7 +70,7 @@
 /* Default pair: system-preference fallback before JS runs. */
 <t-if var="style.highlights.default">
 @media (prefers-color-scheme: light) {
-  :root {
+  :root:not([data-theme]) {
     --color-text-primary:   <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.text.primary" />;
     --color-text-secondary: <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.text.secondary" />;
     --color-text-emphasis:  <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).light).document.text.emphasis" />;
@@ -98,7 +98,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme]) {
     --color-text-primary:   <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.text.primary" />;
     --color-text-secondary: <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.text.secondary" />;
     --color-text-emphasis:  <t-raw name="styles.$(style.highlights.available.$(style.highlights.default).source).colors.$(style.highlights.available.$(style.highlights.default).dark).document.text.emphasis" />;

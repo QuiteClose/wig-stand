@@ -3,3 +3,9 @@ title: Home
 layout: highlights:layouts/page.html
 ---
 {{ demo.pages.welcome }}
+
+## Highlighted code
+
+``` =html
+<pre class="highlighted-code"><code><span class="keyword">const</span> <span class="variable">greeting</span> <span class="operator">=</span> <span class="string">"hello"</span><span class="punctuation">;</span></code></pre>
+```
