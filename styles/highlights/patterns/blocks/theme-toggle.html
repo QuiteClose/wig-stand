@@ -1,0 +1,35 @@
+---
+name: Theme Toggle
+source: .theme-toggle
+description: Light/dark theme toggle for the active highlights pair. Two labelled buttons switch between the pair's light and dark colour schemes. Labels are configurable via context keys with built-in defaults.
+config:
+  - property: --color-bg-secondary
+    default: transparent
+    description: Background of the active (aria-pressed) button.
+  - property: --stroke
+    default: 1px solid currentColor
+    description: Border on each button.
+  - property: --radius-s
+    default: 0.25rem
+    description: Corner rounding on buttons.
+notes: |
+  Reads <code>document.style.highlights.available</code> and
+  <code>document.style.highlights.default</code> from the page context to set the
+  <code>data-set-theme</code> attributes. Include in a page layout via
+  <code>&lt;t-include template="highlights:blocks/theme-toggle.html" /&gt;</code>.
+
+  Configurable context keys (all have defaults):
+  <ul>
+    <li><code>theme-toggle.label</code> — label text before the buttons (default: "Theme")</li>
+    <li><code>theme-toggle.light-label</code> — light button label (default: "Light")</li>
+    <li><code>theme-toggle.dark-label</code> — dark button label (default: "Dark")</li>
+  </ul>
+
+  Dispatches and listens for the <code>highlights:theme</code> custom event so multiple
+  theme controls on the same page stay in sync.
+---
+<div class="theme-toggle">
+  <span class="theme-toggle__label">Theme</span>
+  <button type="button" data-set-theme="highlights-light" data-theme-mode="light" aria-pressed="true">Light</button>
+  <button type="button" data-set-theme="highlights-dark" data-theme-mode="dark" aria-pressed="false">Dark</button>
+</div>

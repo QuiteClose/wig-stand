@@ -1,0 +1,48 @@
+---
+name: Drawer
+source: .drawer
+description: Generic open/close sliding panel. A trigger button toggles the drawer open and closed, changing its label between open and close states. Content slides in via CSS max-height transition. Keyboard-accessible (Escape closes; click-outside closes).
+config:
+  - property: --stroke
+    default: 1px solid currentColor
+    description: Border on the trigger button and optional panel border.
+  - property: --radius-s
+    default: 0.25rem
+    description: Corner rounding on the trigger button.
+  - property: --transition-movement
+    default: 300ms ease
+    description: Panel slide duration.
+  - property: --space-xs
+    default: 0.5rem
+    description: Trigger button padding.
+exceptions:
+  - attribute: data-state="open"
+    description: Set on the root element when the drawer is open. CSS uses this to show the panel and swap the trigger labels.
+notes: |
+  The <code>.drawer__panel</code> content is inlined at the call site — the drawer is a
+  structural primitive. When using in a page template, place inner blocks between the
+  panel's opening and closing tags:
+
+  <pre><code>&lt;div class="drawer"&gt;
+    &lt;button type="button" class="drawer__trigger" ...&gt;...&lt;/button&gt;
+    &lt;div class="drawer__panel" id="my-panel"&gt;
+      &lt;!-- inner content here --&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</code></pre>
+
+  Configurable context keys (all have defaults):
+  <ul>
+    <li><code>drawer.id</code> — ID suffix for aria-controls linkage (default: "drawer")</li>
+    <li><code>drawer.open-label</code> — trigger label when closed (default: "Open")</li>
+    <li><code>drawer.close-label</code> — trigger label when open (default: "Close")</li>
+  </ul>
+---
+<div class="drawer">
+  <button type="button" class="drawer__trigger" aria-expanded="false" aria-controls="drawer-panel-demo">
+    <span class="drawer__trigger-label--open">Open</span>
+    <span class="drawer__trigger-label--close">Close</span>
+  </button>
+  <div class="drawer__panel" id="drawer-panel-demo">
+    <p>Drawer content goes here.</p>
+  </div>
+</div>

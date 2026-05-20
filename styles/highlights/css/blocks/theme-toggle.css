@@ -1,0 +1,38 @@
+/*
+ * theme-toggle
+ * Two-button light/dark toggle for the active highlights pair.
+ * --stroke:            border on each button
+ * --radius-s:          corner rounding
+ * --color-bg-secondary: background of the active (aria-pressed) button
+ * --space-xs:          gap between items
+ * --size-step--1:      label font size
+ */
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs, 0.5rem);
+}
+
+.theme-toggle__label {
+  font-size: var(--size-step--1, 0.875rem);
+  color: var(--color-text-secondary, inherit);
+}
+
+.theme-toggle button {
+  padding: var(--space-2xs, 0.25rem) var(--space-xs, 0.5rem);
+  border: var(--stroke, 1px solid currentColor);
+  border-radius: var(--radius-s, 0.25rem);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: var(--size-step--1, 0.875rem);
+  cursor: pointer;
+  transition: background var(--transition-base, 150ms ease),
+              color var(--transition-base, 150ms ease);
+}
+
+.theme-toggle button[aria-pressed="true"] {
+  background: var(--color-bg-secondary, currentColor);
+  font-weight: 700;
+}

@@ -1,0 +1,52 @@
+<div class="drawer">
+<button type="button" class="drawer__trigger" aria-expanded="false"
+  aria-controls="drawer-panel-<t-var name="drawer.id">drawer</t-var>">
+<span class="drawer__trigger-label--open"><t-var name="drawer.open-label">Open</t-var></span>
+<span class="drawer__trigger-label--close"><t-var name="drawer.close-label">Close</t-var></span>
+</button>
+<div class="drawer__panel" id="drawer-panel-<t-var name="drawer.id">drawer</t-var>">
+<t-slot />
+</div>
+</div>
+<script>
+(function () {
+  "use strict";
+
+  document.querySelectorAll(".drawer").forEach((drawer) => {
+    const trigger = drawer.querySelector(".drawer__trigger");
+
+    const open = () => {
+      drawer.dataset.state = "open";
+      trigger?.setAttribute("aria-expanded", "true");
+    };
+
+    const close = () => {
+      delete drawer.dataset.state;
+      trigger?.setAttribute("aria-expanded", "false");
+    };
+
+    const toggle = () => {
+      drawer.dataset.state === "open" ? close() : open();
+    };
+
+    trigger?.addEventListener("click", (e) => {
+      e.stopPropagation();
+      toggle();
+    });
+
+    document.addEventListener("click", (e) => {
+      if (drawer.dataset.state === "open" && !drawer.contains(e.target)) {
+        close();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && drawer.dataset.state === "open") {
+        close();
+        trigger?.focus();
+      }
+    });
+  });
+
+}());
+</script>

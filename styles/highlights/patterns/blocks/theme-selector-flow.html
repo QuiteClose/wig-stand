@@ -1,0 +1,42 @@
+---
+name: Theme Selector Flow
+source: .theme-selector-flow
+description: A flat list of all available light and dark colour scheme variants. Rendered server-side from <code>document.style.highlights.available</code> — no runtime config fetch needed. Each pair produces two buttons (light + dark). Selecting any button applies that scheme immediately.
+config:
+  - property: --space-2xs
+    default: 0.25rem
+    description: Gap between list items and button padding.
+  - property: --space-xs
+    default: 0.5rem
+    description: Horizontal button padding.
+  - property: --radius-s
+    default: 0.25rem
+    description: Corner rounding on option buttons.
+  - property: --size-step--1
+    default: 0.875rem
+    description: Font size for option labels.
+notes: |
+  Each button carries a <code>data-set-theme</code> attribute with the exact scheme ID
+  (e.g. <code>highlights-light</code>). On click the scheme is applied to
+  <code>&lt;html data-theme="..."&gt;</code> and persisted to <code>localStorage</code>.
+
+  Configurable context key:
+  <ul>
+    <li><code>theme-selector-flow.label</code> — accessible list label (default: "Colour schemes")</li>
+  </ul>
+
+  Dispatches and listens for the <code>highlights:theme</code> custom event so multiple
+  theme controls on the same page stay in sync.
+
+  In real use, this pattern is typically placed inside a <code>drawer</code> block.
+---
+<ul class="theme-selector-flow" role="list" aria-label="Colour schemes">
+  <li>
+    <button type="button" class="theme-selector-flow__option"
+      data-set-theme="highlights-light" aria-pressed="false">Highlights Light</button>
+  </li>
+  <li>
+    <button type="button" class="theme-selector-flow__option"
+      data-set-theme="highlights-dark" aria-pressed="false">Highlights Dark</button>
+  </li>
+</ul>

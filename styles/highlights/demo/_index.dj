@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Highlights
 layout: highlights:layouts/page.html
 ---
 {{ demo.pages.welcome }}
@@ -8,4 +8,38 @@ layout: highlights:layouts/page.html
 
 ``` =html
 <pre class="highlighted-code"><code><span class="keyword">const</span> <span class="variable">greeting</span> <span class="operator">=</span> <span class="string">"hello"</span><span class="punctuation">;</span></code></pre>
+```
+
+## Theme toggle
+
+Two buttons switch between the active pair's light and dark schemes.
+
+``` =html
+<t-include template="highlights:blocks/theme-toggle.html" />
+```
+
+## Theme switch
+
+A pill-shaped checkbox slider — same behaviour as the toggle, different visual.
+
+``` =html
+<t-include template="highlights:blocks/theme-switch.html" />
+```
+
+## Theme selector flow
+
+All available pairs, both variants listed. Selecting any entry applies that exact scheme.
+
+``` =html
+<t-include template="highlights:blocks/theme-selector-flow.html" />
+```
+
+## Drawer
+
+Generic open/close panel. Click the trigger to slide the panel in or out. Press Escape or click outside to close.
+
+``` =html
+<t-include template="highlights:blocks/drawer.html">
+<p>Drawer content. The theme selector could live here.</p>
+</t-include>
 ```

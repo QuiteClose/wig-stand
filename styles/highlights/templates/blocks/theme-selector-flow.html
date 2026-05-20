@@ -1,0 +1,63 @@
+<ul class="theme-selector-flow" role="list" aria-label="<t-var name="theme-selector-flow.label">Colour schemes</t-var>">
+<t-for pair in document.style.highlights.available.items>
+<li>
+<button type="button" class="theme-selector-flow__option"
+  data-set-theme="<t-raw name="pair.light"/>" aria-pressed="false"><t-raw name="pair.label"/> Light</button>
+</li>
+<li>
+<button type="button" class="theme-selector-flow__option"
+  data-set-theme="<t-raw name="pair.dark"/>" aria-pressed="false"><t-raw name="pair.label"/> Dark</button>
+</li>
+</t-for>
+</ul>
+<script>
+(function () {
+  "use strict";
+
+  const STORAGE_KEY = "highlights-theme";
+
+  const getSaved = () => {
+    try { return localStorage.getItem(STORAGE_KEY); } catch { return null; }
+  };
+
+  const saveTheme = (theme) => {
+    try { localStorage.setItem(STORAGE_KEY, theme); } catch { /* storage unavailable */ }
+  };
+
+  const applyTheme = (theme) => {
+    document.documentElement.dataset.theme = theme;
+    window.dispatchEvent(new CustomEvent("highlights:theme", { detail: { theme } }));
+  };
+
+  const flow = document.querySelector(".theme-selector-flow");
+  if (!flow) return;
+
+  const buttons = Array.from(flow.querySelectorAll(".theme-selector-flow__option"));
+
+  const syncState = (theme) => {
+    buttons.forEach((btn) => {
+      btn.setAttribute("aria-pressed", btn.dataset.setTheme === theme ? "true" : "false");
+    });
+  };
+
+  const current = document.documentElement.dataset.theme || getSaved() || "";
+  if (current) syncState(current);
+
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      applyTheme(btn.dataset.setTheme);
+      saveTheme(btn.dataset.setTheme);
+      syncState(btn.dataset.setTheme);
+    });
+  });
+
+  window.addEventListener("highlights:theme", ({ detail: { theme } }) => {
+    syncState(theme);
+  });
+
+  window.matchMedia?.("(prefers-color-scheme: dark)").addEventListener("change", () => {
+    syncState(document.documentElement.dataset.theme || "");
+  });
+
+}());
+</script>

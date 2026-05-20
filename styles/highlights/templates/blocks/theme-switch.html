@@ -1,0 +1,73 @@
+<label class="theme-switch"
+  data-light-theme="<t-raw name="document.style.highlights.available.$(document.style.highlights.default).light"/>"
+  data-dark-theme="<t-raw name="document.style.highlights.available.$(document.style.highlights.default).dark"/>">
+<input type="checkbox" class="theme-switch__input"
+  aria-label="<t-var name="theme-switch.aria-label">Dark mode</t-var>">
+<span class="theme-switch__track" aria-hidden="true">
+<span class="theme-switch__thumb"></span>
+</span>
+<span class="theme-switch__icon theme-switch__icon--light" aria-hidden="true"><t-var name="theme-switch.icon-light">☀</t-var></span>
+<span class="theme-switch__icon theme-switch__icon--dark" aria-hidden="true"><t-var name="theme-switch.icon-dark">☾</t-var></span>
+</label>
+<script>
+(function () {
+  "use strict";
+
+  const STORAGE_KEY = "highlights-theme";
+
+  const getSaved = () => {
+    try { return localStorage.getItem(STORAGE_KEY); } catch { return null; }
+  };
+
+  const saveTheme = (theme) => {
+    try { localStorage.setItem(STORAGE_KEY, theme); } catch { /* storage unavailable */ }
+  };
+
+  const applyTheme = (theme) => {
+    document.documentElement.dataset.theme = theme;
+    window.dispatchEvent(new CustomEvent("highlights:theme", { detail: { theme } }));
+  };
+
+  const label = document.querySelector(".theme-switch");
+  if (!label) return;
+
+  const input = label.querySelector(".theme-switch__input");
+  const lightTheme = label.dataset.lightTheme;
+  const darkTheme = label.dataset.darkTheme;
+
+  const isDark = (theme) => theme === darkTheme;
+
+  const syncState = (theme) => {
+    if (input) input.checked = isDark(theme);
+  };
+
+  const saved = getSaved();
+  const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+  const initialTheme = saved || (prefersDark ? darkTheme : lightTheme);
+
+  if (initialTheme) {
+    applyTheme(initialTheme);
+    syncState(initialTheme);
+  }
+
+  input?.addEventListener("change", () => {
+    const theme = input.checked ? darkTheme : lightTheme;
+    applyTheme(theme);
+    saveTheme(theme);
+    syncState(theme);
+  });
+
+  window.addEventListener("highlights:theme", ({ detail: { theme } }) => {
+    syncState(theme);
+  });
+
+  window.matchMedia?.("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+    if (!getSaved()) {
+      const theme = e.matches ? darkTheme : lightTheme;
+      applyTheme(theme);
+      syncState(theme);
+    }
+  });
+
+}());
+</script>

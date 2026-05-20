@@ -1,0 +1,42 @@
+---
+name: Theme Switch
+source: .theme-switch
+description: Checkbox slider for toggling between the active highlights pair's light and dark colour schemes. Visually a pill-shaped track with a sliding thumb and ☀/☾ icons. Labels are configurable via context keys.
+config:
+  - property: --stroke
+    default: 1px solid currentColor
+    description: Border around the switch track.
+  - property: --radius-l
+    default: 2rem
+    description: Full pill rounding of the track.
+  - property: --color-bg-secondary
+    default: transparent
+    description: Track background colour.
+  - property: --transition-movement
+    default: 200ms ease
+    description: Thumb slide duration.
+notes: |
+  The switch reads <code>data-light-theme</code> and <code>data-dark-theme</code>
+  from the <code>&lt;label&gt;</code> element. These are injected from
+  <code>document.style.highlights.available</code> at render time.
+
+  Configurable context keys:
+  <ul>
+    <li><code>theme-switch.aria-label</code> — accessible label for the checkbox (default: "Dark mode")</li>
+    <li><code>theme-switch.icon-light</code> — light-mode icon (default: ☀)</li>
+    <li><code>theme-switch.icon-dark</code> — dark-mode icon (default: ☾)</li>
+  </ul>
+
+  Dispatches and listens for the <code>highlights:theme</code> custom event so multiple
+  theme controls on the same page stay in sync.
+---
+<label class="theme-switch"
+  data-light-theme="highlights-light"
+  data-dark-theme="highlights-dark">
+  <input type="checkbox" class="theme-switch__input" aria-label="Dark mode">
+  <span class="theme-switch__track" aria-hidden="true">
+    <span class="theme-switch__thumb"></span>
+  </span>
+  <span class="theme-switch__icon theme-switch__icon--light" aria-hidden="true">☀</span>
+  <span class="theme-switch__icon theme-switch__icon--dark" aria-hidden="true">☾</span>
+</label>

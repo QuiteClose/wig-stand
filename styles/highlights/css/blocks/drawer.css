@@ -1,0 +1,56 @@
+/*
+ * drawer
+ * Generic open/close sliding panel.
+ * --stroke:             border on the trigger button
+ * --radius-s:           corner rounding
+ * --space-xs:           trigger button padding
+ * --transition-movement: panel slide duration
+ *
+ * Exceptions:
+ *   data-state="open" — drawer is expanded
+ */
+
+.drawer {
+  position: relative;
+}
+
+.drawer__trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs, 0.25rem);
+  padding: var(--space-2xs, 0.25rem) var(--space-xs, 0.5rem);
+  border: var(--stroke, 1px solid currentColor);
+  border-radius: var(--radius-s, 0.25rem);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Label swap: show open-label by default, close-label when open */
+.drawer__trigger-label--close {
+  display: none;
+}
+
+.drawer[data-state="open"] .drawer__trigger-label--open {
+  display: none;
+}
+
+.drawer[data-state="open"] .drawer__trigger-label--close {
+  display: inline;
+}
+
+/* Sliding panel */
+.drawer__panel {
+  overflow: hidden;
+  max-height: 0;
+  visibility: hidden;
+  transition: max-height var(--transition-movement, 300ms ease),
+              visibility var(--transition-movement, 300ms ease);
+}
+
+.drawer[data-state="open"] .drawer__panel {
+  max-height: 70vh;
+  visibility: visible;
+  overflow-y: auto;
+}

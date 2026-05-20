@@ -1,0 +1,68 @@
+/*
+ * theme-switch
+ * Pill-shaped checkbox slider for light/dark toggling.
+ * --stroke:             border around the track
+ * --radius-l:           full pill rounding
+ * --color-bg-secondary: track background
+ * --transition-movement: thumb slide duration
+ */
+
+.theme-switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 3.2em;
+  height: 1.8em;
+  padding: 0;
+  border: var(--stroke, 1px solid currentColor);
+  border-radius: var(--radius-l, 2rem);
+  background: var(--color-bg-secondary, transparent);
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.theme-switch__input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.theme-switch__track {
+  position: absolute;
+  inset: 2px;
+  border-radius: inherit;
+}
+
+.theme-switch__thumb {
+  position: absolute;
+  width: 1.2em;
+  height: 1.2em;
+  inset-block-start: 50%;
+  inset-inline-start: 2px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: currentColor;
+  transition: transform var(--transition-movement, 200ms ease);
+}
+
+.theme-switch__input:checked ~ .theme-switch__track .theme-switch__thumb {
+  transform: translateY(-50%) translateX(1.4em);
+}
+
+.theme-switch__icon {
+  position: absolute;
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+  font-size: 0.8em;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.theme-switch__icon--light {
+  inset-inline-start: 0.3em;
+}
+
+.theme-switch__icon--dark {
+  inset-inline-end: 0.3em;
+}

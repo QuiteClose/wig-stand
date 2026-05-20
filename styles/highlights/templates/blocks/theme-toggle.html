@@ -1,0 +1,76 @@
+<div class="theme-toggle">
+<span class="theme-toggle__label"><t-var name="theme-toggle.label">Theme</t-var></span>
+<button type="button"
+  data-set-theme="<t-raw name="document.style.highlights.available.$(document.style.highlights.default).light"/>"
+  data-theme-mode="light"
+  aria-pressed="true"><t-var name="theme-toggle.light-label">Light</t-var></button>
+<button type="button"
+  data-set-theme="<t-raw name="document.style.highlights.available.$(document.style.highlights.default).dark"/>"
+  data-theme-mode="dark"
+  aria-pressed="false"><t-var name="theme-toggle.dark-label">Dark</t-var></button>
+</div>
+<script>
+(function () {
+  "use strict";
+
+  const STORAGE_KEY = "highlights-theme";
+
+  const getSaved = () => {
+    try { return localStorage.getItem(STORAGE_KEY); } catch { return null; }
+  };
+
+  const saveTheme = (theme) => {
+    try { localStorage.setItem(STORAGE_KEY, theme); } catch { /* storage unavailable */ }
+  };
+
+  const applyTheme = (theme) => {
+    document.documentElement.dataset.theme = theme;
+    window.dispatchEvent(new CustomEvent("highlights:theme", { detail: { theme } }));
+  };
+
+  const updatePressed = (buttons, theme) => {
+    buttons.forEach((btn) => {
+      btn.setAttribute("aria-pressed", btn.dataset.setTheme === theme ? "true" : "false");
+    });
+  };
+
+  const buttons = Array.from(document.querySelectorAll(".theme-toggle [data-set-theme]"));
+
+  const syncState = (theme) => updatePressed(buttons, theme);
+
+  const saved = getSaved();
+  const lightBtn = buttons.find((b) => b.dataset.themeMode === "light");
+  const initialTheme = saved || (lightBtn ? lightBtn.dataset.setTheme : "");
+
+  if (initialTheme) {
+    applyTheme(initialTheme);
+    syncState(initialTheme);
+  }
+
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      applyTheme(btn.dataset.setTheme);
+      saveTheme(btn.dataset.setTheme);
+      syncState(btn.dataset.setTheme);
+    });
+  });
+
+  window.addEventListener("highlights:theme", ({ detail: { theme } }) => {
+    syncState(theme);
+  });
+
+  if (window.matchMedia) {
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+      if (!getSaved()) {
+        const mode = e.matches ? "dark" : "light";
+        const preferred = buttons.find((b) => b.dataset.themeMode === mode);
+        if (preferred) {
+          applyTheme(preferred.dataset.setTheme);
+          syncState(preferred.dataset.setTheme);
+        }
+      }
+    });
+  }
+
+}());
+</script>
